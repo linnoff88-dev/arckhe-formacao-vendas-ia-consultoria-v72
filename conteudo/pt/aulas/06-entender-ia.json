@@ -1,0 +1,126 @@
+{
+  "slug": "entender-ia",
+  "num": 6,
+  "menu": "Qual IA",
+  "titulo": "Entender IA de verdade: qual tecnologia, e o que não usar",
+  "titulo_curto": "Entender IA de verdade",
+  "minutos": 16,
+  "lead": "A aprovação de crédito do seu banco não passa por um assistente de conversa, e isso não é atraso: é engenharia. Quase tudo que roda em escala ainda é IA clássica. Quem sabe decidir entre generativa, clássica, híbrida ou nenhuma IA deixa de ser fornecedor e vira conselheiro.",
+  "objetivo": "decidir entre IA generativa, clássica, híbrida ou nenhuma IA para um caso, dizendo o motivo e o que fica de fora.",
+  "competencias": ["escolher-familia-de-ia", "explicar-custo-e-determinismo", "enxugar-pilha-de-ferramentas"],
+  "aprende": [
+    {"t": "Por que escala e auditoria pedem IA clássica"},
+    {"t": "Usar o quadro de decisão no quadro branco do cliente"},
+    {"t": "Recomendar uma ferramenta por categoria, não cinquenta"},
+    {"t": "Dizer o que não usar, e por quê"}
+  ],
+  "hero_alt": "Pessoa organiza notas adesivas em quatro colunas numa parede de vidro.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O quadro de decisão",
+      "sub": "Quatro saídas. Nenhuma pergunta é \"qual tecnologia está em alta\".",
+      "nos": [
+        {"icone": "lista", "titulo": "O caso", "sub": "o pedido do cliente",
+         "itens": [{"icone": "grafico", "t": "Volume por dia?"}, {"icone": "x", "t": "Quanto custa um erro?"}, {"icone": "memoria", "t": "Dado estruturado?"}],
+         "detalhe": "Antes de escolher, levante três coisas: volume de operações, tolerância a erro e tipo de dado. Sem esses números a decisão vira palpite."},
+        {"icone": "chat", "titulo": "Generativa", "sub": "criar e conversar",
+         "detalhe": "Criar conteúdo, conversar com pessoas, lidar com texto e documento solto, saída criativa e tolerância a erro de alguns por cento."},
+        {"icone": "grafico", "titulo": "Clássica", "sub": "prever com precisão", "forte": true,
+         "detalhe": "Prever algo, exigir alta precisão, dado numérico e estruturado, dinheiro em escala. Mesma entrada, mesma saída, custo por operação irrisório e explicação que o regulador aceita."},
+        {"icone": "camadas", "titulo": "Híbrida", "sub": "uma calcula, outra comunica",
+         "detalhe": "Fluxo de várias etapas: o modelo clássico faz a conta e o agrupamento; o generativo interpreta e comunica o resultado a quem decide."},
+        {"icone": "x", "titulo": "Nem IA", "sub": "passo fixo ou arrumação",
+         "detalhe": "Muitas vezes a resposta é uma automação de passo fixo, cortar uma ferramenta duplicada ou arrumar o processo. O amador diz \"vou construir\"; o especialista pergunta primeiro se precisa."}
+      ],
+      "legenda": "Abaixo de certo volume, generativa é ótima. Acima dele, custo por operação e previsibilidade decidem sozinhos."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cenários decididos na prática",
+      "sub": "Responder na hora, com o motivo, é o que muda a forma como o cliente te vê.",
+      "passos": [
+        {"titulo": "Clássica", "sub": "precisão e escala",
+         "texto": ["Detecção de fraude, otimização de preço, previsão de demanda e otimização de estoque.", "Erro custa dinheiro direto, a decisão precisa ser reproduzível e ninguém quer um preço alucinado na vitrine."]},
+        {"titulo": "Generativa", "sub": "com uma ajuda clássica",
+         "texto": ["Atendimento ao cliente e assistente de conversa, com o clássico roteando o chamado ou detectando a intenção antes de responder.", "Análise de sentimento hoje é quase toda generativa, com um filtro de palavras antes: termo de risco jurídico vai direto para uma pessoa."]},
+        {"titulo": "Híbrida", "sub": "as duas no mesmo fluxo",
+         "texto": ["Personalização de conteúdo (o clássico escolhe o segmento, o generativo escreve), previsão de cancelamento (um prevê quem sai, o outro escreve a mensagem) e processamento de documentos.", "Sistema de recomendação é híbrido e trabalhoso: não prometa prazo curto."]},
+        {"titulo": "O que não usar", "sub": "também é entrega",
+         "texto": ["Laboratório experimental de fornecedor grande serve para aprender, não para o caminho crítico do cliente. Ferramenta que quebra inteira numa mudança de versão serve para protótipo.", "Aplicativo que faz tudo é porta de entrada para entender o possível, não infraestrutura do negócio."]}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Uma escolha por categoria",
+      "sub": "Para um cliente sobrecarregado, lista de vinte ferramentas gera paralisia.",
+      "passos": [
+        {"titulo": "Quatro portas", "sub": "não cinquenta",
+         "texto": ["Recomende quatro coisas, uma por categoria: um assistente de conversa, um modelo para análise mais funda, uma ferramenta de automação e um ambiente de programação assistida.", "Cada uma abre semanas de aprendizado, e a curiosidade do cliente vira agenda de reunião."]},
+        {"titulo": "Profundidade", "sub": "um ecossistema até o fim",
+         "texto": ["Conhecer cinquenta ferramentas por cima é saber o nome de todas e o comportamento de nenhuma.", "Quem conhece a ferramenta de automação a fundo sabe, por exemplo, que ela já tem tabelas internas e evita criar uma planilha e uma conta a mais."]},
+        {"titulo": "Enxugar a pilha", "sub": "valor no mesmo dia",
+         "texto": ["Pergunte item por item: por que essa ferramenta, o que exatamente ela te dá?", "Muitas vezes o assistente que a empresa já paga faz o mesmo. O cliente corta uma licença e vê o seu valor antes de você construir qualquer coisa."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O quadro é para desenhar com o cliente; os prompts você roda antes da reunião de escopo.",
+      "blocos": [
+        {"rot": "Quadro de decisão (um caso por bloco)", "icone": "lista",
+         "conteudo": "CASO: <pedido do cliente em uma frase>\nVolume: <operações por dia>      Custo de um erro: <o que acontece>\nDado: <estruturado / texto solto / misto>\n\nDECISÃO: [ ] generativa  [ ] clássica  [ ] híbrida  [ ] nem IA\nMOTIVO: <o critério que decidiu>\nO QUE FICA DE FORA: <ferramenta ou abordagem que não vamos usar, e por quê>\nPERGUNTA PARA CONFIRMAR: <uma pergunta para o cliente>"},
+        {"rot": "Prompt · classificador de casos", "icone": "chat",
+         "conteudo": "Você é arquiteto de soluções de IA. Classifique cada caso abaixo em\nGENERATIVA, CLÁSSICA, HÍBRIDA ou NEM IA, usando estes critérios e nada mais:\n- generativa: cria conteúdo, conversa, dado não estruturado, saída\n  criativa, tolera erro de alguns por cento;\n- clássica: prevê algo, exige alta precisão, dado numérico e muito\n  estruturado, dinheiro em escala envolvido;\n- híbrida: fluxo de várias etapas, em que a clássica calcula e a\n  generativa interpreta e comunica;\n- nem IA: passo fixo resolve, ou o problema é processo/dado bagunçado.\n\nCasos do cliente:\n\"\"\"<cole aqui a lista de pedidos, um por linha>\"\"\"\nVolume estimado por caso: <operações por dia, se souber>\nTolerância a erro: <o que acontece quando o sistema erra>\n\nPara cada caso devolva: classificação · o critério que decidiu ·\no que quebra se eu escolher outra família · uma pergunta para\nconfirmar com o cliente. Quando faltar volume ou tolerância a erro,\nescreva \"indefinido\" em vez de chutar."},
+        {"rot": "Prompt · auditoria da pilha de ferramentas", "icone": "lupa",
+         "conteudo": "Você é arquiteto de soluções. Quero uma auditoria com opinião, não um\nresumo neutro.\nFerramentas em uso (nome, para que serve, custo mensal, nº de usuários):\n\"\"\"<cole aqui a lista>\"\"\"\nContexto: <setor, porte, o que o time faz no dia a dia>\nRestrições: <dados que não podem sair, sistemas legados, quem aprova>\n\nDevolva três blocos:\n1. MANTER, e a função exata que justifica a assinatura.\n2. CORTAR, o que outra ferramenta da lista já cobre, com a economia\n   mensal estimada e o risco de cortar.\n3. SUBSTITUIR, por qual alternativa, o esforço e o que se perde.\nPrefira sempre a solução com MENOS ferramentas. Marque toda estimativa\nde custo como suposição quando eu não tiver dado o número."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Pense em pedidos reais do seu nicho.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Três cenários no quadro", "min": "30 min",
+         "texto": "Escolha 3 pedidos comuns no seu nicho e preencha o quadro de decisão para cada um. Pelo menos um deve terminar em \"nem IA\" ou em híbrida.",
+         "pronto": "os 3 quadros têm a decisão, o motivo e o que fica de fora preenchidos, sem nenhum \"depende\"."},
+        {"id": "e2", "titulo": "2 · Pilha enxuta", "min": "20 min",
+         "texto": "Liste as ferramentas pagas de um cliente (ou da sua própria rotina) e rode a auditoria da pilha.",
+         "pronto": "a lista tem pelo menos um item em CORTAR com a economia e o risco declarados."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Uma seguradora quer decidir automaticamente milhares de pedidos por dia, com precisão alta e auditoria. O que você recomenda?",
+         "opcoes": ["Um modelo de linguagem lendo cada pedido e decidindo em texto", "IA clássica na decisão, com generativa só para explicar o resultado a quem lê", "Esperar os modelos generativos ficarem mais baratos"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Volume, precisão e auditoria apontam para a clássica: mesma entrada, mesma saída, custo irrisório e explicação aceita pelo regulador. A generativa entra para comunicar."},
+        {"p": "O cliente quer decidir o preço dos produtos da loja automaticamente. Qual família?",
+         "opcoes": ["Generativa, porque é a mais nova", "Clássica", "Nem IA"],
+         "certa": 1, "ref": "passos",
+         "explica": "Otimização de preço é clássica: decisão numérica, reproduzível, com dinheiro em escala. Ninguém quer descobrir um preço alucinado na vitrine."},
+        {"p": "Um cliente sobrecarregado pede para você indicar ferramentas. O que entregar?",
+         "opcoes": ["Uma lista com as 50 melhores do mercado", "Uma por categoria: conversa, análise, automação e programação assistida", "Só a ferramenta que você mais usa, para tudo"],
+         "certa": 1, "ref": "passos",
+         "explica": "Lista longa gera paralisia; uma por categoria gera curiosidade e próximos passos. Uma ferramenta só para tudo é a armadilha de enxergar todo problema pelo formato dela."},
+        {"p": "O que faz parte da entrega do arquiteto de soluções?",
+         "opcoes": ["Só o que construir", "Também o que não usar e o que cortar, com o motivo", "Só a ferramenta mais barata"],
+         "certa": 1, "ref": "codigo",
+         "explica": "Dizer o que não adotar evita meses de retrabalho e o cliente lembra de quem disse. Cortar uma licença duplicada mostra valor antes de qualquer construção."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Escala escolhe a tecnologia", "texto": "Em milhões de operações, custo e previsibilidade mandam mais que capacidade."},
+        {"t": "Quatro saídas", "texto": "Generativa, clássica, híbrida ou nenhuma IA, sempre com o motivo."},
+        {"t": "Quatro portas, não cinquenta", "texto": "Uma ferramenta por categoria, conhecida a fundo."},
+        {"t": "O que não usar também é entrega", "texto": "Pilha enxuta e opinião declarada sobre o que não sobrevive."}
+      ]
+    }
+  ]
+}

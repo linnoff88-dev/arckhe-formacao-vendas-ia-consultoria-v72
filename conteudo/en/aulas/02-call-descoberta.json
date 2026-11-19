@@ -1,0 +1,380 @@
+{
+  "slug": "call-descoberta",
+  "num": 2,
+  "menu": "Discovery",
+  "titulo": "The discovery call",
+  "titulo_curto": "Discovery call",
+  "minutos": 18,
+  "lead": "Nobody leaves the doctor's office with a prescription before the exam. In AI consulting this happens all the time: the client names a pain and the consultant already answers with the solution. The discovery call puts things in the right order: diagnose, say what happens if nothing changes, and only then propose.",
+  "objetivo": "run the discovery call with the 3 questions (scale, stack, knowledge) and hit the brakes when the red flags show up.",
+  "competencias": [
+    "conduzir-call-de-descoberta",
+    "mapear-escala-stack-dados",
+    "reconhecer-sinais-de-alerta"
+  ],
+  "aprende": [
+    {
+      "t": "Open the call as the best-prepared person in the room"
+    },
+    {
+      "t": "Ask the 3 questions that decide the project"
+    },
+    {
+      "t": "Spot the 4 red flags and hit the brakes"
+    },
+    {
+      "t": "Practice on a simulated call with a scoreboard"
+    }
+  ],
+  "hero_alt": "A consultant on a video call with a company owner, taking notes by hand in a notebook.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The path of the call",
+      "sub": "Six moves, always in this order. Click each one.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Opening",
+          "sub": "three sentences",
+          "detalhe": "State the goal (to understand their pain), show you prepared without bragging (\"I read what you filled out\"), and hand the word back (\"I wanted to hear it in your own words\")."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Scale",
+          "sub": "how many people?",
+          "detalhe": "\"How many employees do you have?\" is the cheapest question of the call. Each size range decides, approves budget and resists change in its own way."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Stack",
+          "sub": "which tools?",
+          "detalhe": "Ask by category (communication, documents, CRM, projects, data, design, development, database, meeting notes), or the person will list three and forget nine. Ask to see the screen of the main system."
+        },
+        {
+          "icone": "memoria",
+          "titulo": "Knowledge",
+          "sub": "where does the data live?",
+          "forte": true,
+          "detalhe": "Three possible answers: a single repository (rare, ideal), scattered but organized (gets a consolidation step) or completely spread out (don't sell automation: sell tidying up the house)."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Red flags",
+          "sub": "when to hit the brakes",
+          "detalhe": "\"Autonomous agents now,\" \"I saw it on social media,\" \"my competitor has one,\" \"it has to be the newest one.\" Two or more in the same call: hit the brakes."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Next step",
+          "sub": "with a date",
+          "detalhe": "The call ends with an agreed task and the next conversation on the calendar. No \"I'll send you a proposal.\""
+        }
+      ],
+      "legenda": "The 3 middle questions fit in twenty minutes and set everything that comes after."
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulated call: the clinic owner",
+      "sub": "Simulated conversation for practice. Pick the answer you would give; the comment appears right after.",
+      "personagem": {
+        "nome": "Dental clinic owner",
+        "papel": "decides alone · 12 employees"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Hi! I want an AI agent that answers the clinic's WhatsApp. How much does it cost?",
+          "opcoes": [
+            {
+              "t": "Deal. I'll do it for a fixed price and deliver in two weeks.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "You prescribed before the exam. Without knowing volume, tools and where the data lives, the price is a guess and the scope will balloon."
+            },
+            {
+              "t": "Before the price: how many messages come in per day, and who answers them today?",
+              "vai": "escala",
+              "nota": 2,
+              "comenta": "Scale question. The number decides the solution, and you showed that the price comes after the diagnosis."
+            },
+            {
+              "t": "Can you tell me how your customer service works?",
+              "vai": "escala",
+              "nota": 1,
+              "comenta": "Good intention, but too open: without asking for a number, the answer comes as an adjective (\"it's a lot\")."
+            }
+          ]
+        },
+        "escala": {
+          "cliente": "There are 12 of us. About 80 messages come in per day, and the receptionist answers between one patient and the next. A lot of people give up on booking.",
+          "opcoes": [
+            {
+              "t": "Then the agent solves it: it answers everything on its own, right away.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "You went back to prescribing. You still don't know which system the schedule is in or where the answers would come from."
+            },
+            {
+              "t": "What tools do you use today for scheduling, chat and patient records?",
+              "vai": "stack",
+              "nota": 2,
+              "comenta": "Stack question, by category. Each tool that comes up is a question: can it be connected?"
+            },
+            {
+              "t": "How many of those who give up turn into lost appointments per month?",
+              "vai": "stack",
+              "nota": 1,
+              "comenta": "Good: it turns the pain into a number, which becomes the baseline in lesson 3. But you skipped mapping the tools before thinking about the gain."
+            }
+          ]
+        },
+        "stack": {
+          "cliente": "The schedule lives in a clinic system, WhatsApp is on the reception's phone, and the patient records… partly in the system, partly in a spreadsheet my partner keeps.",
+          "opcoes": [
+            {
+              "t": "Can you show me the schedule screen for two minutes? And who has the admin password?",
+              "vai": "conhecimento",
+              "nota": 2,
+              "comenta": "Seeing the screen during the call avoids finding out after signing that the work is triple what you quoted."
+            },
+            {
+              "t": "No worries, I'll integrate all of that with the agent.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "Promising integration without seeing the system is the start of a disaster script: contract signed, system with no integration door."
+            },
+            {
+              "t": "And where does the information the reception uses to answer live: pricing, insurance, hours?",
+              "vai": "conhecimento",
+              "nota": 1,
+              "comenta": "That's question 3, and it's a good one. But a hole was left in the map: nobody said whether the schedule accepts integration."
+            }
+          ]
+        },
+        "conhecimento": {
+          "cliente": "Each person knows pricing and insurance by heart. When something changes, we post it in the group. My partner's spreadsheet, nobody else updates.",
+          "opcoes": [
+            {
+              "t": "So the first step isn't the agent: it's putting the house in order, in one place, so the AI has somewhere to answer from.",
+              "vai": "alerta",
+              "nota": 2,
+              "comenta": "Completely scattered knowledge needs tidying before automation. Said calmly, this sentence is usually received with relief."
+            },
+            {
+              "t": "No problem, the agent learns from the old conversations.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "What nobody wrote down never reaches the AI. The agent would quote the wrong price with complete confidence."
+            }
+          ]
+        },
+        "alerta": {
+          "cliente": "But my competitor already has a bot on WhatsApp. Can't we do everything at once, right now?",
+          "opcoes": [
+            {
+              "t": "We can, if you accept the risk. I'll start tomorrow.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "\"My competitor has one\" is a red flag. Copying your neighbor's solution means inheriting their problem without their context."
+            },
+            {
+              "t": "These are different clinics, with different data. I suggest starting small: two weeks tidying up the most requested answers and measuring how many patients give up today. Then we decide the next step.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "You named the red flag without awkwardness, anchored it to a number, and left with a next step and a deadline."
+            },
+            {
+              "t": "Then maybe it's not the right time for us to work together.",
+              "vai": "fim-recusa",
+              "nota": 1,
+              "comenta": "Declining is legitimate when two or more red flags show up on the same call. Here only one appeared, and she may agree to start small."
+            }
+          ]
+        },
+        "fim-pressa": {
+          "fim": true,
+          "titulo": "Fast sale, long problem",
+          "texto": "You closed fast. In the third week you find out that the schedule has no integration port, that pricing and insurance plans live in the team's heads, and that the scope has doubled. The client feels she paid for something that doesn't solve her problem."
+        },
+        "fim-recusa": {
+          "fim": true,
+          "titulo": "Brakes too early",
+          "texto": "You protected your time, but left with nothing. With just one red flag, the way forward was to name the risk and offer preparation: tidy the knowledge and measure before any agent."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Diagnosis before the prescription",
+          "texto": "The client leaves with a map: 12 people, about 80 messages a day, a schedule in a proprietary system, and scattered knowledge. The next step has a deadline and a number to measure. The proposal in lesson 3 starts from here."
+        }
+      },
+      "licao": "Whoever asks about scale, stack and knowledge before talking about a solution sells the right service: here, preparation first."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The 4 red flags",
+      "sub": "None of them is a reason to decline on its own. Each one calls for a ready answer.",
+      "passos": [
+        {
+          "titulo": "\"Autonomous agents now\"",
+          "sub": "rush for technology",
+          "texto": [
+            "Even in the best workflows, the agent shows up once or twice in the process; the rest is fixed steps.",
+            "Predictability is what makes automation work in a company."
+          ],
+          "exemplo": {
+            "rot": "Answer",
+            "texto": "The agent comes in where the path changes every time. For the rest, a fixed step is cheaper and auditable."
+          }
+        },
+        {
+          "titulo": "\"I saw it on social media\"",
+          "sub": "scope that swells",
+          "texto": [
+            "Every week brings something new and the project changes shape.",
+            "Agree from the start on where new ideas come in."
+          ],
+          "exemplo": {
+            "rot": "Answer",
+            "texto": "A new idea goes into the queue for the next stage, not the current one."
+          }
+        },
+        {
+          "titulo": "\"My competitor has one\"",
+          "sub": "copying without context",
+          "texto": [
+            "These are different companies, with different bureaucracies, data and people.",
+            "Copying your neighbor's solution means inheriting their problem without inheriting their context."
+          ],
+          "exemplo": {
+            "rot": "Answer",
+            "texto": "Let's look at your number first. Theirs doesn't apply to you."
+          }
+        },
+        {
+          "titulo": "\"It has to be the newest\"",
+          "sub": "unstable technology",
+          "texto": [
+            "What just came out breaks, changes behavior without warning and has no support material.",
+            "You become support for a product that even the maker hasn't stabilized."
+          ],
+          "exemplo": {
+            "rot": "Hit the brakes",
+            "texto": "This is the minimum foundation the company needs. Even if it feels like a month behind, the following month you are caught up."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Keep the script open beside you during the call. Run the prompt beforehand.",
+      "blocos": [
+        {
+          "rot": "Discovery call script",
+          "icone": "lista",
+          "conteudo": "DISCOVERY CALL SCRIPT · <company> · <date>\n\nOPENING (3 sentences)\n- My goal here is to understand the pain you want to solve. What I propose afterward comes from that.\n- I read what you filled in and researched the company before joining.\n- Even so, I'd like to hear the day-to-day pains in your own words.\n\nQUESTION 1 · SCALE\n- How many people work here? Who decides about this?\n\nQUESTION 2 · STACK (by category)\n- communication · documents · CRM · projects · data and reports\n- design · development · database · meeting notes\n- Can I see the screen of the main system for 2 minutes?\n\nQUESTION 3 · KNOWLEDGE\n- Where does your data live? (single place / scattered but organized / all over the place)\n\nRED FLAGS (check if they appear)\n[ ] autonomous agents now   [ ] I saw it on social media\n[ ] my competitor has one        [ ] it has to be the newest\n\nHIT THE BRAKES (2 or more red flags)\n- This is the minimum foundation the company needs. Even if it feels\n  like a month behind, the following month you are caught up.\n\nNEXT STEP\n- Task for them: <list tools with number of users / map where the data lives>\n- Next conversation: <date and time>"
+        },
+        {
+          "rot": "Prompt · research before the call",
+          "icone": "chat",
+          "conteudo": "You are an AI consultant preparing a discovery call.\nCompany: <sector and what it sells>\nApproximate size: <number of employees>\nWho booked the call: <job title and department>\nWhat the person wrote when booking: \"\"\"<paste here>\"\"\"\n\nDeliver, in this order:\n1. The business model in 3 lines: where the revenue comes from and what\n   is expensive in this operation.\n2. Three likely operational pain hypotheses for this sector and size,\n   from most likely to least likely.\n3. For EACH hypothesis, two open-ended questions I ask on the call to\n   confirm or rule it out, without suggesting a solution inside the question.\nDo not propose tools. Do not use technology jargon."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Do this before your next conversation with a client.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your call script",
+          "min": "25 min",
+          "texto": "Copy the script and adapt it to your niche: write the 3 questions in your industry's words, pick the 3 red flags that show up most in your market, and write your own hit-the-brakes line.",
+          "pronto": "the script is saved in a file or note with the 3 questions, 3 red flags and the hit-the-brakes line."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Simulated call with a score",
+          "min": "10 min",
+          "texto": "Do the simulated call from this lesson. If you don't reach the top score, read the comments, click restart and try again.",
+          "pronto": "you finished the simulated call with the top score and can say in one sentence why each right answer was the right one."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The company has 60 people, 14 paid tools, and says its data is \"each in its own place, more or less.\" What do you propose first?",
+          "opcoes": [
+            "An autonomous agent connecting all 14 tools at once",
+            "A 2-to-3-week pilot with about 10 users in an area tied to revenue",
+            "Turn the client down: 14 tools is already a red flag"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "A mid-sized company usually has many tools used at a fraction of their potential. You start small, in an area that generates revenue, and only then centralize data and cut tools. Many tools is not a red flag."
+        },
+        {
+          "p": "The company's data is completely scattered: loose spreadsheets, personal folders, messages. What do you sell?",
+          "opcoes": [
+            "The automation, with a longer timeline",
+            "Getting the house in order before any AI",
+            "An assistant that learns from the messages"
+          ],
+          "certa": 1,
+          "ref": "simconversa",
+          "explica": "In the scattered scenario, the first exercise is putting the house in order so the company becomes eligible to use AI. Automation on top of knowledge nobody wrote down gives wrong answers with confidence."
+        },
+        {
+          "p": "On the same call the client says \"my competitor has it\" and \"I saw this on social media.\" What do you do?",
+          "opcoes": [
+            "Close right away, before they change their mind",
+            "Hit the brakes: two signals call for the minimum baseline and a scope closed by step",
+            "Ignore it: it's just excitement"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Two or more signals on the same call mean the project will cost more in wear and tear than it will return. Anchor on the minimum baseline and agree that new ideas go into the next step."
+        },
+        {
+          "p": "Why ask to see the system's screen during the call?",
+          "opcoes": [
+            "To impress with technical knowledge",
+            "So you don't find out after signing that the work is much bigger than quoted",
+            "To copy the client's data"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "A system with no integration port or with duplicate records changes the timeline and the price. Two minutes of screen sharing avoids the disaster script: signed contract and tripled scope."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Diagnose before you prescribe",
+          "texto": "A solution stated too early closes the door on the bigger contract."
+        },
+        {
+          "t": "Three questions",
+          "texto": "Scale, stack, and where the knowledge lives. They fit in twenty minutes."
+        },
+        {
+          "t": "Four red flags",
+          "texto": "Two on the same call: hit the brakes with the minimum-baseline line."
+        },
+        {
+          "t": "Closing is a calendar",
+          "texto": "Agreed task and next conversation booked while still on the call."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "slug": "workshop",
+  "num": 8,
+  "menu": "Taller",
+  "titulo": "Taller y comunidad B2B: de lo gratuito al acompañamiento",
+  "titulo_curto": "Taller y comunidad",
+  "minutos": 20,
+  "lead": "El taller es la puerta de entrada más barata y la que más trabajo genera después: el equipo aprende, el gerente te ve en acción y la siguiente conversación es el diagnóstico. Esta lección muestra el taller de 1 hora en 5 partes, la comunidad pequeña de empresas y tu plan con fechas.",
+  "objetivo": "diseñar un taller de 1 hora en 5 partes y la escalera de lo gratuito al acompañamiento mensual, con un plan con fechas.",
+  "competencias": [
+    "desenhar-workshop",
+    "ler-a-plateia",
+    "montar-escada-de-acesso"
+  ],
+  "aprende": [
+    {
+      "t": "Estructurar el taller como un vuelo, en 5 partes"
+    },
+    {
+      "t": "Leer a la audiencia y preparar contenido de sobra"
+    },
+    {
+      "t": "Armar la comunidad pequeña de empresas"
+    },
+    {
+      "t": "Generar tu plan con fechas"
+    }
+  ],
+  "hero_alt": "Una facilitadora dirige un taller en una sala de reuniones, con unas diez personas y laptops.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El taller es un vuelo",
+      "sub": "Las partes 1, 2 y 3 caben en los primeros cinco minutos.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Destino",
+          "sub": "lo que sabrán hacer",
+          "detalhe": "No lo que tú vas a decir: lo que la persona va a poder hacer después. Si no cabe en una frase, el workshop no está listo."
+        },
+        {
+          "icone": "seta",
+          "titulo": "Camino",
+          "sub": "de principiante a intermedio",
+          "detalhe": "El mapa del recorrido, reconociendo lo que la sala probablemente piensa hoy: \"mucha gente aquí ya lo intentó y pensó que era solo un chat más bonito\"."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Plan de vuelo",
+          "sub": "avisa de la turbulencia",
+          "detalhe": "Anuncia el tramo técnico antes: \"hacia la mitad viene una parte aburrida, pero rápida, y sin ella el resto no tiene sentido\". Si se avisa, la sala lo aguanta."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Servicio a bordo",
+          "sub": "valor cada pocos minutos",
+          "forte": true,
+          "detalhe": "Un atajo, un ejemplo, un número cada pocos minutos. La atención no se sostiene con la promesa de un final feliz, sino con entregas frecuentes."
+        },
+        {
+          "icone": "check",
+          "titulo": "Aterrizaje",
+          "sub": "recapitular y aplicar",
+          "detalhe": "Recapitula, di cómo aplicarlo el lunes, qué viene después, y solo entonces abre las preguntas. Terminar sin aterrizaje deja la sensación de que no pasó nada."
+        }
+      ],
+      "legenda": "Enseñar es una habilidad de repetición y retroalimentación, no un talento. La estructura reemplaza al talento mientras este no llega."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Antes y durante el workshop",
+      "sub": "Cuatro decisiones que cambian la sala.",
+      "passos": [
+        {
+          "titulo": "El público",
+          "sub": "¿obligado o voluntario?",
+          "texto": [
+            "El analista quiere el detalle; la dirección quiere el panorama y el retorno. Pregunta antes a quien contrata quién estará en la sala.",
+            "Sala obligada: abre con demostraciones. Sala voluntaria: quiere fundamentos. Nombra el miedo por el empleo en los primeros minutos."
+          ]
+        },
+        {
+          "titulo": "Contenido de sobra",
+          "sub": "seguro contra una sala callada",
+          "texto": [
+            "Si una hora admite 30 pantallas, prepara 50: la mayoría son ejemplos extra de la misma idea.",
+            "Decide antes qué saltar si la sala habla mucho y guarda dos bloques de reserva."
+          ]
+        },
+        {
+          "titulo": "El silencio",
+          "sub": "quince segundos",
+          "texto": [
+            "Haz la pregunta y espera. Quien cede en tres segundos le enseña a la sala a no responder.",
+            "Si nadie responde, haz una broma ligera y sigue. No insistas: tu energía no depende del público."
+          ],
+          "exemplo": {
+            "rot": "Frase",
+            "texto": "Puedo quedarme en silencio los próximos minutos, o ustedes me dan una pista para que yo adapte los ejemplos al trabajo de ustedes."
+          }
+        },
+        {
+          "titulo": "Ejemplos del sector",
+          "sub": "el imán de clientes",
+          "texto": [
+            "Quien usa ejemplos de un sector atrae clientes de ese sector. Usa el vocabulario real: matrícula, póliza, dictamen, escritura.",
+            "Si los clientes que llegan son del sector equivocado, revisa tus ejemplos."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La comunidad pequeña y la escalera de acceso",
+      "sub": "Siete a diez empresas, no setecientas personas. Rangos como orden de magnitud: adapta a tu mercado.",
+      "passos": [
+        {
+          "titulo": "Capa gratuita",
+          "sub": "buena para recomendar",
+          "texto": [
+            "Modelos básicos, boletín mensual con lo que cambió, dudas respondidas en público y el consultorio gratuito de dudas abierto.",
+            "Tiene que ser lo bastante buena como para que alguien la recomiende sin haber pagado nunca."
+          ]
+        },
+        {
+          "titulo": "Capa cerrada",
+          "sub": "buena para pagar cada mes",
+          "texto": [
+            "Guías avanzadas, casos reales, encuentros largos con construcción en vivo, consultorio solo para miembros.",
+            "Un grupo de empresas suele quedar en el rango de US$ 100 a 500 por empresa al mes. Con 7 a 10, conoces el problema de cada una."
+          ]
+        },
+        {
+          "titulo": "Acompañamiento mensual",
+          "sub": "la cima de la escalera",
+          "texto": [
+            "Una ventana de respuesta definida, con reglas, y no acceso ilimitado a tu vida.",
+            "Quien sube ya demostró, en el nivel anterior, que saca valor."
+          ]
+        },
+        {
+          "titulo": "Invitaciones",
+          "sub": "sin lenguaje de vendedor",
+          "texto": [
+            "Después de la llamada: \"en vez de llenar tu bandeja de entrada, tengo un espacio donde respondo dudas como las que conversamos\".",
+            "Después del workshop: \"quien quiera traer el caso de su propia empresa, el espacio es este\"."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar",
+      "sub": "El guion de 1 hora con los minutos a la vista.",
+      "blocos": [
+        {
+          "rot": "Guion de workshop de 1 hora",
+          "icone": "calendario",
+          "conteudo": "WORKSHOP · <tema> · <empresa> · <fecha>\nAudiencia: <cargos> · obligatoria o voluntaria: <cuál>\nDestino (1 frase): después de esta hora, ustedes van a poder <hacer qué>.\n\n00-05 APERTURA\n- Gancho: <imagen o demostración en funcionamiento>\n- Y entonces: <qué cambia para quien preste atención>\n- Camino y plan de vuelo: <avisar el tramo técnico>\n- Nombrar el miedo: <frase>\n\n05-20 MÓDULO 1 · fundamento (ligero, muchos ejemplos)\n- Concepto → cuándo usar → antes y después → ejemplo del sector\n- Pregunta para la sala (esperar 15 s): <pregunta>\n\n20-40 MÓDULO 2 · el más denso (en el pico de atención)\n- <contenido técnico avisado en el plan de vuelo>\n- Pregunta para la sala: <pregunta>\n\n40-55 MÓDULO 3 · aplicado (la atención ya bajó)\n- Ejemplo del día a día: <qué cambia mañana por la mañana>\n- Ejemplo de visión: <qué cambia en 12 meses>\n\n55-60 ATERRIZAJE\n- Recapitular 3 puntos · cómo aplicar el lunes · qué viene después\n- Preguntas · invitación: <comunidad o consultorio gratuito de dudas>\n\nRESERVA (si la sala se queda muda): <bloque A>, <bloque B>\nSALTAR (si la sala habla mucho): <bloque>"
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "El mapa del curso",
+      "sub": "Las cuatro entregas que llevas al cliente. Haz clic en un ejercicio para ver el \"listo cuando\".",
+      "degraus": [
+        {
+          "aula": "call-descoberta",
+          "icone": "chat",
+          "quando": "Semana 1",
+          "titulo": "Descubrir",
+          "sub": "Guion y llamada simulada",
+          "saida": "Guion de llamada con las 3 preguntas y el freno.",
+          "passo": "La base de todo: la llamada de descubrimiento con escala, stack y conocimiento, y la frase de pisar el freno. Entrena en la simulación hasta el puntaje máximo."
+        },
+        {
+          "aula": "solucao-preco",
+          "icone": "arquivo",
+          "quando": "Semana 2",
+          "titulo": "Proponer",
+          "sub": "Línea base y niveles",
+          "saida": "Propuesta de una página con 3 opciones.",
+          "passo": "Requiere la llamada. Mide la línea base antes de prometer y ofrece tres formas de trabajar juntos."
+        },
+        {
+          "aula": "comunicacao",
+          "icone": "grafico",
+          "quando": "Semana 3",
+          "titulo": "Reportar",
+          "sub": "Número para el ejecutivo",
+          "saida": "Informe de una página para quien decide.",
+          "passo": "Requiere la propuesta. Convierte lo vago en número y entrega la decisión en una página."
+        },
+        {
+          "aula": "workshop",
+          "icone": "megafone",
+          "quando": "Semana 4",
+          "titulo": "Enseñar",
+          "sub": "Taller y comunidad",
+          "saida": "Workshop de 1 hora y escalera de acceso.",
+          "passo": "Requiere las tres anteriores: el workshop abre la puerta y lleva al diagnóstico, que lleva a la propuesta y al informe."
+        }
+      ],
+      "resultado": {
+        "titulo": "Al final del curso",
+        "texto": "Conduces la llamada, propones con número, reportas al ejecutivo y enseñas al equipo del cliente.",
+        "total": "16 ejercicios"
+      },
+      "rolagem_fim": {
+        "titulo": "El ciclo completo",
+        "texto": "El workshop abre la puerta, la llamada hace el diagnóstico, la propuesta tiene línea base y el informe lleva la decisión. Las clases 1, 4, 6 y 7 entran en el plan generado abajo."
+      },
+      "legenda": "Posicionamiento (clase 1), autopsia (clase 4), elección de la tecnología (clase 6) y consultorio gratuito de dudas (clase 7) entran en el plan con fechas."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Genera tu plan con fechas",
+      "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana. El plan incluye los 16 ejercicios del curso.",
+      "curso": "Ventas con IA 2 · Playbook de Consultoría",
+      "horas_padrao": 5,
+      "degraus": [
+        {
+          "titulo": "Clase 1 · Posicionamiento",
+          "aula": "posicionamento"
+        },
+        {
+          "titulo": "Clase 2 · Llamada de descubrimiento",
+          "aula": "call-descoberta"
+        },
+        {
+          "titulo": "Clase 3 · Solución y precio",
+          "aula": "solucao-preco"
+        },
+        {
+          "titulo": "Clase 4 · Autopsia de la llamada",
+          "aula": "autopsia-call"
+        },
+        {
+          "titulo": "Clase 5 · Comunicación",
+          "aula": "comunicacao"
+        },
+        {
+          "titulo": "Clase 6 · Entender la IA",
+          "aula": "entender-ia"
+        },
+        {
+          "titulo": "Clase 7 · Clientes que llegan",
+          "aula": "clientes-que-chegam"
+        },
+        {
+          "titulo": "Clase 8 · Taller y comunidad",
+          "aula": "workshop"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Ventas con IA 2 · Playbook de Consultoría",
+        "inicio": "Inicio",
+        "ritmo": "Ritmo",
+        "termino": "Fin previsto",
+        "ate": "hasta",
+        "pronto": "listo cuando",
+        "semanas": "semanas",
+        "travou": "## Qué se trabó y la regla que creé",
+        "h": "h por semana",
+        "exs": "ejercicios"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Cierra el curso con tu taller y tu plan.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Guion de tu taller",
+          "min": "45 min",
+          "texto": "Completa el guion de 1 hora para una empresa real o para tu nicho, con ejemplos del sector que quieres atender.",
+          "pronto": "el guion tiene las 5 partes (destino, camino, plan de vuelo, servicio a bordo, aterrizaje), los minutos marcados y 2 bloques de reserva."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Escalera y plan con fechas",
+          "min": "30 min",
+          "texto": "Escribe tu capa gratuita (3 ítems) y la cerrada (3 ítems). Luego usa el generador de arriba y guarda el plan.md y el .ics.",
+          "pronto": "la escalera está escrita desde lo gratuito hasta el acompañamiento mensual y el plan con fechas está guardado en tu calendario."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "La sala está obligada a asistir a tu taller. ¿Cómo abres?",
+          "opcoes": [
+            "Con los fundamentos, para nivelar a todos",
+            "Con demostraciones, para ganarte la atención antes de enseñar",
+            "Pidiendo que cada persona se presente"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El público obligado llega con los brazos cruzados: primero te ganas la atención. Los fundamentos primero son para la sala voluntaria."
+        },
+        {
+          "p": "Hiciste una pregunta y la sala quedó en silencio. ¿Qué haces?",
+          "opcoes": [
+            "Responder tú mismo después de tres segundos",
+            "Esperar unos quince segundos; si nadie habla, seguir sin insistir",
+            "Pedir participación de nuevo, con más énfasis"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Quien cede rápido le enseña a la sala a no responder; quien insiste genera incomodidad. Espera, usa la frase que rompe el hielo y sigue."
+        },
+        {
+          "p": "¿Dónde poner la parte más técnica del taller?",
+          "opcoes": [
+            "Al final, para quienes se quedaron",
+            "En el medio, en el pico de atención, avisado en el plan de vuelo",
+            "Al principio, para terminar pronto"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "La atención sube después de la apertura y cae al final. El bloque denso va en el medio y se anuncia antes, para que la sala lo aguante."
+        },
+        {
+          "p": "¿Por qué una comunidad de 7 a 10 empresas, y no de cientos de personas?",
+          "opcoes": [
+            "Porque es más fácil de promocionar",
+            "Porque conoces el problema de cada una y notas el desinterés antes de la cancelación",
+            "Porque una empresa paga cualquier valor"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Con pocas empresas conversas de verdad y ves el silencio que antecede a la cancelación. Una empresa aprueba la mensualidad como gasto y no cancela porque el mes estuvo apretado."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Cinco partes, como un vuelo",
+          "texto": "Destino, camino y plan de vuelo caben en los primeros cinco minutos."
+        },
+        {
+          "t": "Lee la sala y prepara de sobra",
+          "texto": "Obligada o voluntaria cambia la apertura; los ejemplos extra salvan a la sala muda."
+        },
+        {
+          "t": "Silencio y ejemplos del sector",
+          "texto": "Quince segundos de espera y el vocabulario de quienes quieres atender."
+        },
+        {
+          "t": "Escalera de acceso",
+          "texto": "Lo gratuito sirve para recomendar, lo cerrado sirve para cobrar, y el acompañamiento va en la cima."
+        }
+      ]
+    }
+  ]
+}

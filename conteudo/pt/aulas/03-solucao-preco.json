@@ -1,0 +1,129 @@
+{
+  "slug": "solucao-preco",
+  "num": 3,
+  "menu": "Proposta",
+  "titulo": "Solução e preço que escala",
+  "titulo_curto": "Solução e preço",
+  "minutos": 18,
+  "lead": "O cliente não consegue avaliar se a sua solução técnica é boa: ele nunca implantou IA. O que ele avalia é se você parece saber o que está fazendo, e isso ele lê no seu método. Esta aula mostra o método (levantar, medir, pilotar, escalar) e o preço em degraus.",
+  "objetivo": "mapear o estado atual, medir a linha de base e montar a proposta de uma página com 3 opções em degraus.",
+  "competencias": ["mapear-estado-atual", "medir-linha-de-base", "montar-escada-de-preco"],
+  "aprende": [
+    {"t": "Levantar o estado atual em 4 planilhas"},
+    {"t": "Congelar a linha de base antes de mexer em algo"},
+    {"t": "Montar a escada de preço e o cardápio"},
+    {"t": "Escrever a proposta de uma página"}
+  ],
+  "hero_alt": "Três propostas impressas com gráficos lado a lado sobre uma mesa; uma mão aponta a do meio.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O método que gera confiança",
+      "sub": "A confiança sobe a cada etapa entregue no prazo, antes de qualquer resultado técnico.",
+      "nos": [
+        {"icone": "lista", "titulo": "Levantar", "sub": "4 planilhas",
+         "itens": [{"icone": "chip", "t": "Ferramentas"}, {"icone": "memoria", "t": "Fontes de conhecimento"}, {"icone": "fila", "t": "Processos"}, {"icone": "usuario", "t": "Donos"}],
+         "detalhe": "Quatro tabelas simples preenchidas junto com o cliente, de tela compartilhada. Preencher na frente dele já é metade do valor entregue."},
+        {"icone": "grafico", "titulo": "Medir", "sub": "linha de base", "forte": true,
+         "detalhe": "Antes de mudar qualquer coisa, congele os números: tempo por execução, taxa de erro, custo por transação, satisfação da equipe e do cliente final. Sem isso, você não prova nada depois."},
+        {"icone": "play", "titulo": "Pilotar", "sub": "30 a 60 dias",
+         "detalhe": "Um grupo pequeno, uma métrica combinada. É no piloto que as suposições morrem: melhor descobrir com doze pessoas do que com trezentas."},
+        {"icone": "camadas", "titulo": "Escalar", "sub": "departamento, depois o resto",
+         "detalhe": "Treine o grupo maior com o material que o piloto corrigiu e acompanhe a adoção semana a semana. Tenha coragem de dizer não à própria expansão onde a IA não se paga."}
+      ],
+      "volta": "Adoção caiu na terceira semana? O processo não coube na rotina: volte ao levantamento.",
+      "legenda": "Modelos são descontinuados. Monitore o que foi entregue num acompanhamento mensal ou entregue ao cliente a lista do que está em uso e o que fazer quando mudar."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "A escada de preço",
+      "sub": "Faixas em dólar como ordem de grandeza do mercado internacional. Adapte ao seu mercado.",
+      "passos": [
+        {"titulo": "Acesso", "sub": "faixa de US$ 10 a 20/mês",
+         "texto": ["Um espaço coletivo onde você responde dúvidas uma vez por semana.", "Segura o cliente que fez uma ou duas conversas e sumiria sem ele."]},
+        {"titulo": "Call avulsa", "sub": "faixa de US$ 250 a 500",
+         "texto": ["Sempre com preparo prévio: você chega sabendo o setor e o provável stack.", "Empacote quando fizer sentido: sessão mais cinco e-mails de dúvida no mês."]},
+        {"titulo": "Acompanhamento mensal", "sub": "faixa de US$ 2 mil a 10 mil/mês",
+         "texto": ["Reunião semanal, suporte por e-mail num formato combinado, treinamento da equipe e prioridade na agenda.", "É o degrau que transforma consultoria em trabalho previsível."]},
+        {"titulo": "Projeto", "sub": "a partir de US$ 15 mil",
+         "texto": ["Vários departamentos, prazo longo e especialistas subcontratados para o que não é seu.", "Aqui você responde pelo resultado. A construção, quando existe, é uma parte dele."],
+         "exemplo": {"rot": "Regra", "texto": "Escreva os degraus numa página só, para você. Improvisar preço no meio da conversa é como o desconto nasce."}}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "O cardápio e a call de 60 minutos",
+      "sub": "Deixe o cliente montar o prato em vez de escolher entre pacotes que ele não entende.",
+      "passos": [
+        {"titulo": "Cardápio", "sub": "30+ itens em categorias",
+         "texto": ["Entradas (iniciante), pratos rápidos (ganho prático), intermediário, avançado, sobremesas (diretoria) e banquetes (pacotes fechados).", "Cada item tem só quatro campos: nome, duração (90 a 150 min), nível e descrição curta do resultado, nunca da ferramenta."],
+         "exemplo": {"rot": "Efeito", "texto": "O cliente para de perguntar \"quanto custa\" e começa a dizer \"quero o 3, o 4 e a versão leve do 8\"."}},
+        {"titulo": "0 a 15 min", "sub": "dor, meta e levantamento",
+         "texto": ["Comece pela dor, com as palavras dele, e feche com a meta repetida em voz alta.", "Depois: escala, stack e onde moram os dados."]},
+        {"titulo": "15 a 35 min", "sub": "hipóteses e recomendação",
+         "texto": ["Devolva o que entendeu e apresente 2 ou 3 hipóteses, declaradas como hipóteses.", "Na recomendação, diga por que ela pode não ser realista para o negócio dele e mostre alternativas mais baratas ou mais rápidas."]},
+        {"titulo": "35 a 40 min", "sub": "próximos passos",
+         "texto": ["Ofereça os degraus e saia com uma tarefa: listar as ferramentas com número de usuários, escolher o departamento do piloto ou indicar um responsável interno.", "Os vinte minutos que sobram são para a pergunta que ele guardou para o fim."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "A proposta cabe numa página. A linha de base vem antes de qualquer número de meta.",
+      "blocos": [
+        {"rot": "Proposta de uma página", "icone": "arquivo",
+         "conteudo": "PROPOSTA · <empresa> · <data>\n\n1. O QUE OUVIMOS\n<a dor nas palavras do cliente, em 2 linhas>\n\n2. LINHA DE BASE (medida em <data>, por <como foi medido>)\n- <indicador>: <valor atual> → meta <valor> em <prazo>\n\n3. TRÊS FORMAS DE TRABALHAR JUNTOS\nA) Acesso · <valor/mês>\n   Grupo de dúvidas semanal. Para quem quer começar sozinho com apoio.\nB) Piloto · <valor> · <30 a 60 dias>\n   Um grupo de <n> pessoas em <área>, uma métrica, relatório no fim.\nC) Projeto · <valor> · <prazo>\n   Piloto + escala para <departamento> + acompanhamento de <n> meses.\n\n4. O QUE NÃO ESTÁ INCLUÍDO\n<ex.: integração com o sistema X; operação de campanhas>\n\n5. RISCO E SACRIFÍCIO\n<o que pode não funcionar e o que a empresa perde com a escolha>\n\n6. PRÓXIMO PASSO\n<tarefa do cliente> até <data>. Próxima conversa: <data>."},
+        {"rot": "Linha de base · um indicador", "icone": "grafico",
+         "conteudo": "Indicador: <ex.: tempo para responder um pedido de orçamento>\nValor atual: <número e unidade>\nMeta: <número> em <prazo>\nForma de medição: <quem mede, de onde sai o número, como conta>\nFrequência de revisão: <semanal ou mensal; nunca diária>"},
+        {"rot": "Prompt · gere o seu cardápio", "icone": "chat",
+         "conteudo": "Você é um consultor sênior de IA montando o cardápio de serviços do próprio\nnegócio. Escreva em português do Brasil, tom direto, sem adjetivo de venda.\n\nMeu perfil: <o que você sabe fazer de verdade hoje>\nMeus clientes: <setor, porte e cargo de quem te contrata>\nO que eu NÃO faço: <liste, para não entrar no cardápio>\n\nMonte um cardápio com 6 categorias: entradas (iniciante), pratos rápidos\n(ganho prático), intermediário, avançado, sobremesas (diretoria) e\nbanquetes (pacotes fechados). No mínimo 30 itens no total.\nPara CADA item, exatamente 4 campos:\n- nome (curto, sem jargão)\n- duração de entrega, entre 90 e 150 minutos\n- nível (iniciante / intermediário / avançado / diretoria)\n- descrição em no máximo 2 linhas, dizendo o resultado, não a ferramenta\nPriorize diagnóstico, ensino, revisão e acompanhamento; construção só\ncomo parte de um desses.\nTermine com: \"Cardápio atualizado em <mês e ano>\"."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Use um cliente real ou o caso da clínica da aula 2.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Linha de base de um processo", "min": "20 min",
+         "texto": "Escolha um processo do cliente (ou da clínica simulada) e preencha o modelo de linha de base para 2 indicadores.",
+         "pronto": "os 2 indicadores têm valor atual em número, meta com prazo e a forma de medição escrita."},
+        {"id": "e2", "titulo": "2 · Proposta de uma página", "min": "40 min",
+         "texto": "Preencha o modelo de proposta com a sua linha de base e as 3 opções em degraus. Escreva o que não está incluído e o sacrifício da opção recomendada.",
+         "pronto": "a proposta cabe numa página, tem a linha de base em número e 3 opções (acesso, piloto, projeto) com valor e prazo."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Você vai propor um projeto e ainda não sabe o orçamento do cliente. O que fazer?",
+         "opcoes": ["Apresentar o valor mais alto: quem não puder pagar avisa", "Oferecer três formas de trabalhar juntos, em degraus, e deixar o cliente escolher", "Cobrar o mínimo para garantir o fechamento"],
+         "certa": 1, "ref": "passos",
+         "explica": "Degraus multiplicam a chance de fechar alguma coisa em vez de nada, e o degrau de baixo segura quem sumiria. Preço único pressupõe um orçamento que você nunca perguntou."},
+        {"p": "Por que medir a linha de base antes do piloto?",
+         "opcoes": ["Para enfeitar a proposta", "Porque sem o ponto de partida você não prova o resultado depois", "Porque a diretoria exige relatório diário"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Muitos projetos \"não deram em nada\" porque ninguém registrou o ponto de partida. A forma de medição é o campo que mais fica em branco e o que mais invalida o número semanas depois."},
+        {"p": "Qual frequência de medição evita distorção?",
+         "opcoes": ["Diária, para ver tudo", "Semanal ou mensal", "Só no fim do projeto"],
+         "certa": 1, "ref": "codigo",
+         "explica": "As pontas da semana distorcem qualquer indicador: segunda tem fila acumulada, sexta tem gente saindo cedo. A série diária inventa altos e baixos que não existem."},
+        {"p": "Por onde começar o piloto?",
+         "opcoes": ["Pelo processo mais complexo, que é o mais interessante", "Por uma área ligada a receita, com resultado que alguém já mede", "Por um processo que passa por quatro departamentos"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Um ganho de 1% numa área de receita aparece no relatório de alguém; na área de apoio some no arredondamento. Processo complexo ou sem medição não deixa você provar nada."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Método antes de tecnologia", "texto": "O cliente avalia a sua organização. Um plano em etapas destrava a decisão."},
+        {"t": "Quatro planilhas e uma linha de base", "texto": "Ferramentas, conhecimento, processos e donos, medidos antes de qualquer mudança."},
+        {"t": "Piloto, escala, otimização", "texto": "Grupo pequeno primeiro, e alguém monitorando o que foi entregue."},
+        {"t": "Degraus e cardápio", "texto": "Três opções numa página fazem o cliente escolher em vez de recusar."}
+      ]
+    }
+  ]
+}

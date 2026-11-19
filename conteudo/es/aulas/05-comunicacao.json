@@ -1,0 +1,288 @@
+{
+  "slug": "comunicacao",
+  "num": 5,
+  "menu": "Comunicación",
+  "titulo": "La comunicación lo es todo",
+  "titulo_curto": "La comunicación lo es todo",
+  "minutos": 16,
+  "lead": "Una técnica alta con comunicación baja entrega menos que una técnica media con buena comunicación. El cliente habla en adjetivos (\"mucho\", \"lento\", \"confuso\"); quien decide lee números. Esta clase te muestra cómo convertir lo vago en número, hablar de presupuesto sin incomodidad y entregar todo en una página.",
+  "objetivo": "convertir un pedido vago en un requisito con número, hablar de presupuesto sin incomodidad y escribir el informe de una página.",
+  "competencias": [
+    "levantar-requisitos-con-numero",
+    "conversar-sobre-orcamento",
+    "escrever-relatorio-executivo"
+  ],
+  "aprende": [
+    {
+      "t": "Bajar del pedido a la causa con cinco porqués"
+    },
+    {
+      "t": "Convertir cada adjetivo del cliente en número"
+    },
+    {
+      "t": "Preguntar por el presupuesto sin medir el bolsillo de nadie"
+    },
+    {
+      "t": "Escribir el informe de una página para el ejecutivo"
+    }
+  ],
+  "hero_alt": "Una consultora muestra un informe de una página a un ejecutivo en una sala de reuniones.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "De lo vago a la página",
+      "sub": "Cada etapa convierte lo que dijo el cliente en algo que la dirección aprueba.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Pedido vago",
+          "sub": "\"tenemos muchos tickets\"",
+          "detalhe": "El pedido que llega es el síntoma que la empresa logró nombrar. Un adjetivo no se convierte en alcance, ni en precio, ni en prueba de resultado."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Cinco porqués",
+          "sub": "bajar hasta la causa",
+          "detalhe": "Cada \"por qué\" baja un piso hasta la causa que vale dinero. Úsalo solo para proponer un alcance que beneficie a la empresa; usarlo para inflar el precio quema las recomendaciones."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Número",
+          "sub": "cuánto, cuántos, por día",
+          "forte": true,
+          "detalhe": "\"¿Cuántos por día? ¿Y el pico de la semana?\" \"¿Lento cuántas horas?\" \"¿Cuántos errores por cada cien traspasos, y cuánto cuesta cada uno?\". Conviértelo delante del cliente."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "Presupuesto y restricciones",
+          "sub": "sin incomodidad",
+          "detalhe": "Pregunta si ya existe presupuesto reservado para IA, no \"¿cuál es tu presupuesto?\". En la misma conversación: por qué sistemas pasa el proceso, quién autoriza el acceso y qué datos no pueden salir de la empresa."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Una página",
+          "sub": "para el ejecutivo",
+          "detalhe": "Problema, número, opción recomendada y riesgo. El ejecutivo decide en una página; el detalle queda en el anexo."
+        }
+      ],
+      "legenda": "La pregunta de éxito ayuda en todas las etapas: \"dentro de seis meses el proyecto salió bien; ¿qué cambió exactamente en el negocio?\""
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Lo vago se vuelve número",
+      "sub": "Lo que dice el cliente y lo que tú devuelves.",
+      "passos": [
+        {
+          "titulo": "\"Muchos tickets\"",
+          "sub": "volumen",
+          "texto": [
+            "Pregunta la cantidad y el pico."
+          ],
+          "exemplo": {
+            "rot": "Tú devuelves",
+            "texto": "¿Cuántos por día? ¿Y cuál es el pico de la semana?"
+          }
+        },
+        {
+          "titulo": "\"El proceso es lento\"",
+          "sub": "tiempo",
+          "texto": [
+            "Pide la unidad de tiempo."
+          ],
+          "exemplo": {
+            "rot": "Tú devuelves",
+            "texto": "¿Lento cuántas horas: por día, por semana, por mes?"
+          }
+        },
+        {
+          "titulo": "\"Nos equivocamos bastante\"",
+          "sub": "error y costo",
+          "texto": [
+            "Un error sin costo no entra en la propuesta."
+          ],
+          "exemplo": {
+            "rot": "Tú devuelves",
+            "texto": "¿Cuántos errores por cada cien traspasos, y cuánto cuesta cada uno?"
+          }
+        },
+        {
+          "titulo": "Parafrasear",
+          "sub": "la prueba de que escuchaste",
+          "texto": [
+            "Resume en una frase y pregunta si es eso.",
+            "Cuando el resumen está equivocado, el cliente lo corrige con detalles que nunca daría gratis."
+          ],
+          "exemplo": {
+            "rot": "Tú devuelves",
+            "texto": "Entonces el problema real es la cola de aprobación, y el formulario solo expone esa cola. ¿Es así?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "En la reunión",
+      "sub": "Cuatro movimientos y el cierre correcto.",
+      "passos": [
+        {
+          "titulo": "Apertura",
+          "sub": "objetivos alineados",
+          "texto": [
+            "Di quién eres y conecta tu objetivo con el de ellos. No es un juego de suma cero."
+          ],
+          "exemplo": {
+            "rot": "Frase",
+            "texto": "Mi objetivo es que este proyecto reduzca su costo por ticket. Si lo reduce, ustedes me vuelven a llamar."
+          }
+        },
+        {
+          "titulo": "Hipótesis",
+          "sub": "no empieces de cero",
+          "texto": [
+            "Llega con 2 o 3 hipótesis y pide que te corrijan. Es más fácil editar un texto ya escrito que enfrentar la hoja en blanco."
+          ],
+          "exemplo": {
+            "rot": "Frase",
+            "texto": "Por lo que investigué, estos son los tres puntos principales. Corrígeme si me equivoco."
+          }
+        },
+        {
+          "titulo": "Presupuesto",
+          "sub": "pregunta por la decisión, no por el bolsillo",
+          "texto": [
+            "\"¿Cuál es tu presupuesto?\" suena como \"¿puedes pagar?\".",
+            "No te disculpes antes de hablar de precio y no empujes el tema a un correo para después."
+          ],
+          "exemplo": {
+            "rot": "Frase",
+            "texto": "¿Existe alguna partida ya reservada para iniciativas de IA? Me ayuda a trabajar de atrás hacia adelante a partir de lo que esperan ustedes."
+          }
+        },
+        {
+          "titulo": "Cierre",
+          "sub": "agenda, no correo",
+          "texto": [
+            "Nunca termines con \"te voy a mandar una propuesta\". Agenda la próxima reunión dentro de esta misma.",
+            "Una propuesta que tarda se lee como falta de prioridad."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El informe es la pieza que tu contacto lleva a la dirección sin ti en la sala.",
+      "blocos": [
+        {
+          "rot": "Informe de una página para ejecutivos",
+          "icone": "arquivo",
+          "conteudo": "<EMPRESA> · <área> · <fecha>\nPara: <cargo de quien decide>\n\nPROBLEMA (2 líneas)\n<el dolor con las palabras del cliente y por qué cuesta dinero>\n\nNÚMERO\nHoy: <indicador> = <valor>, medido por <cómo>.\nCosto estimado: <valor por mes> (supuesto: <cuál>).\n\nOPCIÓN RECOMENDADA\n<qué hacer, en 3 líneas, con plazo y responsable>\nAlternativa más barata: <cuál y qué se pierde>\n\nRIESGO\n<qué puede salir mal y cómo lo sabremos temprano>\nQué no está incluido: <...>\n\nDECISIÓN SOLICITADA\n<sí/no para el piloto> hasta <fecha>."
+        },
+        {
+          "rot": "Preguntas de presupuesto y de restricciones",
+          "icone": "lista",
+          "conteudo": "PRESUPUESTO\n- ¿Existe alguna partida ya reservada para iniciativas de IA en la empresa?\n- Me ayuda a trabajar de atrás hacia adelante a partir de lo que esperan ustedes.\n\nRESTRICCIONES (pesan más en el precio que el alcance)\n- ¿Por qué sistemas pasa este proceso, de principio a fin?\n- ¿Quién autoriza el acceso a ellos y cuánto suele tardar?\n- ¿Hay algún dato aquí que no pueda salir de la empresa?\n\nÉXITO\n- Imagina seis meses adelante. El proyecto fue un éxito total.\n  ¿Qué cambió exactamente en el negocio?"
+        },
+        {
+          "rot": "Prompt · reconocimiento antes de la reunión",
+          "icone": "chat",
+          "conteudo": "Haz una investigación sobre esta empresa y devuélveme un briefing de reunión.\nNo quiero ideas llamativas: quiero las más prácticas de implementar.\n\nEmpresa: <nombre público y sector>\nÁrea con quien voy a conversar: <área o cargo>\nTamaño aproximado: <nº de empleados>\n\nDevuelve en este orden:\n1. Modelo de negocio y de dónde viene el ingreso, en 5 líneas.\n2. Cómo probablemente opera hoy el área: etapas y herramientas.\n3. Los 5 escenarios más prácticos, ordenados por facilidad de implementación.\n4. Para cada escenario, la justificación de negocio en una frase.\n5. Las 3 preguntas que hago para confirmar o descartar cada hipótesis.\nMarca explícitamente qué es un hecho público y qué es una suposición tuya."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Usa el caso de tu propuesta de la clase 3.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Tres adjetivos en número",
+          "min": "15 min",
+          "texto": "Enumera 3 frases vagas que dijo tu cliente (o la clínica de la clase 2) y escribe la pregunta que convierte cada una en número.",
+          "pronto": "las 3 frases tienen una pregunta al lado y cada pregunta pide cantidad, tiempo o costo."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Informe de una página",
+          "min": "40 min",
+          "texto": "Completa la plantilla de informe para ejecutivos. Léela en voz alta: debe ser posible decidir en dos minutos.",
+          "pronto": "el informe cabe en una página y tiene problema, número con forma de medición, opción recomendada, riesgo y la decisión solicitada con fecha."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "La reunión terminó bien y el cliente mostró interés. ¿Cuál es el mejor cierre?",
+          "opcoes": [
+            "\"Te voy a mandar una propuesta detallada en los próximos días.\"",
+            "Agendar la próxima reunión ahí mismo, con fecha y hora",
+            "Esperar a que el cliente te busque"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Estar en la agenda de alguien es distinto de estar en la bandeja de entrada disputando atención con cuarenta mensajes. Una propuesta que tarda se lee como falta de prioridad."
+        },
+        {
+          "p": "¿Qué pregunta sobre dinero genera menos defensa?",
+          "opcoes": [
+            "\"¿Cuál es tu presupuesto?\"",
+            "\"¿Existe alguna partida ya reservada para iniciativas de IA en la empresa?\"",
+            "\"¿Cuánto pierden ustedes por esto?\""
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "La primera mide el bolsillo de la persona; la segunda pregunta sobre una decisión que la empresa ya tomó. Si el presupuesto no existe, descubres que primero necesitas vender internamente."
+        },
+        {
+          "p": "El cliente dice \"el proceso es lento\". ¿Qué le devuelves?",
+          "opcoes": [
+            "\"Con IA esto se vuelve rápido.\"",
+            "\"Lento, ¿cuántas horas: por día, por semana, por mes?\"",
+            "\"Ustedes no tienen un proceso documentado, ¿verdad?\""
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Un adjetivo no se convierte en alcance ni en prueba de resultado. Una pregunta con la respuesta incluida (\"no tienen proceso, ¿verdad?\") activa el modo defensa."
+        },
+        {
+          "p": "¿Qué no puede faltar en el informe de una página?",
+          "opcoes": [
+            "La lista de herramientas que vas a usar",
+            "Problema, número, opción recomendada y riesgo",
+            "El historial completo de las reuniones"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Quien decide necesita el problema en número, una recomendación y el riesgo declarado. La herramienta y el historial van al anexo, si acaso."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "La comunicación multiplica",
+          "texto": "Enmarcar el problema con las palabras del cliente gana la mitad de la reunión."
+        },
+        {
+          "t": "Lo vago se vuelve número",
+          "texto": "Cada adjetivo se convierte en cantidad, tiempo o costo, frente al cliente."
+        },
+        {
+          "t": "Presupuesto sin incomodidad",
+          "texto": "Pregunta por la decisión de la empresa, no por el bolsillo de quien está en la llamada."
+        },
+        {
+          "t": "Una página",
+          "texto": "Problema, número, recomendación y riesgo. Y la próxima reunión ya agendada."
+        }
+      ]
+    }
+  ]
+}

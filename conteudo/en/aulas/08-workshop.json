@@ -1,0 +1,365 @@
+{
+  "slug": "workshop",
+  "num": 8,
+  "menu": "Workshop",
+  "titulo": "Workshop and B2B community: from free to monthly advisory",
+  "titulo_curto": "Workshop and community",
+  "minutos": 20,
+  "lead": "The workshop is the cheapest way in and the one that generates the most work afterward: the team learns, the manager sees you in action, and the next conversation is the diagnosis. This lesson shows the 1-hour workshop in 5 parts, the small community of companies, and your plan with dates.",
+  "objetivo": "design a 1-hour workshop in 5 parts and the ladder from free to monthly advisory, with a dated plan.",
+  "competencias": [
+    "desenhar-workshop",
+    "ler-a-plateia",
+    "montar-escada-de-acesso"
+  ],
+  "aprende": [
+    {
+      "t": "Structure the workshop like a flight, in 5 parts"
+    },
+    {
+      "t": "Read the audience and prepare extra content"
+    },
+    {
+      "t": "Build the small community of companies"
+    },
+    {
+      "t": "Generate your plan with dates"
+    }
+  ],
+  "hero_alt": "A facilitator leads a workshop in a meeting room, with about ten people and laptops.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The workshop is a flight",
+      "sub": "Parts 1, 2 and 3 fit in the first five minutes.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Destination",
+          "sub": "what they will know how to do",
+          "detalhe": "Not what you will say: what the person will be able to do afterward. If it doesn't fit in one sentence, the workshop isn't ready."
+        },
+        {
+          "icone": "seta",
+          "titulo": "Route",
+          "sub": "from beginner to intermediate",
+          "detalhe": "The map of the journey, acknowledging what the room probably thinks today: \"a lot of people here have already tried it and thought it was just a prettier chat\"."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Flight plan",
+          "sub": "warn about the turbulence",
+          "detalhe": "Announce the technical stretch ahead of time: \"around the halfway point there's a boring part, but a quick one, and without it the rest doesn't make sense\". Once warned, the room puts up with it."
+        },
+        {
+          "icone": "lista",
+          "titulo": "In-flight service",
+          "sub": "value every few minutes",
+          "forte": true,
+          "detalhe": "A shortcut, an example, a number every few minutes. Attention isn't sustained by the promise of a happy ending, but by frequent delivery."
+        },
+        {
+          "icone": "check",
+          "titulo": "Landing",
+          "sub": "recap and apply",
+          "detalhe": "Recap, say how to apply it on Monday, what comes next, and only then open for questions. Ending without a landing leaves the feeling that nothing happened."
+        }
+      ],
+      "legenda": "Teaching is a skill of repetition and feedback, not talent. The structure stands in for talent until it comes."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Before and during the workshop",
+      "sub": "Four decisions that change the room.",
+      "passos": [
+        {
+          "titulo": "The audience",
+          "sub": "required or voluntary?",
+          "texto": [
+            "An analyst wants the detail; the executive team wants the design and the return. Ask the client beforehand who will be in the room.",
+            "Required room: open with demos. Voluntary room: they want the fundamentals. Name the fear about jobs in the first few minutes."
+          ]
+        },
+        {
+          "titulo": "Extra content",
+          "sub": "insurance against a silent room",
+          "texto": [
+            "If one hour fits 30 slides, prepare 50: most of them are extra examples of the same idea.",
+            "Decide beforehand what to skip if the room talks a lot, and keep two backup blocks."
+          ]
+        },
+        {
+          "titulo": "The silence",
+          "sub": "fifteen seconds",
+          "texto": [
+            "Ask the question and wait. Whoever gives in after three seconds teaches the room not to answer.",
+            "If nobody answers, make a light joke and move on. Don't push: your energy doesn't depend on the audience."
+          ],
+          "exemplo": {
+            "rot": "Phrase",
+            "texto": "I can stay quiet for the next few minutes, or you can give me a hint so I can adapt the examples to your work."
+          }
+        },
+        {
+          "titulo": "Industry examples",
+          "sub": "the client magnet",
+          "texto": [
+            "Whoever uses examples from one industry attracts clients from that industry. Use the real vocabulary: enrollment, policy, appraisal report, deed.",
+            "If the clients who show up are from the wrong industry, look at your examples."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The small community and the access ladder",
+      "sub": "Seven to ten companies, not seven hundred people. Ranges are orders of magnitude: adapt to your market.",
+      "passos": [
+        {
+          "titulo": "Free tier",
+          "sub": "good enough to recommend",
+          "texto": [
+            "Basic templates, a monthly bulletin with what changed, questions answered in public, and the open office hours.",
+            "It needs to be good enough for someone to recommend it without ever having paid."
+          ]
+        },
+        {
+          "titulo": "Paid tier",
+          "sub": "good enough to pay for every month",
+          "texto": [
+            "Advanced guides, real cases, long sessions with live building, members-only office hours.",
+            "A group of companies usually lands in the US$ 100 to 500 per company per month range. With 7 to 10, you know each one's problem."
+          ]
+        },
+        {
+          "titulo": "Monthly advisory",
+          "sub": "the top of the ladder",
+          "texto": [
+            "A defined response window, with rules, not unlimited access to your life.",
+            "Whoever moves up has already proven, on the previous step, that they extract value."
+          ]
+        },
+        {
+          "titulo": "Invitations",
+          "sub": "no salesperson language",
+          "texto": [
+            "After the call: \"instead of filling your inbox, I have a space where I answer questions like the ones we discussed\".",
+            "After the workshop: \"if you want to bring your own company's case, this is the space\"."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy",
+      "sub": "The 1-hour script with the minutes in view.",
+      "blocos": [
+        {
+          "rot": "1-hour workshop script",
+          "icone": "calendario",
+          "conteudo": "WORKSHOP · <topic> · <company> · <date>\nAudience: <roles> · mandatory or voluntary: <which>\nDestination (1 sentence): after this hour, you will be able to <do what>.\n\n00-05 OPENING\n- Hook: <image or demo running>\n- So what: <what changes for those who pay attention>\n- Path and flight plan: <warn about the technical stretch>\n- Name the fear: <sentence>\n\n05-20 MODULE 1 · foundation (light, lots of examples)\n- Concept → when to use → before and after → example from the industry\n- Question for the room (wait 15 s): <question>\n\n20-40 MODULE 2 · the densest (at peak attention)\n- <technical content warned about in the flight plan>\n- Question for the room: <question>\n\n40-55 MODULE 3 · applied (attention has already dropped)\n- Day-to-day example: <what changes tomorrow morning>\n- Vision example: <what changes in 12 months>\n\n55-60 LANDING\n- Recap 3 points · how to apply on Monday · what comes next\n- Questions · invitation: <community or office hours>\n\nBACKUP (if the room goes quiet): <block A>, <block B>\nSKIP (if the room talks a lot): <block>"
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "The course map",
+      "sub": "The four deliverables you take to the client. Click an exercise to see the \"done when\".",
+      "degraus": [
+        {
+          "aula": "call-descoberta",
+          "icone": "chat",
+          "quando": "Week 1",
+          "titulo": "Discover",
+          "sub": "Script and simulated call",
+          "saida": "Call script with the 3 questions and the brake.",
+          "passo": "The foundation of everything: the discovery call with scale, stack and knowledge, and the line for hitting the brakes. Practice in the simulation until you reach the top score."
+        },
+        {
+          "aula": "solucao-preco",
+          "icone": "arquivo",
+          "quando": "Week 2",
+          "titulo": "Propose",
+          "sub": "Baseline and steps",
+          "saida": "One-page proposal with 3 options.",
+          "passo": "Requires the call. Measure the baseline before promising and offer three ways of working together."
+        },
+        {
+          "aula": "comunicacao",
+          "icone": "grafico",
+          "quando": "Week 3",
+          "titulo": "Report",
+          "sub": "A number for the executive",
+          "saida": "One-page report for the decision maker.",
+          "passo": "Requires the proposal. Turn the vague into a number and deliver the decision on one page."
+        },
+        {
+          "aula": "workshop",
+          "icone": "megafone",
+          "quando": "Week 4",
+          "titulo": "Teach",
+          "sub": "Workshop and community",
+          "saida": "1-hour workshop and access ladder.",
+          "passo": "Requires the previous three: the workshop opens the door and leads to the diagnosis, which leads to the proposal and the report."
+        }
+      ],
+      "resultado": {
+        "titulo": "At the end of the course",
+        "texto": "You lead the call, propose with a number, report to the executive and teach the client's team.",
+        "total": "16 exercises"
+      },
+      "rolagem_fim": {
+        "titulo": "The whole cycle",
+        "texto": "The workshop opens the door, the call does the diagnosis, the proposal has a baseline and the report carries the decision. Lessons 1, 4, 6 and 7 go into the plan generated below."
+      },
+      "legenda": "Positioning (lesson 1), autopsy (lesson 4), technology choice (lesson 6) and office hours (lesson 7) go into the plan with dates."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your plan with dates",
+      "sub": "Choose the start date and how much time you have per week. The plan includes the course's 16 exercises.",
+      "curso": "Selling with AI 2 · Consulting Playbook",
+      "horas_padrao": 5,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · Positioning",
+          "aula": "posicionamento"
+        },
+        {
+          "titulo": "Lesson 2 · Discovery call",
+          "aula": "call-descoberta"
+        },
+        {
+          "titulo": "Lesson 3 · Solution and price",
+          "aula": "solucao-preco"
+        },
+        {
+          "titulo": "Lesson 4 · Call autopsy",
+          "aula": "autopsia-call"
+        },
+        {
+          "titulo": "Lesson 5 · Communication",
+          "aula": "comunicacao"
+        },
+        {
+          "titulo": "Lesson 6 · Understanding AI",
+          "aula": "entender-ia"
+        },
+        {
+          "titulo": "Lesson 7 · Clients who come to you",
+          "aula": "clientes-que-chegam"
+        },
+        {
+          "titulo": "Lesson 8 · Workshop and community",
+          "aula": "workshop"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Selling with AI 2 · Consulting Playbook",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected finish",
+        "ate": "by",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Close the course with your workshop and your plan.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your workshop script",
+          "min": "45 min",
+          "texto": "Fill in the 1-hour script for a real company or for your niche, with examples from the industry you want to serve.",
+          "pronto": "the script has the 5 parts (destination, route, flight plan, in-flight service, landing), the minutes marked, and 2 buffer blocks."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Ladder and dated plan",
+          "min": "30 min",
+          "texto": "Write your free tier (3 items) and your paid tier (3 items). Then use the generator above and save the plano.md and the .ics.",
+          "pronto": "the ladder is written from the free offer to the monthly advisory, and the dated plan is saved in your calendar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The room was forced to attend your workshop. How do you open?",
+          "opcoes": [
+            "With the fundamentals, to get everyone on the same level",
+            "With demos, to earn their attention before you teach",
+            "By asking each person to introduce themselves"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A mandatory audience arrives with arms crossed: you earn their attention first. Fundamentals first is for a room that came by choice."
+        },
+        {
+          "p": "You asked a question and the room went silent. What do you do?",
+          "opcoes": [
+            "Answer it yourself after three seconds",
+            "Wait about fifteen seconds; if no one speaks, move on without pushing",
+            "Ask for participation again, with more emphasis"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "If you give in fast, you teach the room not to answer; if you push, it gets awkward. Wait, use the line that breaks the ice, and move on."
+        },
+        {
+          "p": "Where do you put the most technical part of the workshop?",
+          "opcoes": [
+            "At the end, for the people who stayed",
+            "In the middle, at the attention peak, announced in the flight plan",
+            "At the beginning, to get it over with"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Attention rises after the opening and drops at the end. The dense block goes in the middle and is announced beforehand, so the room can stay with you."
+        },
+        {
+          "p": "Why a community of 7 to 10 companies, and not hundreds of people?",
+          "opcoes": [
+            "Because it is easier to promote",
+            "Because you know each one's problem and notice the loss of interest before the cancellation",
+            "Because companies will pay any amount"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "With a few companies you really talk, and you see the silence that comes before a cancellation. A company approves a monthly fee as an expense and doesn't cancel just because the month got tight."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Five parts, like a flight",
+          "texto": "Destination, route, and flight plan fit in the first five minutes."
+        },
+        {
+          "t": "Read the room and over-prepare",
+          "texto": "Mandatory or voluntary changes the opening; extra examples save a silent room."
+        },
+        {
+          "t": "Silence and industry examples",
+          "texto": "Fifteen seconds of waiting, and the vocabulary of the people you want to serve."
+        },
+        {
+          "t": "Access ladder",
+          "texto": "Free is good for referrals, paid is good for revenue, monthly advisory sits at the top."
+        }
+      ]
+    }
+  ]
+}

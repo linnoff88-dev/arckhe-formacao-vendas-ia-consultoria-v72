@@ -1,0 +1,131 @@
+{
+  "slug": "posicionamento",
+  "num": 1,
+  "menu": "Posição",
+  "titulo": "Por que a maioria dos consultores de IA falha",
+  "titulo_curto": "Por que consultores falham",
+  "minutos": 14,
+  "lead": "O consultor que some em um ano quase nunca falha por falta de técnica. Ele ouve o pedido, entrega exatamente o pedido, e o pedido estava errado desde o começo. Construir ficou fácil; o que a empresa compra é alguém que diagnostica antes.",
+  "objetivo": "separar o que o cliente pede do que ele precisa e se apresentar como quem diagnostica, não como quem constrói.",
+  "competencias": ["posicionar-oferta", "avaliar-prontidao", "escolher-nivel-de-oferta"],
+  "aprende": [
+    {"t": "Trocar o pedido do cliente pela pergunta certa"},
+    {"t": "Passar a empresa pelos 4 checkpoints de prontidão"},
+    {"t": "Escolher entre implementação, preparação e educação"},
+    {"t": "Escrever o seu posicionamento em duas linhas"}
+  ],
+  "hero_alt": "Consultor escreve num caderno, com o notebook fechado e uma cadeira vazia do outro lado da mesa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Do pedido ao resultado",
+      "sub": "O pedido nunca chega pronto. Seu trabalho é o bloco do meio.",
+      "nos": [
+        {"icone": "chat", "titulo": "O pedido", "sub": "o que o cliente diz",
+         "itens": [{"icone": "robo", "t": "\"Quero um agente\""}, {"icone": "video", "t": "\"Vi isso num vídeo\""}],
+         "detalhe": "O cliente pede a novidade que viu no fim de semana. Quem entrega o pedido sem perguntar compete por preço com qualquer pessoa que constrói a mesma coisa."},
+        {"icone": "lupa", "titulo": "Os 4 checkpoints", "sub": "dez minutos de conversa", "forte": true,
+         "itens": [{"icone": "lista", "t": "Processos escritos?"}, {"icone": "memoria", "t": "Onde moram os dados?"}, {"icone": "usuario", "t": "A liderança apoia?"}, {"icone": "chip", "t": "Já automatizaram algo?"}],
+         "detalhe": "Quatro perguntas antes de vender qualquer coisa: processos, dados, apoio da liderança e sistemas. A hesitação na resposta já é diagnóstico."},
+        {"icone": "camadas", "titulo": "O nível de oferta", "sub": "três produtos, não um",
+         "itens": [{"icone": "chip", "t": "Implementação"}, {"icone": "pasta", "t": "Preparação"}, {"icone": "megafone", "t": "Educação"}],
+         "detalhe": "O resultado dos checkpoints escolhe o produto. Com os três prontos, você nunca sai de uma call de mãos vazias: o cliente despreparado vira um contrato diferente, não um problema."},
+        {"icone": "grafico", "titulo": "O resultado", "sub": "um número que mudou",
+         "detalhe": "Movimento é entregar algo. Resultado é mudar um número que o cliente já acompanhava. O consultor que dura vende o segundo."}
+      ],
+      "volta": "Falhou em 2 ou mais checkpoints? Volte e venda preparação, não implementação.",
+      "legenda": "Construir pode fazer parte da implementação. O que a empresa paga, nos três níveis, é a decisão certa."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Os 4 checkpoints de prontidão",
+      "sub": "Clique em cada um. Cabem em dez minutos de conversa.",
+      "passos": [
+        {"titulo": "Processos", "sub": "existem? estão escritos?",
+         "texto": ["Peça para alguém descrever um processo do início ao fim. Se ninguém consegue, automatizar é construir em cima de areia.", "Uma empresa sem processo documentado não fica melhor com IA: fica mais rápida em errar."],
+         "exemplo": {"rot": "Pergunta", "texto": "Me conta, passo a passo, o que acontece desde que um pedido chega até ele ser entregue."}},
+        {"titulo": "Dados", "sub": "onde eles moram?",
+         "texto": ["Banco de dados, planilhas soltas ou a cabeça de três pessoas? Pergunte se existe um documento que explica o que cada campo significa.", "Ter esse documento é sinal de maturidade rara."],
+         "exemplo": {"rot": "Pergunta", "texto": "Se eu precisar do histórico de um cliente, onde eu procuro primeiro?"}},
+        {"titulo": "Apoio", "sub": "a liderança sabe que você existe?",
+         "texto": ["Contratado por um gerente sem aval da diretoria, você é um corpo estranho na empresa.", "Projetos assim morrem no primeiro corte de orçamento, por melhor que seja o trabalho."],
+         "exemplo": {"rot": "Pergunta", "texto": "Quem mais precisa aprovar isso para virar padrão da empresa?"}},
+        {"titulo": "Sistemas", "sub": "já automatizaram algo?",
+         "texto": ["Empresa que nunca conectou dois sistemas está em outro estágio.", "Isso não impede o projeto, mas muda prazo, preço e quanto treinamento você inclui."],
+         "exemplo": {"rot": "Regra dos dois", "texto": "Falhou em dois ou mais checkpoints? Não venda implementação. Venda preparação."}}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Os três níveis de oferta",
+      "sub": "O degrau mais alto não é o mais lucrativo.",
+      "passos": [
+        {"titulo": "Implementação", "sub": "passou nos checkpoints",
+         "texto": ["Você constrói as automações ou orienta quem constrói. A construção é parte do serviço, não o serviço inteiro.", "Combine com um acompanhamento mensal pequeno para continuar por perto depois da entrega."]},
+        {"titulo": "Preparação", "sub": "falhou em 2 ou mais",
+         "texto": ["Você organiza processo, dados e responsáveis antes de qualquer tecnologia.", "Tem menos concorrência e menos risco técnico, e é mais fácil de aprovar dentro da empresa. Quase ninguém a oferece com nome próprio."]},
+        {"titulo": "Educação", "sub": "a equipe precisa do básico",
+         "texto": ["Workshops práticos com as ferramentas que a empresa já paga.", "É a porta de entrada mais barata e a que mais gera trabalho depois. A aula 8 mostra como montar o workshop."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Troque o texto entre < > pelo seu. Use num assistente de IA de sua escolha.",
+      "blocos": [
+        {"rot": "Declaração de posicionamento (2 linhas)", "icone": "caneta",
+         "conteudo": "Eu ajudo <tipo de empresa> a <resultado em número ou decisão> começando por um diagnóstico de <prazo>.\nEu não <o que você não faz: ex. vendo ferramenta antes do diagnóstico, opero campanhas, programo sistemas legados>."},
+        {"rot": "Prompt · roteiro de prontidão para a próxima call", "icone": "chat",
+         "conteudo": "Você é consultor de IA experiente. Vou avaliar a prontidão de uma empresa\nantes de propor qualquer automação.\nEmpresa: <setor e o que ela vende>\nPorte: <nº aproximado de funcionários>\nÁrea que me procurou: <área ou cargo>\n\nGere um questionário de diagnóstico com 4 blocos: processos, dados,\napoio da liderança e sistemas. Para cada bloco:\n- 3 perguntas abertas, na linguagem de quem trabalha nesse setor\n- o que uma resposta BOA parece\n- o que uma resposta RUIM parece\n- a consequência prática de cada resposta ruim para o projeto\nNo fim, escreva a frase que eu uso para dizer \"vocês ainda não estão\nprontos\" sem ofender ninguém."},
+        {"rot": "Prompt · teste o seu posicionamento", "icone": "lupa",
+         "conteudo": "Esta é a descrição do meu serviço de consultoria de IA:\n\"\"\"<cole aqui como você se descreve hoje>\"\"\"\n\nFaça três coisas, nesta ordem:\n1. Reescreva minha descrição do jeito que um comprador cético a entende.\n2. Liste 5 perguntas difíceis que uma diretoria faria e que minha\n   descrição não responde.\n3. Proponha 3 versões novas: uma focada em prontidão, uma em redução\n   de custo, uma em risco. Máximo 2 frases cada.\nNão elogie. Aponte onde está vago."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Faça antes de seguir para a aula 2.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Sua declaração de posicionamento", "min": "20 min",
+         "texto": "Preencha o modelo de duas linhas. Rode o prompt \"teste o seu posicionamento\" e reescreva até as 5 perguntas difíceis terem resposta.",
+         "pronto": "a declaração tem 2 linhas, não cita nenhuma ferramenta e a segunda linha diz o que você <b>não</b> faz."},
+        {"id": "e2", "titulo": "2 · O seu próprio diagnóstico", "min": "15 min",
+         "texto": "Responda por escrito: dos seus últimos 3 clientes (ou conversas), quantos tinham processo documentado? Quem assinou podia renovar sozinho? Você tem uma oferta de preparação com nome, escopo e preço?",
+         "pronto": "as 3 respostas estão escritas e a sua oferta de preparação tem um nome e um escopo de uma linha."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Uma empresa falhou nos checkpoints de processos e de dados. O que você vende?",
+         "opcoes": ["A implementação mesmo assim, com prazo maior", "Um projeto de preparação: organizar processo e dados primeiro", "Nada: recusar o cliente e encerrar a conversa"],
+         "certa": 1, "ref": "passos",
+         "explica": "Duas falhas mudam o produto: preparação. Vender implementação em cima de processo e dado bagunçados é acelerar o erro. Recusar desperdiça um cliente que tem um contrato diferente para fechar."},
+        {"p": "O que a sua declaração de posicionamento precisa ter?",
+         "opcoes": ["A lista das ferramentas que você domina", "O resultado que você entrega e o que você não faz", "Os seus certificados e anos de experiência"],
+         "certa": 1, "ref": "codigo",
+         "explica": "Posicionamento é a resposta curta para \"por que você e não outro\". Dizer o que você não faz gera confiança. Lista de ferramenta coloca você na disputa de preço com quem constrói."},
+        {"p": "O cliente pede \"um agente\". Qual costuma ser a resposta certa?",
+         "opcoes": ["Um agente autônomo, porque foi o que ele pediu", "Quase sempre uma automação de passo fixo; agente só onde o caminho muda a cada vez", "Recomendar a ferramenta mais nova do mercado"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Automação é um passo a passo fixo: previsível, barato e fácil de auditar. Agente decide sozinho os passos e entra só onde o caminho realmente muda. Confundir os dois na frente do cliente custa credibilidade."},
+        {"p": "Você foi contratado por um gerente que a diretoria não conhece. Qual armadilha é essa?",
+         "opcoes": ["Ferramenta antes de processo", "Patrocínio errado", "Cobrar barato demais"],
+         "certa": 1, "ref": "passos",
+         "explica": "Sem apoio da liderança, você vira o problema de quem não te chamou, e o projeto morre no primeiro corte. É o checkpoint de apoio, e vale perguntar já na primeira conversa."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Posicionamento decide preço", "texto": "Quem entrega o pedido compete por preço; quem entrega o diagnóstico define o próprio."},
+        {"t": "Quatro checkpoints", "texto": "Processos, dados, apoio da liderança e sistemas. Duas falhas mudam o produto."},
+        {"t": "Três níveis", "texto": "Implementação, preparação e educação. A preparação quase ninguém oferece com nome."},
+        {"t": "Honestidade é estratégia", "texto": "Fecha menos, mas com quem entendeu o que vai receber, e o cliente fica."}
+      ]
+    }
+  ]
+}

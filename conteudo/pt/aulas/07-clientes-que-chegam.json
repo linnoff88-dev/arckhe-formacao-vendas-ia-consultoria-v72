@@ -1,0 +1,111 @@
+{
+  "slug": "clientes-que-chegam",
+  "num": 7,
+  "menu": "Atrair",
+  "titulo": "Clientes que chegam sozinhos",
+  "titulo_curto": "Clientes que chegam",
+  "minutos": 15,
+  "lead": "Mensagem fria ainda funciona, mas chega a caixas de entrada cheias de mensagens automáticas iguais. O que acumula é o contrário: respostas úteis em público, um plantão gratuito de dúvidas e uma isca que mostra como você diagnostica. Quem chega por elas já viu você trabalhar.",
+  "objetivo": "montar o plantão gratuito e uma isca que mostram diagnóstico, não construção, e marcar a data do primeiro plantão.",
+  "competencias": ["escolher-canal-de-entrada", "conduzir-plantao-gratuito", "criar-isca-de-diagnostico"],
+  "aprende": [
+    {"t": "Escolher o canal que combina com você"},
+    {"t": "Responder em público sem parecer vendedor"},
+    {"t": "Montar o plantão gratuito de dúvidas"},
+    {"t": "Criar uma isca que mostra o seu diagnóstico"}
+  ],
+  "hero_alt": "Consultora atende um plantão de dúvidas online, com vários participantes numa videochamada.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A roda que gira sozinha",
+      "sub": "Você entrega valor, registra a entrega, e o registro entrega valor de novo.",
+      "nos": [
+        {"icone": "chat", "titulo": "Responder em público", "sub": "onde a dor é escrita",
+         "detalhe": "Fóruns públicos e comunidades do setor que você quer atender (fora do mundo de IA). Lá a pessoa descreve o problema com as próprias palavras, e o que é óbvio para você parece raro."},
+        {"icone": "relogio", "titulo": "Plantão gratuito", "sub": "3 a 5 h fixas por semana", "forte": true,
+         "detalhe": "Horário fixo, sem inscrição complicada. Qualquer pessoa entra, pergunta, e você resolve ao vivo de tela aberta. Erros ao vivo mostram que você faz de verdade."},
+        {"icone": "lupa", "titulo": "Isca de diagnóstico", "sub": "útil de graça",
+         "detalhe": "Um checklist ou mini diagnóstico que a pessoa usa sozinha e que mostra como você pensa: os 4 checkpoints, as 3 perguntas, a linha de base. Valor percebido alto, tempo seu baixo."},
+        {"icone": "pasta", "titulo": "Acervo", "sub": "trechos curtos publicados",
+         "detalhe": "Cada sessão rende alguns trechos publicáveis. Quando um cliente pede caso, você manda o acervo. Prova gravada supera currículo."}
+      ],
+      "volta": "O acervo leva gente nova ao plantão.",
+      "legenda": "Escolha o canal pela sua personalidade, não pela receita de um guru. Rotina abandonada em três semanas custa mais que qualquer canal."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Presença que constrói confiança",
+      "sub": "O que funciona e o que queima o seu nome.",
+      "passos": [
+        {"titulo": "Fóruns e comunidades", "sub": "responder inteiro",
+         "texto": ["Responda a pergunta ali mesmo, com o passo a passo real e o que costuma dar errado.", "Diga quando a solução mais simples não é sua especialidade. Nunca \"te chamei no privado\" no lugar da resposta."]},
+        {"titulo": "Rede profissional", "sub": "sem texto automático",
+         "texto": ["As pessoas reconhecem texto gerado e publicado sem revisão. Isso dilui a sua marca.", "Primeiro responda com profundidade em publicações de grande alcance; só depois publique o que é seu."]},
+        {"titulo": "Material alheio", "sub": "a armadilha",
+         "texto": ["\"Comente uma palavra e eu te mando o modelo\" dá alcance e cobra na reunião.", "Quem distribui o que não construiu não sabe dizer por que foi feito assim nem o que quebra no caso do cliente."]},
+        {"titulo": "Repositório aberto", "sub": "portfólio verificável",
+         "texto": ["Material publicado de graça que qualquer pessoa técnica confere em cinco minutos.", "Entrega descuidada tem efeito inverso: sem instruções e sem exemplo que roda, a pessoa conclui que o trabalho pago é igual."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "A isca mostra diagnóstico. A construção, se vier, vem depois, dentro de um serviço.",
+      "blocos": [
+        {"rot": "Isca · mini diagnóstico de prontidão (10 perguntas)", "icone": "lista",
+         "conteudo": "MINI DIAGNÓSTICO: A SUA EMPRESA ESTÁ PRONTA PARA IA?\nResponda sim ou não. Conte os \"sim\".\n\nPROCESSOS\n1. Alguém consegue descrever o processo principal do início ao fim?\n2. Esse processo está escrito em algum lugar?\nDADOS\n3. Existe um lugar oficial onde se procura antes de perguntar a alguém?\n4. Documento importante tem dono e data da última revisão?\nAPOIO\n5. A diretoria sabe e apoia a iniciativa de IA?\n6. Existe verba separada para isso?\nSISTEMAS\n7. Vocês já conectaram dois sistemas sem copiar e colar?\n8. Alguém sabe quem tem a senha de administrador de cada ferramenta?\nMEDIDA\n9. Vocês medem hoje o tempo ou o erro do processo que querem melhorar?\n10. Dá para dizer que número o projeto precisa mover?\n\n8 a 10: pronta para um piloto.\n4 a 7: comece pela preparação (processo e dados).\n0 a 3: comece pela educação da equipe.\n\n<Seu nome> · plantão gratuito de dúvidas: <dia e hora> · <link>"},
+        {"rot": "Anúncio do plantão gratuito", "icone": "megafone",
+         "conteudo": "Plantão gratuito de dúvidas sobre IA na <área/setor>\nToda <dia da semana>, das <hora> às <hora>, em <link>.\nSem inscrição. Traga a sua dúvida ou o seu processo: eu resolvo ao vivo,\nde tela aberta, e digo também quando IA não é a resposta.\nO que não faço aqui: <ex.: acesso aos sistemas da sua empresa, dados de clientes>."},
+        {"rot": "Prompt · especificação da sua isca", "icone": "chat",
+         "conteudo": "Você é consultor de IA e vai especificar uma isca gratuita que mostre\ncomo eu diagnostico, construível em até 1 hora.\nMeu nicho: <setor>\nCargo de quem eu quero atrair: <cargo>\nDor mais repetida que eu vejo: <em uma frase>\n\nEntregue:\n1. Três ideias de isca (checklist, mini diagnóstico, planilha de linha\n   de base), da mais óbvia à mais surpreendente.\n2. Para a melhor: o que a pessoa responde, o que recebe de volta e que\n   decisão ela consegue tomar sozinha com isso.\n3. Os 3 casos em que a isca dá resposta ruim, e como avisar isso nela.\n4. A frase de uma linha para divulgar.\nNada que precise de acesso aos sistemas da empresa."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Comece pequeno e mantenha por noventa dias.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Sua isca de diagnóstico", "min": "45 min",
+         "texto": "Adapte o mini diagnóstico ao seu nicho (ou use o prompt para outra isca). Teste com uma pessoa de fora antes de publicar.",
+         "pronto": "a isca está publicada ou pronta para enviar, não pede acesso a sistema nenhum e termina indicando o próximo passo (preparação, piloto ou educação)."},
+        {"id": "e2", "titulo": "2 · Data do primeiro plantão", "min": "15 min", "dias": 7,
+         "texto": "Escolha dia e hora fixos, escreva o anúncio e divulgue nos canais em que você já responde.",
+         "pronto": "o primeiro plantão tem data no seu calendário e o anúncio foi publicado em pelo menos um canal."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Onde o seu conhecimento de IA parece mais raro?",
+         "opcoes": ["Em comunidades de IA", "Em comunidades do setor que você quer atender", "Em qualquer grupo grande"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Dentro do mundo de IA todo mundo sabe o básico e você não se destaca. Num grupo de contabilidade, a mesma resposta prática vira referência."},
+        {"p": "Alguém pergunta num fórum como resolver um problema. Qual resposta constrói confiança?",
+         "opcoes": ["\"Te chamei no privado.\"", "A resposta completa ali mesmo, com o que costuma dar errado", "Um texto padrão colado em vinte discussões"],
+         "certa": 1, "ref": "passos",
+         "explica": "O histórico público de respostas úteis fica indexado e é encontrado depois por quem tem o mesmo problema. Levar para o privado parece venda."},
+        {"p": "Qual isca combina com quem vende confiança?",
+         "opcoes": ["Um robô pronto que a pessoa instala na empresa", "Um mini diagnóstico que mostra como você pensa e indica o próximo passo", "Uma lista de 100 ferramentas"],
+         "certa": 1, "ref": "codigo",
+         "explica": "A isca mostra diagnóstico, que é o que você vende. Um produto pronto vira suporte, cobrança e concorrência; lista de ferramentas não decide nada."},
+        {"p": "O que torna o plantão gratuito sustentável?",
+         "opcoes": ["Audiência grande toda semana", "Horário fixo e registro das sessões em trechos curtos", "Mudar o horário conforme a agenda"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "A qualidade da destilação importa mais que o tamanho da audiência. Três pessoas bem atendidas e bem registradas valem mais que trinta ouvintes passivos."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "A dor está escrita em público", "texto": "Fóruns e comunidades do setor, fora do mundo de IA."},
+        {"t": "Canal pela personalidade", "texto": "A rotina que você sustenta vale mais que o canal da moda."},
+        {"t": "Plantão e acervo", "texto": "Resolver ao vivo e publicar os trechos é prova gravada."},
+        {"t": "Isca de diagnóstico", "texto": "Mostra como você pensa e termina indicando o próximo passo."}
+      ]
+    }
+  ]
+}

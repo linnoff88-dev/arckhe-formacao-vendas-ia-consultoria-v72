@@ -1,0 +1,271 @@
+{
+  "slug": "entender-ia",
+  "num": 6,
+  "menu": "Which AI",
+  "titulo": "Truly understanding AI: which technology, and what not to use",
+  "titulo_curto": "Truly understanding AI",
+  "minutos": 16,
+  "lead": "Your bank's credit approval doesn't go through a chat assistant, and that's not a delay: it's engineering. Almost everything that runs at scale is still classical AI. Someone who knows how to choose between generative, classical, hybrid, or no AI stops being a vendor and becomes an advisor.",
+  "objetivo": "choose between generative AI, classical AI, hybrid, or no AI for a case, stating the reason and what stays out.",
+  "competencias": [
+    "escolher-familia-de-ia",
+    "explicar-custo-e-determinismo",
+    "enxugar-pilha-de-ferramentas"
+  ],
+  "aprende": [
+    {
+      "t": "Why scale and auditing call for classical AI"
+    },
+    {
+      "t": "Use the decision board on the client's whiteboard"
+    },
+    {
+      "t": "Recommend one tool per category, not fifty"
+    },
+    {
+      "t": "Say what not to use, and why"
+    }
+  ],
+  "hero_alt": "A person arranges sticky notes in four columns on a glass wall.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The decision board",
+      "sub": "Four outcomes. None of the questions is \"which technology is trending.\"",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "The case",
+          "sub": "the client's request",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "Volume per day?"
+            },
+            {
+              "icone": "x",
+              "t": "How much does a mistake cost?"
+            },
+            {
+              "icone": "memoria",
+              "t": "Structured data?"
+            }
+          ],
+          "detalhe": "Before choosing, gather three things: volume of operations, error tolerance, and type of data. Without these numbers, the decision becomes a guess."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Generative",
+          "sub": "create and converse",
+          "detalhe": "Create content, talk with people, handle loose text and documents, creative output, and a tolerance for errors of a few percent."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Classical",
+          "sub": "predict with precision",
+          "forte": true,
+          "detalhe": "Predict something, demand high precision, numeric and structured data, money at scale. Same input, same output, negligible cost per operation, and an explanation the regulator accepts."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Hybrid",
+          "sub": "one calculates, the other communicates",
+          "detalhe": "Multi-step flow: the classic model does the math and the grouping; the generative one interprets and communicates the result to the person who decides."
+        },
+        {
+          "icone": "x",
+          "titulo": "No AI",
+          "sub": "fixed step or cleanup",
+          "detalhe": "Often the answer is a fixed-step automation, cutting a duplicate tool, or cleaning up the process. The amateur says \"I'll build it\"; the specialist first asks whether it's needed."
+        }
+      ],
+      "legenda": "Below a certain volume, generative is great. Above it, cost per operation and predictability decide on their own."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Scenarios decided in practice",
+      "sub": "Answering on the spot, with the reason, is what changes the way the client sees you.",
+      "passos": [
+        {
+          "titulo": "Classical",
+          "sub": "precision and scale",
+          "texto": [
+            "Fraud detection, price optimization, demand forecasting and inventory optimization.",
+            "A mistake costs money directly, the decision has to be reproducible, and nobody wants a hallucinated price in the storefront."
+          ]
+        },
+        {
+          "titulo": "Generative",
+          "sub": "with a little classic help",
+          "texto": [
+            "Customer service and chat assistant, with the classic model routing the ticket or detecting the intent before answering.",
+            "Sentiment analysis today is almost all generative, with a keyword filter first: a legal-risk term goes straight to a person."
+          ]
+        },
+        {
+          "titulo": "Hybrid",
+          "sub": "both in the same flow",
+          "texto": [
+            "Content personalization (the classic picks the segment, the generative writes), churn prediction (one predicts who leaves, the other writes the message) and document processing.",
+            "A recommendation system is hybrid and labor-intensive: don't promise a short deadline."
+          ]
+        },
+        {
+          "titulo": "What not to use",
+          "sub": "is also a deliverable",
+          "texto": [
+            "A big vendor's experimental lab is fine for learning, not for the client's critical path. A tool that breaks completely on a version change is fine for a prototype.",
+            "An app that does everything is a doorway to understand what's possible, not the business's infrastructure."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "One pick per category",
+      "sub": "For an overloaded client, a list of twenty tools creates paralysis.",
+      "passos": [
+        {
+          "titulo": "Four doors",
+          "sub": "not fifty",
+          "texto": [
+            "Recommend four things, one per category: a chat assistant, a model for deeper analysis, an automation tool and an assisted-coding environment.",
+            "Each one opens weeks of learning, and the client's curiosity turns into a meeting agenda."
+          ]
+        },
+        {
+          "titulo": "Depth",
+          "sub": "one ecosystem all the way",
+          "texto": [
+            "Knowing fifty tools on the surface means knowing the name of every one and the behavior of none.",
+            "Someone who knows the automation tool in depth knows, for example, that it already has built-in tables and saves you from creating one more spreadsheet and one more account."
+          ]
+        },
+        {
+          "titulo": "Trim the stack",
+          "sub": "value on the same day",
+          "texto": [
+            "Ask item by item: why this tool, what exactly does it give you?",
+            "Often the assistant the company already pays for does the same thing. The client cuts a license and sees your value before you build anything."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The board is for drawing with the client; you run the prompts before the scoping meeting.",
+      "blocos": [
+        {
+          "rot": "Decision board (one case per block)",
+          "icone": "lista",
+          "conteudo": "CASE: <client's request in one sentence>\nVolume: <operations per day>      Cost of an error: <what happens>\nData: <structured / loose text / mixed>\n\nDECISION: [ ] generative  [ ] classic  [ ] hybrid  [ ] no AI\nREASON: <the criterion that decided it>\nWHAT STAYS OUT: <tool or approach we won't use, and why>\nQUESTION TO CONFIRM: <one question for the client>"
+        },
+        {
+          "rot": "Prompt · case classifier",
+          "icone": "chat",
+          "conteudo": "You are an AI solutions architect. Classify each case below as\nGENERATIVE, CLASSIC, HYBRID or NO AI, using these criteria and nothing else:\n- generative: creates content, converses, unstructured data, creative\n  output, tolerates an error of a few percent;\n- classic: predicts something, demands high precision, numeric and highly\n  structured data, money at scale involved;\n- hybrid: multi-step flow, where the classic calculates and the\n  generative interprets and communicates;\n- no AI: a fixed step solves it, or the problem is a messy process/data.\n\nClient cases:\n\"\"\"<paste the list of requests here, one per line>\"\"\"\nEstimated volume per case: <operations per day, if known>\nError tolerance: <what happens when the system gets it wrong>\n\nFor each case return: classification · the criterion that decided it ·\nwhat breaks if I pick another family · one question to confirm\nwith the client. When volume or error tolerance is missing,\nwrite \"undefined\" instead of guessing."
+        },
+        {
+          "rot": "Prompt · tool stack audit",
+          "icone": "lupa",
+          "conteudo": "You are a solutions architect. I want an audit with an opinion, not a\nneutral summary.\nTools in use (name, what it's for, monthly cost, number of users):\n\"\"\"<paste the list here>\"\"\"\nContext: <industry, size, what the team does day to day>\nConstraints: <data that can't leave, legacy systems, who approves>\n\nReturn three blocks:\n1. KEEP, and the exact function that justifies the subscription.\n2. CUT, what another tool on the list already covers, with the estimated\n   monthly savings and the risk of cutting.\n3. REPLACE, with which alternative, the effort and what is lost.\nAlways prefer the solution with FEWER tools. Mark every cost estimate\nas an assumption when I haven't given the number."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Think of real requests from your niche.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Three scenarios on the board",
+          "min": "30 min",
+          "texto": "Pick 3 common requests in your niche and fill in the decision board for each one. At least one must end in \"no AI\" or in hybrid.",
+          "pronto": "the 3 boards have the decision, the reason and what is left out filled in, with no \"it depends\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Lean stack",
+          "min": "20 min",
+          "texto": "List a client's paid tools (or the ones in your own routine) and run the stack audit.",
+          "pronto": "the list has at least one item under CUT with the savings and the risk stated."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "An insurance company wants to automatically decide thousands of claims a day, with high accuracy and an audit trail. What do you recommend?",
+          "opcoes": [
+            "A language model reading each claim and deciding in text",
+            "Classic AI for the decision, with generative AI only to explain the result to the reader",
+            "Wait for generative models to get cheaper"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Volume, accuracy and audit all point to classic AI: same input, same output, tiny cost and an explanation the regulator accepts. Generative AI comes in to communicate."
+        },
+        {
+          "p": "The client wants to set the prices of the store's products automatically. Which family?",
+          "opcoes": [
+            "Generative, because it's the newest",
+            "Classical",
+            "No AI"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Price optimization is classic: a numeric, reproducible decision with money at scale. Nobody wants to discover a hallucinated price in the storefront."
+        },
+        {
+          "p": "An overwhelmed client asks you to recommend tools. What do you deliver?",
+          "opcoes": [
+            "A list of the 50 best on the market",
+            "One per category: chat, analysis, automation and assisted programming",
+            "Only the tool you use the most, for everything"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A long list creates paralysis; one per category creates curiosity and next steps. One tool for everything is the trap of seeing every problem through its shape."
+        },
+        {
+          "p": "What is part of the solutions architect's deliverable?",
+          "opcoes": [
+            "Only what they build",
+            "Also what not to use and what to cut, with the reason",
+            "Only the cheapest tool"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Saying what not to adopt avoids months of rework, and the client remembers who said it. Cutting a duplicate license shows value before anything is built."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Scale chooses the technology",
+          "texto": "In millions of operations, cost and predictability matter more than capability."
+        },
+        {
+          "t": "Four outcomes",
+          "texto": "Generative, classic, hybrid or no AI, always with the reason."
+        },
+        {
+          "t": "Four doors, not fifty",
+          "texto": "One tool per category, known in depth."
+        },
+        {
+          "t": "What not to use is also a deliverable",
+          "texto": "A lean stack and a stated opinion on what doesn't survive."
+        }
+      ]
+    }
+  ]
+}

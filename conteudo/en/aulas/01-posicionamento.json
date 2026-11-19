@@ -1,0 +1,310 @@
+{
+  "slug": "posicionamento",
+  "num": 1,
+  "menu": "Position",
+  "titulo": "Why most AI consultants fail",
+  "titulo_curto": "Why consultants fail",
+  "minutos": 14,
+  "lead": "The consultant who disappears within a year almost never fails for lack of technical skill. They hear the request, deliver exactly what was requested, and the request was wrong from the start. Building got easy; what a company buys is someone who diagnoses first.",
+  "objetivo": "separate what the client asks for from what they need, and present yourself as someone who diagnoses, not someone who builds.",
+  "competencias": [
+    "posicionar-oferta",
+    "avaliar-prontidao",
+    "escolher-nivel-de-oferta"
+  ],
+  "aprende": [
+    {
+      "t": "Swap the client's request for the right question"
+    },
+    {
+      "t": "Run the company through the 4 readiness checkpoints"
+    },
+    {
+      "t": "Choose between implementation, preparation and education"
+    },
+    {
+      "t": "Write your positioning in two lines"
+    }
+  ],
+  "hero_alt": "A consultant writes in a notebook, with the laptop closed and an empty chair on the other side of the table.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From request to result",
+      "sub": "The request never arrives ready. Your job is the middle block.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "The request",
+          "sub": "what the client says",
+          "itens": [
+            {
+              "icone": "robo",
+              "t": "\"I want an agent\""
+            },
+            {
+              "icone": "video",
+              "t": "\"I saw this in a video\""
+            }
+          ],
+          "detalhe": "The client asks for the new thing they saw over the weekend. Whoever delivers the request without asking questions ends up competing on price with anyone who builds the same thing."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "The 4 checkpoints",
+          "sub": "ten minutes of conversation",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Written processes?"
+            },
+            {
+              "icone": "memoria",
+              "t": "Where does the data live?"
+            },
+            {
+              "icone": "usuario",
+              "t": "Does leadership back it?"
+            },
+            {
+              "icone": "chip",
+              "t": "Have they automated anything yet?"
+            }
+          ],
+          "detalhe": "Four questions before you sell anything: processes, data, leadership support and systems. Hesitation in the answer is already a diagnosis."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "The offer level",
+          "sub": "three products, not one",
+          "itens": [
+            {
+              "icone": "chip",
+              "t": "Implementation"
+            },
+            {
+              "icone": "pasta",
+              "t": "Preparation"
+            },
+            {
+              "icone": "megafone",
+              "t": "Education"
+            }
+          ],
+          "detalhe": "The checkpoint results choose the product. With all three ready, you never leave a call empty-handed: the unprepared client becomes a different contract, not a problem."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "The result",
+          "sub": "a number that changed",
+          "detalhe": "Motion is delivering something. A result is changing a number the client was already tracking. The consultant who lasts sells the second."
+        }
+      ],
+      "volta": "Failed 2 or more checkpoints? Go back and sell preparation, not implementation.",
+      "legenda": "Building can be part of implementation. What the company pays for, at all three levels, is the right decision."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The 4 readiness checkpoints",
+      "sub": "Click on each one. They fit in ten minutes of conversation.",
+      "passos": [
+        {
+          "titulo": "Processes",
+          "sub": "do they exist? are they written down?",
+          "texto": [
+            "Ask someone to describe a process from start to finish. If no one can, automating it is building on sand.",
+            "A company with no documented process doesn't get better with AI: it just gets faster at making mistakes."
+          ],
+          "exemplo": {
+            "rot": "Question",
+            "texto": "Walk me through, step by step, what happens from the moment an order comes in until it's delivered."
+          }
+        },
+        {
+          "titulo": "Data",
+          "sub": "where does it live?",
+          "texto": [
+            "Database, loose spreadsheets, or in three people's heads? Ask whether there is a document that explains what each field means.",
+            "Having that document is a rare sign of maturity."
+          ],
+          "exemplo": {
+            "rot": "Question",
+            "texto": "If I need a client's history, where do I look first?"
+          }
+        },
+        {
+          "titulo": "Support",
+          "sub": "does leadership know you exist?",
+          "texto": [
+            "Hired by a manager without leadership's sign-off, you are a foreign body in the company.",
+            "Projects like this die at the first budget cut, no matter how good the work is."
+          ],
+          "exemplo": {
+            "rot": "Question",
+            "texto": "Who else needs to approve this for it to become a company standard?"
+          }
+        },
+        {
+          "titulo": "Systems",
+          "sub": "have they automated anything yet?",
+          "texto": [
+            "A company that has never connected two systems is at a different stage.",
+            "This doesn't stop the project, but it changes the timeline, the price, and how much training you include."
+          ],
+          "exemplo": {
+            "rot": "The rule of two",
+            "texto": "Failed two or more checkpoints? Don't sell implementation. Sell preparation."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The three offer levels",
+      "sub": "The top step is not the most profitable one.",
+      "passos": [
+        {
+          "titulo": "Implementation",
+          "sub": "passed the checkpoints",
+          "texto": [
+            "You build the automations or guide the people who build them. Building is part of the service, not the whole service.",
+            "Pair it with a small monthly advisory so you stay close after delivery."
+          ]
+        },
+        {
+          "titulo": "Preparation",
+          "sub": "failed 2 or more",
+          "texto": [
+            "You organize process, data, and owners before any technology.",
+            "It has less competition and less technical risk, and it's easier to get approved inside the company. Almost no one offers it under its own name."
+          ]
+        },
+        {
+          "titulo": "Education",
+          "sub": "the team needs the basics",
+          "texto": [
+            "Hands-on workshops with the tools the company already pays for.",
+            "It's the cheapest way in and the one that generates the most work afterward. Lesson 8 shows how to set up the workshop."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Replace the text between < > with your own. Use it in an AI assistant of your choice.",
+      "blocos": [
+        {
+          "rot": "Positioning statement (2 lines)",
+          "icone": "caneta",
+          "conteudo": "I help <type of company> <result as a number or decision> starting with a <timeframe> diagnostic.\nI don't <what you don't do: e.g. sell tools before the diagnostic, run campaigns, program legacy systems>."
+        },
+        {
+          "rot": "Prompt · readiness script for the next call",
+          "icone": "chat",
+          "conteudo": "You are an experienced AI consultant. I am going to assess a company's readiness\nbefore proposing any automation.\nCompany: <industry and what it sells>\nSize: <approximate number of employees>\nArea that contacted me: <area or job title>\n\nGenerate a diagnostic questionnaire with 4 blocks: processes, data,\nleadership support, and systems. For each block:\n- 3 open questions, in the language of someone who works in that industry\n- what a GOOD answer looks like\n- what a BAD answer looks like\n- the practical consequence of each bad answer for the project\nAt the end, write the sentence I use to say \"you're not ready\nyet\" without offending anyone."
+        },
+        {
+          "rot": "Prompt · test your positioning",
+          "icone": "lupa",
+          "conteudo": "This is the description of my AI consulting service:\n\"\"\"<paste here how you describe yourself today>\"\"\"\n\nDo three things, in this order:\n1. Rewrite my description the way a skeptical buyer understands it.\n2. List 5 hard questions a board would ask that my\n   description doesn't answer.\n3. Propose 3 new versions: one focused on readiness, one on cost\n   reduction, one on risk. Maximum 2 sentences each.\nDon't compliment me. Point out where it's vague."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Do this before moving on to lesson 2.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your positioning statement",
+          "min": "20 min",
+          "texto": "Fill in the two-line template. Run the \"test your positioning\" prompt and rewrite until the 5 hard questions have answers.",
+          "pronto": "the statement has 2 lines, doesn't mention any tool, and the second line says what you do <b>not</b> do."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your own diagnostic",
+          "min": "15 min",
+          "texto": "Answer in writing: of your last 3 clients (or conversations), how many had a documented process? Could the person who signed renew on their own? Do you have a preparation offer with a name, scope, and price?",
+          "pronto": "the 3 answers are written down and your preparation offer has a name and a one-line scope."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "A company failed the process and data checkpoints. What do you sell?",
+          "opcoes": [
+            "The implementation anyway, with a longer timeline",
+            "A readiness project: organize the process and data first",
+            "Nothing: turn the client down and end the conversation"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Two failures change the product: readiness. Selling implementation on top of messy processes and data just speeds up the mistakes. Turning them down wastes a client who has a different contract to close."
+        },
+        {
+          "p": "What does your positioning statement need to have?",
+          "opcoes": [
+            "The list of tools you master",
+            "The result you deliver and what you don't do",
+            "Your certificates and years of experience"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Positioning is the short answer to \"why you and not someone else.\" Saying what you don't do builds trust. A list of tools puts you in a price fight with the people who build."
+        },
+        {
+          "p": "The client asks for \"an agent.\" What is usually the right answer?",
+          "opcoes": [
+            "An autonomous agent, because that's what they asked for",
+            "Almost always a fixed-step automation; an agent only where the path changes every time",
+            "Recommend the newest tool on the market"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Automation is a fixed step-by-step: predictable, cheap and easy to audit. An agent decides the steps on its own and comes in only where the path really changes. Mixing the two up in front of the client costs you credibility."
+        },
+        {
+          "p": "You were hired by a manager the board doesn't know. What trap is this?",
+          "opcoes": [
+            "Tool before process",
+            "Wrong sponsorship",
+            "Charging too little"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Without leadership support, you become the problem of the people who didn't hire you, and the project dies at the first budget cut. It's the support checkpoint, and it's worth asking about in the very first conversation."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Positioning decides price",
+          "texto": "Whoever delivers the request competes on price; whoever delivers the diagnosis sets their own."
+        },
+        {
+          "t": "Four checkpoints",
+          "texto": "Processes, data, leadership support and systems. Two failures change the product."
+        },
+        {
+          "t": "Three levels",
+          "texto": "Implementation, readiness and education. Almost nobody offers readiness under its own name."
+        },
+        {
+          "t": "Honesty is strategy",
+          "texto": "You close fewer deals, but with people who understood what they'll get, and the client stays."
+        }
+      ]
+    }
+  ]
+}

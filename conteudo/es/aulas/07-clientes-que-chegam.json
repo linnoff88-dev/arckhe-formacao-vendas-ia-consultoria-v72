@@ -1,0 +1,222 @@
+{
+  "slug": "clientes-que-chegam",
+  "num": 7,
+  "menu": "Atraer",
+  "titulo": "Clientes que llegan solos",
+  "titulo_curto": "Clientes que llegan",
+  "minutos": 15,
+  "lead": "El mensaje en frío aún funciona, pero llega a bandejas de entrada llenas de mensajes automáticos iguales. Lo que se acumula es lo contrario: respuestas útiles en público, un consultorio gratuito de dudas y un imán de clientes que muestra cómo diagnosticas. Quien llega por ahí ya te vio trabajar.",
+  "objetivo": "armar el consultorio gratuito y un imán de clientes que muestren diagnóstico, no construcción, y fijar la fecha del primer consultorio.",
+  "competencias": [
+    "escolher-canal-de-entrada",
+    "conduzir-plantao-gratuito",
+    "criar-isca-de-diagnostico"
+  ],
+  "aprende": [
+    {
+      "t": "Elegir el canal que va contigo"
+    },
+    {
+      "t": "Responder en público sin parecer vendedor"
+    },
+    {
+      "t": "Armar el consultorio gratuito de dudas"
+    },
+    {
+      "t": "Crear un imán de clientes que muestre tu diagnóstico"
+    }
+  ],
+  "hero_alt": "Consultora atiende un consultorio de dudas en línea, con varios participantes en una videollamada.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "La rueda que gira sola",
+      "sub": "Tú entregas valor, registras la entrega, y el registro entrega valor de nuevo.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Responder en público",
+          "sub": "donde se escribe el dolor",
+          "detalhe": "Foros públicos y comunidades del sector que quieres atender (fuera del mundo de la IA). Ahí la persona describe el problema con sus propias palabras, y lo que para ti es obvio les parece raro."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Consultorio gratuito de dudas",
+          "sub": "3 a 5 h fijas por semana",
+          "forte": true,
+          "detalhe": "Horario fijo, sin inscripción complicada. Cualquiera entra, pregunta, y tú resuelves en vivo con la pantalla abierta. Los errores en vivo muestran que lo haces de verdad."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Imán de clientes de diagnóstico",
+          "sub": "útil gratis",
+          "detalhe": "Una lista de verificación o mini diagnóstico que la persona usa por su cuenta y que muestra cómo piensas: los 4 puntos de control, las 3 preguntas, la línea base. Valor percibido alto, tu tiempo bajo."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Acervo",
+          "sub": "fragmentos cortos publicados",
+          "detalhe": "Cada sesión da varios fragmentos publicables. Cuando un cliente pide un caso, le mandas el acervo. La prueba grabada vale más que un currículum."
+        }
+      ],
+      "volta": "El acervo lleva gente nueva al consultorio.",
+      "legenda": "Elige el canal según tu personalidad, no según la receta de un gurú. Una rutina abandonada en tres semanas cuesta más que cualquier canal."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Presencia que construye confianza",
+      "sub": "Lo que funciona y lo que quema tu nombre.",
+      "passos": [
+        {
+          "titulo": "Foros y comunidades",
+          "sub": "responder completo",
+          "texto": [
+            "Responde la pregunta ahí mismo, con el paso a paso real y lo que suele salir mal.",
+            "Di cuándo la solución más simple no es tu especialidad. Nunca \"te escribí por privado\" en lugar de la respuesta."
+          ]
+        },
+        {
+          "titulo": "Red profesional",
+          "sub": "sin texto automático",
+          "texto": [
+            "La gente reconoce el texto generado y publicado sin revisión. Eso diluye tu marca.",
+            "Primero responde con profundidad en publicaciones de gran alcance; solo después publica lo tuyo."
+          ]
+        },
+        {
+          "titulo": "Material ajeno",
+          "sub": "la trampa",
+          "texto": [
+            "\"Comenta una palabra y te mando la plantilla\" da alcance y se cobra en la reunión.",
+            "Quien distribuye lo que no construyó no sabe decir por qué se hizo así ni qué se rompe en el caso del cliente."
+          ]
+        },
+        {
+          "titulo": "Repositorio abierto",
+          "sub": "portafolio verificable",
+          "texto": [
+            "Material publicado gratis que cualquier persona técnica revisa en cinco minutos.",
+            "Una entrega descuidada tiene el efecto contrario: sin instrucciones y sin un ejemplo que funcione, la persona concluye que el trabajo pagado es igual."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El imán muestra el diagnóstico. La construcción, si llega, viene después, dentro de un servicio.",
+      "blocos": [
+        {
+          "rot": "Imán · mini diagnóstico de preparación (10 preguntas)",
+          "icone": "lista",
+          "conteudo": "MINI DIAGNÓSTICO: ¿TU EMPRESA ESTÁ LISTA PARA LA IA?\nResponde sí o no. Cuenta los \"sí\".\n\nPROCESOS\n1. ¿Alguien puede describir el proceso principal de principio a fin?\n2. ¿Ese proceso está escrito en algún lugar?\nDATOS\n3. ¿Existe un lugar oficial donde se busca antes de preguntarle a alguien?\n4. ¿Los documentos importantes tienen responsable y fecha de la última revisión?\nRESPALDO\n5. ¿La dirección conoce y apoya la iniciativa de IA?\n6. ¿Hay presupuesto separado para esto?\nSISTEMAS\n7. ¿Ya han conectado dos sistemas sin copiar y pegar?\n8. ¿Alguien sabe quién tiene la contraseña de administrador de cada herramienta?\nMEDIDA\n9. ¿Hoy miden el tiempo o el error del proceso que quieren mejorar?\n10. ¿Se puede decir qué número debe mover el proyecto?\n\n8 a 10: lista para un piloto.\n4 a 7: empieza por la preparación (proceso y datos).\n0 a 3: empieza por la educación del equipo.\n\n<Tu nombre> · consultorio gratuito de dudas: <día y hora> · <enlace>"
+        },
+        {
+          "rot": "Anuncio del consultorio gratuito de dudas",
+          "icone": "megafone",
+          "conteudo": "Consultorio gratuito de dudas sobre IA en <área/sector>\nTodos los <día de la semana>, de <hora> a <hora>, en <enlace>.\nSin inscripción. Trae tu duda o tu proceso: lo resuelvo en vivo,\ncon la pantalla abierta, y también te digo cuándo la IA no es la respuesta.\nLo que no hago aquí: <ej.: acceso a los sistemas de tu empresa, datos de clientes>."
+        },
+        {
+          "rot": "Prompt · especificación de tu imán de clientes",
+          "icone": "chat",
+          "conteudo": "Eres consultor de IA y vas a especificar un imán de clientes gratuito que muestre\ncómo diagnostico, construible en hasta 1 hora.\nMi nicho: <sector>\nCargo de quien quiero atraer: <cargo>\nDolor más repetido que veo: <en una frase>\n\nEntrega:\n1. Tres ideas de imán (lista de verificación, mini diagnóstico, hoja de cálculo de línea\n   base), de la más obvia a la más sorprendente.\n2. Para la mejor: qué responde la persona, qué recibe de vuelta y qué\n   decisión puede tomar sola con eso.\n3. Los 3 casos en que el imán da una mala respuesta, y cómo avisarlo en él.\n4. La frase de una línea para difundirlo.\nNada que necesite acceso a los sistemas de la empresa."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Empieza pequeño y manténlo por noventa días.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Tu imán de diagnóstico",
+          "min": "45 min",
+          "texto": "Adapta el mini diagnóstico a tu nicho (o usa el prompt para otro imán). Pruébalo con una persona de fuera antes de publicar.",
+          "pronto": "el imán está publicado o listo para enviar, no pide acceso a ningún sistema y termina indicando el siguiente paso (preparación, piloto o educación)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Fecha del primer consultorio",
+          "min": "15 min",
+          "dias": 7,
+          "texto": "Elige un día y una hora fijos, escribe el anuncio y compártelo en los canales donde ya respondes.",
+          "pronto": "el primer consultorio tiene fecha en tu calendario y el anuncio fue publicado en al menos un canal."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Dónde tu conocimiento de IA parece más escaso?",
+          "opcoes": [
+            "En comunidades de IA",
+            "En comunidades del sector que quieres atender",
+            "En cualquier grupo grande"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Dentro del mundo de IA todos saben lo básico y tú no destacas. En un grupo de contabilidad, la misma respuesta práctica se vuelve una referencia."
+        },
+        {
+          "p": "Alguien pregunta en un foro cómo resolver un problema. ¿Qué respuesta construye confianza?",
+          "opcoes": [
+            "\"Te escribí por privado.\"",
+            "La respuesta completa ahí mismo, con lo que suele salir mal",
+            "Un texto estándar pegado en veinte discusiones"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El historial público de respuestas útiles queda indexado y luego lo encuentra quien tiene el mismo problema. Llevarlo al privado parece venta."
+        },
+        {
+          "p": "¿Qué imán de clientes combina con quien vende confianza?",
+          "opcoes": [
+            "Un robot listo que la persona instala en la empresa",
+            "Un mini diagnóstico que muestra cómo piensas e indica el siguiente paso",
+            "Una lista de 100 herramientas"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "El imán muestra diagnóstico, que es lo que vendes. Un producto listo se vuelve soporte, cobros y competencia; una lista de herramientas no decide nada."
+        },
+        {
+          "p": "¿Qué hace sostenible el consultorio gratuito de dudas?",
+          "opcoes": [
+            "Una audiencia grande cada semana",
+            "Horario fijo y registro de las sesiones en fragmentos cortos",
+            "Cambiar el horario según la agenda"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "La calidad de la destilación importa más que el tamaño de la audiencia. Tres personas bien atendidas y bien registradas valen más que treinta oyentes pasivos."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "El dolor está escrito en público",
+          "texto": "Foros y comunidades del sector, fuera del mundo de IA."
+        },
+        {
+          "t": "Canal según tu personalidad",
+          "texto": "La rutina que sostienes vale más que el canal de moda."
+        },
+        {
+          "t": "Consultorio y archivo",
+          "texto": "Resolver en vivo y publicar los fragmentos es una prueba grabada."
+        },
+        {
+          "t": "Imán de clientes de diagnóstico",
+          "texto": "Muestra cómo piensas y termina indicando el siguiente paso."
+        }
+      ]
+    }
+  ]
+}

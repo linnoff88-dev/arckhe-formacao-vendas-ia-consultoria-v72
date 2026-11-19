@@ -1,0 +1,280 @@
+{
+  "slug": "autopsia-call",
+  "num": 4,
+  "menu": "Autopsy",
+  "titulo": "Call autopsy: learning from your own conversation",
+  "titulo_curto": "Call autopsy",
+  "minutos": 16,
+  "lead": "You walk out of the conversation thinking you were clear. That feeling comes from the same brain that was busy talking, and it has no way to judge. The autopsy is the cold analysis of the call after it ends, with criteria set beforehand, one score per dimension and a single adjustment for the next one.",
+  "objetivo": "score your own call on the 6 dimensions, with permission and anonymized data, and pick a single adjustment for the next one.",
+  "competencias": [
+    "auditar-a-propria-call",
+    "anonimizar-material",
+    "corrigir-um-vicio-por-vez"
+  ],
+  "aprende": [
+    {
+      "t": "Prepare the material with permission and no sensitive data"
+    },
+    {
+      "t": "Build your call auditor with a persona, a task and criteria"
+    },
+    {
+      "t": "Score the 6 dimensions and read the column, not the row"
+    },
+    {
+      "t": "Turn down the scope you can't deliver"
+    }
+  ],
+  "hero_alt": "A consultant wearing headphones reviews a call recording on a laptop, with a scoring sheet beside her.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The autopsy loop",
+      "sub": "One loop per week, one habit at a time.",
+      "nos": [
+        {
+          "icone": "cadeado",
+          "titulo": "Authorize",
+          "sub": "before recording",
+          "detalhe": "Only analyze material with permission from the people in the conversation. Recording or transcribing someone without telling them is a privacy-law issue (LGPD) and a trust issue."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Anonymize",
+          "sub": "strip out the sensitive parts",
+          "detalhe": "Company name, contract number, end-customer data and anything under confidentiality come out first. If you can't anonymize, use only your own lines: that's enough for the 6 dimensions."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Audit",
+          "sub": "persona, task, criteria",
+          "forte": true,
+          "detalhe": "The auditor is a well-written prompt you reuse. Without a persona, you get praise. Without criteria, you get a summary. Every score has to come with the passage that justifies it."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Scorecard",
+          "sub": "6 dimensions",
+          "detalhe": "Clarity, vocal delivery, authority, posture, questions and listening, resonance. One row per conversation in a spreadsheet."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "1 adjustment",
+          "sub": "just one",
+          "detalhe": "Pick the habit that showed up most, write it on a piece of paper next to your screen, and ignore the others for seven days. Going after six at once leaves you stuck in the middle of a sentence."
+        }
+      ],
+      "volta": "The following week, a new call, a new autopsy, the next habit.",
+      "legenda": "Feedback from a machine isn't a threat: you take it in better than criticism from a person. It's not smarter; it just doesn't compete with you."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The 6 dimensions of the scorecard",
+      "sub": "Always the same ones, conversation after conversation.",
+      "passos": [
+        {
+          "titulo": "Clarity",
+          "sub": "can the other person repeat it?",
+          "texto": [
+            "One idea per sentence, short sentences, technical terms defined the first time.",
+            "It's measured by what the client could repeat, not by what you said."
+          ]
+        },
+        {
+          "titulo": "Vocal delivery",
+          "sub": "pace and pauses",
+          "texto": [
+            "A flat voice makes a correct argument sound boring.",
+            "Almost everyone speeds up on the recommendation and the price. Mark in your script where to slow down."
+          ]
+        },
+        {
+          "titulo": "Authority",
+          "sub": "state, don't suggest",
+          "texto": [
+            "\"I recommend X\" and \"maybe we could try X\" carry the same information and are worth very different amounts.",
+            "A statement ends with your pitch going down."
+          ]
+        },
+        {
+          "titulo": "Posture",
+          "sub": "presence on screen",
+          "texto": [
+            "Look at the lens at the moments that matter: recommendation, price, commitment.",
+            "Leaning slightly forward signals attention. Keep gestures small inside a small frame."
+          ]
+        },
+        {
+          "titulo": "Questions and listening",
+          "sub": "the one almost everyone gets wrong",
+          "texto": [
+            "An open question, silence, and a second question built on the answer.",
+            "Ask, then count to three before you speak. Answering your own question to escape the silence kills the answer that was about to come."
+          ]
+        },
+        {
+          "titulo": "Resonance",
+          "sub": "did your points land?",
+          "texto": [
+            "At the end, does the client repeat one of your phrases in their own words?",
+            "If they don't repeat it, it didn't land. In the discovery meeting, they should do most of the talking."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "When the autopsy is about a failure",
+      "sub": "An anonymous case of a consulting project that had to be handed back.",
+      "passos": [
+        {
+          "titulo": "The request",
+          "sub": "three big things",
+          "texto": [
+            "Train the ads team on three AI platforms, generate ad concepts, and teach them to produce the assets.",
+            "The client warned: \"I want practical use, don't show me ten tools and wish me luck\"."
+          ]
+        },
+        {
+          "titulo": "The ignored signals",
+          "sub": "any one would have been enough",
+          "texto": [
+            "The warning in the request itself was read as enthusiasm.",
+            "The consultant knew how the platforms work but had never run campaigns. And the scope didn't fit the contracted time."
+          ]
+        },
+        {
+          "titulo": "The lesson",
+          "sub": "packaging is service",
+          "texto": [
+            "The advice (hire a specialist) was right; the handoff was careless. The right answer, handed over carelessly, looks like indifference.",
+            "Outside your own field, repackage it: declared curation, a step-by-step plan, your AI layer, and a plan with an owner."
+          ]
+        },
+        {
+          "titulo": "Decline early",
+          "sub": "costs one conversation",
+          "texto": [
+            "Refusing later costs the refunded amount and your reputation."
+          ],
+          "exemplo": {
+            "rot": "Phrase",
+            "texto": "I understand how this works, but I've never run it myself. I can give you the structure and the AI layer; the execution needs someone who lives this day to day."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Paste only anonymized, authorized material.",
+      "blocos": [
+        {
+          "rot": "Prompt · your call auditor",
+          "icone": "chat",
+          "conteudo": "You are an expert in communication and executive presence in B2B technology\nconsulting. You combine linguistic analysis, sales psychology and\nreading of nonverbal communication. Your analysis is frank and direct, but\nconstructive and always focused on action.\n\nMaterial (already anonymized and authorized): \"\"\"<paste your lines here>\"\"\"\nMeeting type: <discovery | paid consulting | proposal>\nGoal I had: <what I wanted to happen by the end>\n\nScore each dimension from 0 to 10, quoting the exact passage as evidence:\n1. clarity 2. vocal delivery 3. authority\n4. posture and presence 5. quality of questions and listening\n6. resonance (did my main points land?)\nThen deliver:\n- the estimated share of time I talked vs. the client talked\n- the 3 filler words I repeated most, with the count\n- the moments when the client seemed confused, with the passage right before\n- ONE priority fix for the next conversation, and only one\nDon't praise to soften the blow."
+        },
+        {
+          "rot": "Scorecard · one line per call (spreadsheet)",
+          "icone": "grafico",
+          "conteudo": "date;meeting type;clarity;vocal delivery;authority;posture;questions and listening;resonance;% I talked;next adjustment\n<yyyy-mm-dd>;discovery;<0-10>;<0-10>;<0-10>;<0-10>;<0-10>;<0-10>;<%>;<one habit only>"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "It can be a real call (with permission) or the simulated call from lesson 2, redone out loud and recorded with just you.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your call scorecard",
+          "min": "30 min",
+          "texto": "Prepare the material (authorized and anonymized), run the auditor, and move the scores to the scorecard.",
+          "pronto": "the scorecard line has all 6 scores, each with the passage that justifies it, and the \"next adjustment\" column has a single habit."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your refusal phrase",
+          "min": "10 min",
+          "texto": "Think of a request you got (or could get) outside your domain. Write the phrase that narrows the scope or says no before you accept the money.",
+          "pronto": "the phrase says what you deliver, what stays out, and who should do the part that isn't yours."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "In a discovery meeting, what share of talking time shows you led well?",
+          "opcoes": [
+            "You talk about 80%, showing mastery",
+            "Half and half",
+            "The client talks most of the time"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "In discovery you're there to listen. There's no right ratio for every meeting, but using the wrong one in discovery costs you the diagnosis."
+        },
+        {
+          "p": "The call material has the client's name and patient data. What do you do before the auditor?",
+          "opcoes": [
+            "Paste everything, the assistant is trustworthy",
+            "Get authorization and strip the sensitive parts; if that's not possible, use only your own lines",
+            "Give up on the call autopsy"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "End-customer data and confidential information don't go into any tool without authorization. Your own lines are enough for the 6 dimensions."
+        },
+        {
+          "p": "The autopsy showed five bad habits. What do you fix this week?",
+          "opcoes": [
+            "All five, while it's fresh",
+            "Only the one that showed up most",
+            "None, the score from a single call says nothing"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Attention split across six fixes trips you up mid-sentence. One habit per week compounds. A single score says little; the column after several calls says a lot."
+        },
+        {
+          "p": "The client asks for something outside your domain. Which way out is acceptable?",
+          "opcoes": [
+            "Pretend you've mastered it",
+            "Send the contact of a specialist and end it there",
+            "Say you're not a specialist and repackage: curation, roadmap, your AI layer and a plan"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Pretending collapses at the first specific question; handing off a contact was the mistake of the refunded consulting job. Repackaging honestly is still a high-standard service."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Feeling is not data",
+          "texto": "Only analysis with criteria shows how much you talked and where the client got lost."
+        },
+        {
+          "t": "Authorization first",
+          "texto": "Authorized, anonymized material; if that's not possible, only your own lines."
+        },
+        {
+          "t": "Six dimensions, always the same",
+          "texto": "The value is in the column after several calls."
+        },
+        {
+          "t": "One habit per week",
+          "texto": "And packaging is a service: outside your domain, repackage or decline up front."
+        }
+      ]
+    }
+  ]
+}

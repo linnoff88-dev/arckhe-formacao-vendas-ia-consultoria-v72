@@ -1,0 +1,222 @@
+{
+  "slug": "clientes-que-chegam",
+  "num": 7,
+  "menu": "Attract",
+  "titulo": "Clients who come to you",
+  "titulo_curto": "Clients who arrive",
+  "minutos": 15,
+  "lead": "Cold messages still work, but they land in inboxes full of identical automated messages. What builds up is the opposite: useful answers in public, a free office hours for questions and a lead magnet that shows how you diagnose. People who arrive through them have already seen you work.",
+  "objetivo": "set up the free office hours and a lead magnet that show diagnosis, not building, and set the date of the first office hours.",
+  "competencias": [
+    "escolher-canal-de-entrada",
+    "conduzir-plantao-gratuito",
+    "criar-isca-de-diagnostico"
+  ],
+  "aprende": [
+    {
+      "t": "Choose the channel that suits you"
+    },
+    {
+      "t": "Answer in public without sounding like a salesperson"
+    },
+    {
+      "t": "Set up the free office hours for questions"
+    },
+    {
+      "t": "Create a lead magnet that shows your diagnosis"
+    }
+  ],
+  "hero_alt": "A consultant runs an online office hours session for questions, with several participants on a video call.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The wheel that turns on its own",
+      "sub": "You deliver value, you record the delivery, and the record delivers value again.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Answer in public",
+          "sub": "where the pain is written",
+          "detalhe": "Public forums and communities in the industry you want to serve (outside the AI world). There, people describe the problem in their own words, and what is obvious to you looks rare."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Free office hours",
+          "sub": "3 to 5 fixed hours per week",
+          "forte": true,
+          "detalhe": "Fixed schedule, no complicated sign-up. Anyone can join, ask, and you solve it live with your screen open. Live mistakes show that you really do the work."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Diagnostic lead magnet",
+          "sub": "useful for free",
+          "detalhe": "A checklist or mini diagnostic that people use on their own and that shows how you think: the 4 checkpoints, the 3 questions, the baseline. High perceived value, low time from you."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Archive",
+          "sub": "short published excerpts",
+          "detalhe": "Each session yields a few publishable excerpts. When a client asks for a case, you send the archive. Recorded proof beats a résumé."
+        }
+      ],
+      "volta": "The archive brings new people to the office hours.",
+      "legenda": "Choose the channel based on your personality, not on some guru's recipe. A routine abandoned after three weeks costs more than any channel."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Presence that builds trust",
+      "sub": "What works and what burns your name.",
+      "passos": [
+        {
+          "titulo": "Forums and communities",
+          "sub": "answer in full",
+          "texto": [
+            "Answer the question right there, with the real step by step and what usually goes wrong.",
+            "Say so when the simplest solution is not your specialty. Never \"I messaged you privately\" in place of the answer."
+          ]
+        },
+        {
+          "titulo": "Professional network",
+          "sub": "no auto-generated text",
+          "texto": [
+            "People recognize text that was generated and published without review. It dilutes your brand.",
+            "First answer in depth on high-reach posts; only then publish your own material."
+          ]
+        },
+        {
+          "titulo": "Someone else's material",
+          "sub": "the trap",
+          "texto": [
+            "\"Comment one word and I'll send you the template\" gets reach and bills you in the meeting.",
+            "Whoever hands out what they did not build cannot say why it was made that way or what breaks in the client's case."
+          ]
+        },
+        {
+          "titulo": "Open repository",
+          "sub": "verifiable portfolio",
+          "texto": [
+            "Material published for free that any technical person can check in five minutes.",
+            "Careless delivery has the opposite effect: with no instructions and no example that runs, people conclude the paid work is the same."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The lead magnet shows diagnosis. The build, if it comes, comes later, inside a service.",
+      "blocos": [
+        {
+          "rot": "Lead magnet · readiness mini diagnostic (10 questions)",
+          "icone": "lista",
+          "conteudo": "MINI DIAGNOSTIC: IS YOUR COMPANY READY FOR AI?\nAnswer yes or no. Count the \"yes\" answers.\n\nPROCESSES\n1. Can someone describe the main process from start to finish?\n2. Is that process written down somewhere?\nDATA\n3. Is there an official place where people look before asking someone?\n4. Does each important document have an owner and a date of its last review?\nSUPPORT\n5. Does leadership know about and support the AI initiative?\n6. Is there a separate budget for it?\nSYSTEMS\n7. Have you already connected two systems without copy and paste?\n8. Does someone know who holds the admin password for each tool?\nMEASUREMENT\n9. Do you currently measure the time or error rate of the process you want to improve?\n10. Can you say which number the project needs to move?\n\n8 to 10: ready for a pilot.\n4 to 7: start with preparation (process and data).\n0 to 3: start with training the team.\n\n<Your name> · free Q&A office hours: <day and time> · <link>"
+        },
+        {
+          "rot": "Free office hours announcement",
+          "icone": "megafone",
+          "conteudo": "Free office hours for AI questions in <area/industry>\nEvery <day of the week>, from <time> to <time>, at <link>.\nNo sign-up. Bring your question or your process: I'll solve it live,\nwith my screen open, and I'll also tell you when AI is not the answer.\nWhat I don't do here: <e.g., access to your company's systems, client data>."
+        },
+        {
+          "rot": "Prompt · specification for your lead magnet",
+          "icone": "chat",
+          "conteudo": "You are an AI consultant and you will specify a free lead magnet that shows\nhow I diagnose, buildable in up to 1 hour.\nMy niche: <sector>\nJob title of the person I want to attract: <job title>\nMost repeated pain I see: <in one sentence>\n\nDeliver:\n1. Three lead magnet ideas (checklist, mini diagnostic, baseline\n   spreadsheet), from the most obvious to the most surprising.\n2. For the best one: what the person answers, what they get back and what\n   decision they can make on their own with it.\n3. The 3 cases where the lead magnet gives a bad answer, and how to warn about that in it.\n4. The one-line sentence to promote it.\nNothing that requires access to the company's systems."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Start small and keep it going for ninety days.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your diagnostic lead magnet",
+          "min": "45 min",
+          "texto": "Adapt the mini diagnostic to your niche (or use the prompt for another lead magnet). Test it with an outsider before publishing.",
+          "pronto": "the lead magnet is published or ready to send, requires no system access at all, and ends by pointing to the next step (preparation, pilot or training)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Date of your first office hours",
+          "min": "15 min",
+          "dias": 7,
+          "texto": "Pick a fixed day and time, write the announcement, and share it in the channels where you already answer questions.",
+          "pronto": "your first office hours has a date on your calendar and the announcement is published in at least one channel."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Where does your AI knowledge look the rarest?",
+          "opcoes": [
+            "In AI communities",
+            "In communities of the industry you want to serve",
+            "In any large group"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Inside the AI world, everyone knows the basics and you don't stand out. In an accounting group, the same practical answer becomes a reference."
+        },
+        {
+          "p": "Someone asks in a forum how to solve a problem. Which answer builds trust?",
+          "opcoes": [
+            "\"I messaged you privately.\"",
+            "The full answer right there, including what usually goes wrong",
+            "A canned text pasted into twenty discussions"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Your public history of useful answers gets indexed and is found later by people with the same problem. Taking it to private feels like a sales pitch."
+        },
+        {
+          "p": "Which lead magnet fits someone who sells trust?",
+          "opcoes": [
+            "A ready-made bot the person installs in their company",
+            "A mini diagnostic that shows how you think and points to the next step",
+            "A list of 100 tools"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "The lead magnet shows diagnosis, which is what you sell. A ready-made product turns into support, billing and competition; a list of tools decides nothing."
+        },
+        {
+          "p": "What makes free office hours sustainable?",
+          "opcoes": [
+            "A big audience every week",
+            "A fixed time and a record of the sessions in short excerpts",
+            "Changing the time to fit your schedule"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The quality of the distilling matters more than the size of the audience. Three people well served and well recorded are worth more than thirty passive listeners."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "The pain is written in public",
+          "texto": "Forums and industry communities, outside the AI world."
+        },
+        {
+          "t": "Channel for personality",
+          "texto": "The routine you can sustain is worth more than the trendy channel."
+        },
+        {
+          "t": "Office hours and archive",
+          "texto": "Solving live and publishing the excerpts is recorded proof."
+        },
+        {
+          "t": "Diagnostic lead magnet",
+          "texto": "It shows how you think and ends by pointing to the next step."
+        }
+      ]
+    }
+  ]
+}

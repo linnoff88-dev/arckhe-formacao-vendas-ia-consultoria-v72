@@ -1,0 +1,131 @@
+{
+  "slug": "autopsia-call",
+  "num": 4,
+  "menu": "Autópsia",
+  "titulo": "Autópsia da call: aprender com a própria conversa",
+  "titulo_curto": "Autópsia da call",
+  "minutos": 16,
+  "lead": "Você sai da conversa achando que foi claro. Essa sensação vem do mesmo cérebro que estava ocupado falando, e ele não tem como avaliar. A autópsia é a análise fria da call já encerrada, com critérios definidos antes, uma nota por dimensão e um único ajuste para a próxima.",
+  "objetivo": "pontuar a própria call nas 6 dimensões, com autorização e dados anonimizados, e escolher um único ajuste para a próxima.",
+  "competencias": ["auditar-a-propria-call", "anonimizar-material", "corrigir-um-vicio-por-vez"],
+  "aprende": [
+    {"t": "Preparar o material com autorização e sem dado sensível"},
+    {"t": "Montar o seu auditor de calls com persona, tarefa e critérios"},
+    {"t": "Pontuar as 6 dimensões e ler a coluna, não a linha"},
+    {"t": "Recusar o escopo que você não consegue entregar"}
+  ],
+  "hero_alt": "Consultora de fones revisa a gravação de uma call no notebook, com uma folha de pontuação ao lado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O laço da autópsia",
+      "sub": "Um laço por semana, um vício por vez.",
+      "nos": [
+        {"icone": "cadeado", "titulo": "Autorizar", "sub": "antes de gravar",
+         "detalhe": "Só analise material com autorização de quem participou da conversa. Gravar ou transcrever alguém sem avisar é problema de LGPD e de confiança."},
+        {"icone": "escudo", "titulo": "Anonimizar", "sub": "tirar o sensível",
+         "detalhe": "Nome da empresa, número de contrato, dado de cliente final e o que estiver sob confidencialidade saem antes. Se não der para anonimizar, use só as suas próprias falas: já basta para as 6 dimensões."},
+        {"icone": "lupa", "titulo": "Auditar", "sub": "persona, tarefa, critérios", "forte": true,
+         "detalhe": "O auditor é um pedido bem escrito que você reaproveita. Sem persona, você recebe elogio. Sem critérios, recebe resumo. Toda nota precisa vir com o trecho que a justifica."},
+        {"icone": "grafico", "titulo": "Placar", "sub": "6 dimensões",
+         "detalhe": "Clareza, entrega vocal, autoridade, postura, perguntas e escuta, ressonância. Uma linha por conversa numa planilha."},
+        {"icone": "alvo", "titulo": "1 ajuste", "sub": "só um",
+         "detalhe": "Escolha o vício que mais apareceu, escreva num papel ao lado da tela e ignore os outros por sete dias. Atacar seis de uma vez deixa você travado no meio da frase."}
+      ],
+      "volta": "Na semana seguinte, nova call, nova autópsia, o próximo vício.",
+      "legenda": "Retorno de máquina não ameaça: você absorve melhor do que a crítica de uma pessoa. Não é mais inteligente; só não compete com você."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "As 6 dimensões do placar",
+      "sub": "Sempre as mesmas, conversa após conversa.",
+      "passos": [
+        {"titulo": "Clareza", "sub": "o outro consegue repetir?",
+         "texto": ["Uma ideia por frase, frases curtas, termo técnico definido na primeira vez.", "Mede-se pelo que o cliente conseguiria repetir, não pelo que você disse."]},
+        {"titulo": "Entrega vocal", "sub": "ritmo e pausa",
+         "texto": ["Voz num plano só faz um argumento correto soar desinteressante.", "Quase todo mundo acelera na recomendação e no preço. Marque no roteiro onde falar mais devagar."]},
+        {"titulo": "Autoridade", "sub": "afirmar, não sugerir",
+         "texto": ["\"Eu recomendo X\" e \"talvez a gente pudesse tentar X\" têm a mesma informação e valem muito diferente.", "Frase afirmativa termina com a entonação descendo."]},
+        {"titulo": "Postura", "sub": "presença na tela",
+         "texto": ["Olhe para a lente nos momentos que importam: recomendação, preço, compromisso.", "Levemente inclinado para a frente comunica atenção. Gesto pequeno dentro de um quadro pequeno."]},
+        {"titulo": "Perguntas e escuta", "sub": "a que quase todos erram",
+         "texto": ["Pergunta aberta, silêncio, e uma segunda pergunta construída em cima da resposta.", "Pergunte e conte até três antes de falar. Responder à própria pergunta para escapar do silêncio mata a resposta que ia nascer."]},
+        {"titulo": "Ressonância", "sub": "seus pontos chegaram?",
+         "texto": ["No fim, o cliente repete alguma frase sua com as palavras dele?", "Se não repete, não chegou. Na reunião de levantamento, ele deve falar a maior parte do tempo."]}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Quando a autópsia é de uma falha",
+      "sub": "Caso anônimo de uma consultoria que precisou ser devolvida.",
+      "passos": [
+        {"titulo": "O pedido", "sub": "três coisas grandes",
+         "texto": ["Treinar a equipe de anúncios em três plataformas com IA, gerar conceitos de anúncio e ensinar a produzir as peças.", "O cliente avisou: \"quero uso prático, não me mostre dez ferramentas e boa sorte\"."]},
+        {"titulo": "Os sinais ignorados", "sub": "qualquer um bastava",
+         "texto": ["O aviso no próprio pedido foi lido como entusiasmo.", "O consultor conhecia o mecanismo das plataformas, mas nunca tinha operado campanhas. E o escopo não cabia no tempo contratado."]},
+        {"titulo": "A lição", "sub": "embalagem é serviço",
+         "texto": ["O conselho (contratar um especialista) estava certo; a entrega foi solta. Resposta certa entregue solta parece descaso.", "Fora do seu domínio, reembale: curadoria declarada, roteiro em etapas, a sua camada de IA e um plano com responsável."]},
+        {"titulo": "Recusar antes", "sub": "custa uma conversa",
+         "texto": ["Recusar depois custa o valor devolvido e a reputação."],
+         "exemplo": {"rot": "Frase", "texto": "Eu conheço o funcionamento disso, mas nunca operei. Posso te dar a estrutura e a camada de IA; a execução precisa de quem vive esse dia a dia."}}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Cole só material anonimizado e autorizado.",
+      "blocos": [
+        {"rot": "Prompt · o seu auditor de calls", "icone": "chat",
+         "conteudo": "Você é especialista em comunicação e presença executiva em consultoria B2B\nde tecnologia. Você combina análise linguística, psicologia de vendas e\nleitura de comunicação não verbal. Sua análise é franca e direta, mas\nconstrutiva e sempre focada em ação.\n\nMaterial (já anonimizado e autorizado): \"\"\"<cole aqui as suas falas>\"\"\"\nTipo de reunião: <descoberta | consultoria paga | proposta>\nObjetivo que eu tinha: <o que eu queria que acontecesse ao final>\n\nAvalie de 0 a 10 cada dimensão, citando o trecho exato como evidência:\n1. clareza 2. entrega vocal 3. autoridade\n4. postura e presença 5. qualidade das perguntas e da escuta\n6. ressonância (meus pontos principais chegaram?)\nDepois entregue:\n- a proporção estimada de tempo em que eu falei x o cliente falou\n- as 3 palavras de preenchimento que mais repeti, com a contagem\n- os momentos em que o cliente pareceu confuso, com o trecho anterior\n- UMA correção prioritária para a próxima conversa, e só uma\nNão elogie para suavizar."},
+        {"rot": "Placar · uma linha por call (planilha)", "icone": "grafico",
+         "conteudo": "data;tipo de reunião;clareza;entrega vocal;autoridade;postura;perguntas e escuta;ressonância;% que eu falei;ajuste da próxima\n<aaaa-mm-dd>;descoberta;<0-10>;<0-10>;<0-10>;<0-10>;<0-10>;<0-10>;<%>;<um vício só>"}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Pode ser uma call real (com autorização) ou a call simulada da aula 2 refeita em voz alta e gravada só com você.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Placar da sua call", "min": "30 min",
+         "texto": "Prepare o material (autorizado e anonimizado), rode o auditor e passe as notas para o placar.",
+         "pronto": "a linha do placar tem as 6 notas, cada uma com o trecho que a justifica, e a coluna \"ajuste da próxima\" tem um único vício."},
+        {"id": "e2", "titulo": "2 · Sua frase de recusa", "min": "10 min",
+         "texto": "Pense num pedido que você recebeu (ou pode receber) fora do seu domínio. Escreva a frase que reduz o escopo ou recusa antes de aceitar o dinheiro.",
+         "pronto": "a frase diz o que você entrega, o que fica de fora e quem deveria fazer a parte que não é sua."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Numa reunião de levantamento, qual proporção de fala indica que você conduziu bem?",
+         "opcoes": ["Você fala cerca de 80%, mostrando domínio", "Metade para cada lado", "O cliente fala a maior parte do tempo"],
+         "certa": 2, "ref": "passos",
+         "explica": "No levantamento você está ali para ouvir. Não existe proporção certa para toda reunião, mas usar a errada no levantamento custa o diagnóstico."},
+        {"p": "O material da call tem nome do cliente e dados de pacientes. O que fazer antes do auditor?",
+         "opcoes": ["Colar tudo, o assistente é confiável", "Ter a autorização e tirar o que é sensível; se não der, usar só as suas falas", "Desistir da autópsia"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Dado de cliente final e informação confidencial não vão para nenhuma ferramenta sem autorização. As suas próprias falas já bastam para as 6 dimensões."},
+        {"p": "A autópsia mostrou cinco vícios. O que corrigir nesta semana?",
+         "opcoes": ["Os cinco, enquanto está fresco", "Só o que mais apareceu", "Nenhum, a nota de uma call só não diz nada"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Atenção dividida entre seis correções trava você no meio da frase. Um vício por semana cai por efeito composto. A nota isolada diz pouco; a coluna depois de várias calls diz muito."},
+        {"p": "O cliente pede algo fora do seu domínio. Qual saída é aceitável?",
+         "opcoes": ["Fingir que domina", "Mandar o contato de um especialista e encerrar", "Dizer que não é especialista e reembalar: curadoria, roteiro, sua camada de IA e um plano"],
+         "certa": 2, "ref": "passos",
+         "explica": "Fingir desaba na primeira pergunta específica; despachar um contato foi o erro da consultoria devolvida. Reembalar com honestidade ainda é serviço de alto padrão."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Sensação não é dado", "texto": "Só a análise com critérios mostra quanto você falou e onde o cliente se perdeu."},
+        {"t": "Autorização primeiro", "texto": "Material autorizado e anonimizado; se não der, só as suas falas."},
+        {"t": "Seis dimensões, sempre as mesmas", "texto": "O valor está na coluna depois de várias calls."},
+        {"t": "Um vício por semana", "texto": "E embalagem é serviço: fora do seu domínio, reembale ou recuse antes."}
+      ]
+    }
+  ]
+}

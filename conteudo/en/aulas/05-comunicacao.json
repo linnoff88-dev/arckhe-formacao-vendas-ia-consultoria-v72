@@ -1,0 +1,288 @@
+{
+  "slug": "comunicacao",
+  "num": 5,
+  "menu": "Communication",
+  "titulo": "Communication is everything",
+  "titulo_curto": "Communication is everything",
+  "minutos": 16,
+  "lead": "High technical skill with weak communication delivers less than average technical skill with good communication. The client speaks in adjectives (\"a lot,\" \"slow,\" \"confusing\"); the people who decide read numbers. This lesson shows you how to turn the vague into a number, talk about budget without awkwardness, and deliver everything on one page.",
+  "objetivo": "turn a vague request into a requirement with a number, talk about budget without awkwardness, and write the one-page report.",
+  "competencias": [
+    "levantar-requisitos-com-numero",
+    "conversar-sobre-orcamento",
+    "escrever-relatorio-executivo"
+  ],
+  "aprende": [
+    {
+      "t": "Go from the request down to the cause with five whys"
+    },
+    {
+      "t": "Turn each of the client's adjectives into a number"
+    },
+    {
+      "t": "Ask about budget without sizing up anyone's wallet"
+    },
+    {
+      "t": "Write the one-page report for an executive"
+    }
+  ],
+  "hero_alt": "A consultant shows a one-page report to an executive in a meeting room.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From vague to one page",
+      "sub": "Each step turns what the client said into something the board approves.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Vague request",
+          "sub": "\"we have a lot of tickets\"",
+          "detalhe": "The request that arrives is the symptom the company managed to name. An adjective doesn't become scope, or price, or proof of results."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Five whys",
+          "sub": "go down to the cause",
+          "detalhe": "Each \"why\" takes you down one floor, to the cause that is worth money. Use it only to propose scope that benefits the company; using it to inflate the price burns referrals."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Number",
+          "sub": "how much, how many, per day",
+          "forte": true,
+          "detalhe": "\"How many per day? And what's the peak of the week?\" \"Slow by how many hours?\" \"How many errors per hundred handoffs, and what does each one cost?\" Convert it right in front of the client."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "Budget and constraints",
+          "sub": "without awkwardness",
+          "detalhe": "Ask whether there is already money set aside for AI, not \"what is your budget?\". In the same conversation: which systems the process goes through, who grants access, and what data cannot leave the company."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "One page",
+          "sub": "for the executive",
+          "detalhe": "Problem, number, recommended option, and risk. The executive decides on one page; the detail goes in the appendix."
+        }
+      ],
+      "legenda": "The success question helps at every step: \"Six months from now the project worked; what exactly changed in the business?\""
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Vague becomes a number",
+      "sub": "What the client says and what you give back.",
+      "passos": [
+        {
+          "titulo": "\"A lot of tickets\"",
+          "sub": "volume",
+          "texto": [
+            "Ask for the quantity and the peak."
+          ],
+          "exemplo": {
+            "rot": "You reply",
+            "texto": "How many per day? And what's the peak of the week?"
+          }
+        },
+        {
+          "titulo": "\"The process is slow\"",
+          "sub": "time",
+          "texto": [
+            "Ask for the unit of time."
+          ],
+          "exemplo": {
+            "rot": "You reply",
+            "texto": "Slow by how many hours: per day, per week, per month?"
+          }
+        },
+        {
+          "titulo": "\"We make a lot of mistakes\"",
+          "sub": "error and cost",
+          "texto": [
+            "An error with no cost doesn't go in the proposal."
+          ],
+          "exemplo": {
+            "rot": "You reply",
+            "texto": "How many errors per hundred handoffs, and what does each one cost?"
+          }
+        },
+        {
+          "titulo": "Paraphrase",
+          "sub": "proof that you listened",
+          "texto": [
+            "Sum it up in one sentence and ask if that's right.",
+            "When the summary is wrong, the client corrects it with details they would never give away for free."
+          ],
+          "exemplo": {
+            "rot": "You reply",
+            "texto": "So the real problem is the approval queue, and the form just exposes that queue. Is that right?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "In the meeting",
+      "sub": "Four moves and the right close.",
+      "passos": [
+        {
+          "titulo": "Opening",
+          "sub": "aligned goals",
+          "texto": [
+            "Say who you are and tie your goal to theirs. It's not a zero-sum game."
+          ],
+          "exemplo": {
+            "rot": "Phrase",
+            "texto": "My goal is for this project to lower your cost per ticket. If it does, you'll call me again."
+          }
+        },
+        {
+          "titulo": "Hypothesis",
+          "sub": "don't start from scratch",
+          "texto": [
+            "Show up with 2 or 3 hypotheses and ask for corrections. It's easier to edit a finished text than to face a blank page."
+          ],
+          "exemplo": {
+            "rot": "Phrase",
+            "texto": "From my research, these are the three main points. Correct me if I'm wrong."
+          }
+        },
+        {
+          "titulo": "Budget",
+          "sub": "ask about the decision, not the wallet",
+          "texto": [
+            "\"What's your budget?\" sounds like \"can you afford it?\".",
+            "Don't apologize before talking about price, and don't push the topic off to an email later."
+          ],
+          "exemplo": {
+            "rot": "Phrase",
+            "texto": "Is there any budget already set aside for AI initiatives? It helps me work backward from your expectations."
+          }
+        },
+        {
+          "titulo": "Close",
+          "sub": "calendar, not email",
+          "texto": [
+            "Never end with \"I'll send you a proposal.\" Book the next meeting before this one is over.",
+            "A slow proposal is read as lack of priority."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The report is the piece your contact takes to the board without you in the room.",
+      "blocos": [
+        {
+          "rot": "One-page report for executives",
+          "icone": "arquivo",
+          "conteudo": "<COMPANY> · <area> · <date>\nTo: <title of the decision-maker>\n\nPROBLEM (2 lines)\n<the pain in the client's own words and why it costs money>\n\nNUMBER\nToday: <metric> = <value>, measured by <how>.\nEstimated cost: <value per month> (assumption: <which>).\n\nRECOMMENDED OPTION\n<what to do, in 3 lines, with deadline and owner>\nCheaper alternative: <which one and what is lost>\n\nRISK\n<what could go wrong and how we'll know early>\nNot included: <...>\n\nDECISION REQUESTED\n<yes/no for the pilot> by <date>."
+        },
+        {
+          "rot": "Budget and constraint questions",
+          "icone": "lista",
+          "conteudo": "BUDGET\n- Is there any budget already set aside for AI initiatives at the company?\n- It helps me work backward from your expectations.\n\nCONSTRAINTS (they weigh more on price than scope)\n- Which systems does this process go through, from start to finish?\n- Who grants access to them, and how long does that usually take?\n- Is there any data here that can't leave the company?\n\nSUCCESS\n- Picture six months from now. The project was a total success.\n  What exactly changed in the business?"
+        },
+        {
+          "rot": "Prompt · reconnaissance before the meeting",
+          "icone": "chat",
+          "conteudo": "Research this company and give me back a meeting briefing.\nI don't want flashy ideas: I want the most practical ones to implement.\n\nCompany: <public name and sector>\nArea I'll be talking to: <area or title>\nApproximate size: <number of employees>\n\nReturn in this order:\n1. Business model and where the revenue comes from, in 5 lines.\n2. How the area probably operates today: steps and tools.\n3. The 5 most practical scenarios, ordered by ease of implementation.\n4. For each scenario, the business justification in one sentence.\n5. The 3 questions I'll ask to confirm or knock down each hypothesis.\nExplicitly mark what is public fact and what is your own assumption."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use the case from your proposal in lesson 3.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Three adjectives into numbers",
+          "min": "15 min",
+          "texto": "List 3 vague phrases your client (or the clinic from lesson 2) said, and write the question that turns each one into a number.",
+          "pronto": "the 3 phrases each have a question next to them, and each question asks for quantity, time or cost."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · One-page report",
+          "min": "40 min",
+          "texto": "Fill in the executive report template. Read it out loud: you should be able to decide in two minutes.",
+          "pronto": "the report fits on one page and has the problem, a number with how it's measured, a recommended option, the risk and the decision requested with a date."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The meeting ended well and the client showed interest. What's the best close?",
+          "opcoes": [
+            "\"I'll send you a detailed proposal in the next few days.\"",
+            "Book the next meeting right there, with date and time",
+            "Wait for the client to come looking for you"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Being on someone's calendar is different from sitting in their inbox competing for attention with forty messages. A proposal that takes long is read as lack of priority."
+        },
+        {
+          "p": "Which question about money triggers the least defensiveness?",
+          "opcoes": [
+            "\"What's your budget?\"",
+            "\"Is there any budget already set aside for AI initiatives at the company?\"",
+            "\"How much are you losing because of this?\""
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "The first one measures the person's own pocket; the second asks about a decision the company has already made. If the budget doesn't exist, you find out you have to sell internally first."
+        },
+        {
+          "p": "The client says \"the process is slow.\" What do you say back?",
+          "opcoes": [
+            "\"With AI this gets fast.\"",
+            "\"Slow how many hours: per day, per week, per month?\"",
+            "\"You don't have a documented process, right?\""
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "An adjective is not a scope or proof of a result. A question with the answer built in (\"you don't have a process, right?\") switches on defense mode."
+        },
+        {
+          "p": "What must not be missing from the one-page report?",
+          "opcoes": [
+            "The list of tools you will use",
+            "Problem, number, recommended option, and risk",
+            "The full history of the meetings"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "The decision maker needs the problem as a number, a recommendation, and the risk stated. Tools and history go in the appendix, if at all."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Communication multiplies",
+          "texto": "Framing the problem in the client's own words wins half the meeting."
+        },
+        {
+          "t": "Vague becomes a number",
+          "texto": "Turn every adjective into a quantity, a time, or a cost, right in front of the client."
+        },
+        {
+          "t": "Budget without awkwardness",
+          "texto": "Ask about the company's decision, not about the pocket of the person on the call."
+        },
+        {
+          "t": "One page",
+          "texto": "Problem, number, recommendation, and risk. And the next meeting already scheduled."
+        }
+      ]
+    }
+  ]
+}

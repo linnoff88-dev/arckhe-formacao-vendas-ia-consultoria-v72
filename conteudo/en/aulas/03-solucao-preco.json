@@ -1,0 +1,286 @@
+{
+  "slug": "solucao-preco",
+  "num": 3,
+  "menu": "Proposal",
+  "titulo": "Solution and a price that scales",
+  "titulo_curto": "Solution and price",
+  "minutos": 18,
+  "lead": "The client can't judge whether your technical solution is good: they've never rolled out AI. What they judge is whether you look like you know what you're doing, and they read that in your method. This lesson shows the method (survey, measure, pilot, scale) and the pricing in steps.",
+  "objetivo": "map the current state, measure the baseline, and put together the one-page proposal with 3 options in steps.",
+  "competencias": [
+    "mapear-estado-atual",
+    "medir-linha-de-base",
+    "montar-escada-de-preco"
+  ],
+  "aprende": [
+    {
+      "t": "Map the current state in 4 spreadsheets"
+    },
+    {
+      "t": "Freeze the baseline before you touch anything"
+    },
+    {
+      "t": "Build the pricing ladder and the service menu"
+    },
+    {
+      "t": "Write the one-page proposal"
+    }
+  ],
+  "hero_alt": "Three printed proposals with charts side by side on a table; a hand points to the middle one.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The method that builds trust",
+      "sub": "Trust grows with each step delivered on time, before any technical result.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "Map",
+          "sub": "4 spreadsheets",
+          "itens": [
+            {
+              "icone": "chip",
+              "t": "Tools"
+            },
+            {
+              "icone": "memoria",
+              "t": "Knowledge sources"
+            },
+            {
+              "icone": "fila",
+              "t": "Processes"
+            },
+            {
+              "icone": "usuario",
+              "t": "Owners"
+            }
+          ],
+          "detalhe": "Four simple tables filled in with the client, on a shared screen. Filling them in right in front of them is already half the value you deliver."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Measure",
+          "sub": "baseline",
+          "forte": true,
+          "detalhe": "Before you change anything, freeze the numbers: time per run, error rate, cost per transaction, and satisfaction of the team and the end customer. Without that, you can't prove anything later."
+        },
+        {
+          "icone": "play",
+          "titulo": "Pilot",
+          "sub": "30 to 60 days",
+          "detalhe": "A small group, one agreed metric. The pilot is where assumptions die: better to find out with twelve people than with three hundred."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Scale",
+          "sub": "department, then the rest",
+          "detalhe": "Train the larger group with the material the pilot corrected, and track adoption week by week. Have the courage to say no to your own expansion where AI doesn't pay for itself."
+        }
+      ],
+      "volta": "Did adoption drop in the third week? The process didn't fit the routine: go back to the mapping.",
+      "legenda": "Models get discontinued. Monitor what you delivered in a monthly advisory, or give the client the list of what's in use and what to do when it changes."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The pricing ladder",
+      "sub": "Dollar ranges as an order of magnitude for the international market. Adapt to your market.",
+      "passos": [
+        {
+          "titulo": "Access",
+          "sub": "range of US$ 10 to 20/month",
+          "texto": [
+            "A shared space where you answer questions once a week.",
+            "It holds the client who had one or two conversations and would disappear without it."
+          ]
+        },
+        {
+          "titulo": "Single call",
+          "sub": "range of US$ 250 to 500",
+          "texto": [
+            "Always with prep work beforehand: you show up knowing the industry and the likely stack.",
+            "Bundle it when it makes sense: one session plus five questions by email in the month."
+          ]
+        },
+        {
+          "titulo": "Monthly advisory",
+          "sub": "range of US$ 2K to 10K/month",
+          "texto": [
+            "Weekly meeting, email support in an agreed format, team training, and priority on your calendar.",
+            "This is the step that turns consulting into predictable work."
+          ]
+        },
+        {
+          "titulo": "Project",
+          "sub": "from US$ 15K",
+          "texto": [
+            "Several departments, a long timeline, and specialists subcontracted for what isn't yours.",
+            "Here you answer for the result. The build, when there is one, is just one part of it."
+          ],
+          "exemplo": {
+            "rot": "Rule",
+            "texto": "Write the steps on a single page, for yourself. Improvising a price in the middle of the conversation is how the discount is born."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The service menu and the 60-minute call",
+      "sub": "Let the client build the plate instead of choosing between packages they don't understand.",
+      "passos": [
+        {
+          "titulo": "Service menu",
+          "sub": "30+ items in categories",
+          "texto": [
+            "Starters (beginner), quick dishes (practical wins), intermediate, advanced, desserts (executive level) and banquets (closed packages).",
+            "Each item has just four fields: name, duration (90 to 150 min), level and a short description of the result, never of the tool."
+          ],
+          "exemplo": {
+            "rot": "Effect",
+            "texto": "The client stops asking \"how much does it cost\" and starts saying \"I want number 3, number 4 and the light version of number 8.\""
+          }
+        },
+        {
+          "titulo": "0 to 15 min",
+          "sub": "pain, goal and discovery",
+          "texto": [
+            "Start with the pain, in their own words, and close with the goal repeated out loud.",
+            "Then: scale, stack and where the data lives."
+          ]
+        },
+        {
+          "titulo": "15 to 35 min",
+          "sub": "hypotheses and recommendation",
+          "texto": [
+            "Play back what you understood and present 2 or 3 hypotheses, stated as hypotheses.",
+            "In the recommendation, say why it may not be realistic for their business and show cheaper or faster alternatives."
+          ]
+        },
+        {
+          "titulo": "35 to 40 min",
+          "sub": "next steps",
+          "texto": [
+            "Offer the steps and leave with one task: list the tools with the number of users, choose the pilot department or name an internal owner.",
+            "The twenty minutes left are for the question they saved for the end."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The proposal fits on one page. The baseline comes before any target number.",
+      "blocos": [
+        {
+          "rot": "One-page proposal",
+          "icone": "arquivo",
+          "conteudo": "PROPOSAL · <company> · <date>\n\n1. WHAT WE HEARD\n<the pain in the client's own words, in 2 lines>\n\n2. BASELINE (measured on <date>, by <how it was measured>)\n- <indicator>: <current value> → target <value> in <timeframe>\n\n3. THREE WAYS TO WORK TOGETHER\nA) Access · <amount/month>\n   Weekly Q&A group. For those who want to start on their own with support.\nB) Pilot · <amount> · <30 to 60 days>\n   A group of <n> people in <area>, one metric, report at the end.\nC) Project · <amount> · <timeframe>\n   Pilot + scale-up to <department> + <n> months of follow-up.\n\n4. WHAT IS NOT INCLUDED\n<e.g.: integration with system X; running campaigns>\n\n5. RISK AND TRADE-OFF\n<what may not work and what the company gives up with this choice>\n\n6. NEXT STEP\n<client's task> by <date>. Next conversation: <date>."
+        },
+        {
+          "rot": "Baseline · one indicator",
+          "icone": "grafico",
+          "conteudo": "Indicator: <e.g.: time to answer a quote request>\nCurrent value: <number and unit>\nTarget: <number> in <timeframe>\nHow it is measured: <who measures it, where the number comes from, how it is counted>\nReview frequency: <weekly or monthly; never daily>"
+        },
+        {
+          "rot": "Prompt · generate your service menu",
+          "icone": "chat",
+          "conteudo": "You are a senior AI consultant building the service menu for your own\nbusiness. Write in Brazilian Portuguese, direct tone, no sales adjectives.\n\nMy profile: <what you can really do today>\nMy clients: <industry, size and job title of the people who hire you>\nWhat I do NOT do: <list it, so it stays off the menu>\n\nBuild a menu with 6 categories: starters (beginner), quick dishes\n(practical wins), intermediate, advanced, desserts (executive level) and\nbanquets (closed packages). At least 30 items in total.\nFor EACH item, exactly 4 fields:\n- name (short, no jargon)\n- delivery duration, between 90 and 150 minutes\n- level (beginner / intermediate / advanced / executive)\n- description in at most 2 lines, stating the result, not the tool\nPrioritize diagnosis, teaching, review and follow-up; building only\nas part of one of these.\nEnd with: \"Menu updated in <month and year>\"."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use a real client or the clinic case from lesson 2.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Baseline of a process",
+          "min": "20 min",
+          "texto": "Pick one of the client's processes (or the simulated clinic's) and fill in the baseline template for 2 indicators.",
+          "pronto": "both indicators have a current value as a number, a target with a deadline, and the way of measuring written down."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · One-page proposal",
+          "min": "40 min",
+          "texto": "Fill in the proposal template with your baseline and the 3 options in steps. Write down what is not included and the trade-off of the recommended option.",
+          "pronto": "the proposal fits on one page, has the baseline as a number and 3 options (access, pilot, project) with price and timeframe."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "You are going to propose a project and you don't know the client's budget yet. What do you do?",
+          "opcoes": [
+            "Present the highest price: whoever can't pay will say so",
+            "Offer three ways of working together, in steps, and let the client choose",
+            "Charge the minimum to make sure the deal closes"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Steps raise the chance of closing something instead of nothing, and the bottom step holds on to people who would otherwise disappear. A single price assumes a budget you never asked about."
+        },
+        {
+          "p": "Why measure the baseline before the pilot?",
+          "opcoes": [
+            "To make the proposal look nicer",
+            "Because without the starting point you can't prove the result later",
+            "Because leadership demands a daily report"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Many projects \"came to nothing\" because nobody recorded the starting point. The way of measuring is the field most often left blank and the one that most invalidates the number weeks later."
+        },
+        {
+          "p": "Which measurement frequency avoids distortion?",
+          "opcoes": [
+            "Daily, to see everything",
+            "Weekly or monthly",
+            "Only at the end of the project"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "The edges of the week distort any indicator: Monday has a backlog piled up, Friday has people leaving early. A daily series invents highs and lows that don't exist."
+        },
+        {
+          "p": "Where should you start the pilot?",
+          "opcoes": [
+            "With the most complex process, since it's the most interesting",
+            "With an area tied to revenue, with a result someone already measures",
+            "With a process that goes through four departments"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "A 1% gain in a revenue area shows up in someone's report; in a support area it disappears in the rounding. A complex or unmeasured process won't let you prove anything."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Method before technology",
+          "texto": "The client is evaluating your organization. A plan in stages unlocks the decision."
+        },
+        {
+          "t": "Four spreadsheets and a baseline",
+          "texto": "Tools, knowledge, processes and owners, measured before any change."
+        },
+        {
+          "t": "Pilot, scale, optimization",
+          "texto": "A small group first, and someone monitoring what was delivered."
+        },
+        {
+          "t": "Steps and service menu",
+          "texto": "Three options on one page make the client choose instead of refuse."
+        }
+      ]
+    }
+  ]
+}

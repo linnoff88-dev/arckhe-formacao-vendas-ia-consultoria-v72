@@ -1,0 +1,286 @@
+{
+  "slug": "solucao-preco",
+  "num": 3,
+  "menu": "Propuesta",
+  "titulo": "Solución y precio que escala",
+  "titulo_curto": "Solución y precio",
+  "minutos": 18,
+  "lead": "El cliente no puede evaluar si tu solución técnica es buena: nunca implementó IA. Lo que evalúa es si pareces saber lo que haces, y eso lo lee en tu método. Esta clase muestra el método (levantar, medir, pilotar, escalar) y el precio por niveles.",
+  "objetivo": "mapear el estado actual, medir la línea base y armar la propuesta de una página con 3 opciones por niveles.",
+  "competencias": [
+    "mapear-estado-atual",
+    "medir-linha-de-base",
+    "montar-escada-de-preco"
+  ],
+  "aprende": [
+    {
+      "t": "Levantar el estado actual en 4 hojas de cálculo"
+    },
+    {
+      "t": "Congelar la línea base antes de tocar nada"
+    },
+    {
+      "t": "Armar la escalera de precios y el menú de servicios"
+    },
+    {
+      "t": "Escribir la propuesta de una página"
+    }
+  ],
+  "hero_alt": "Tres propuestas impresas con gráficos, una al lado de la otra sobre una mesa; una mano señala la del medio.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El método que genera confianza",
+      "sub": "La confianza sube con cada etapa entregada a tiempo, antes de cualquier resultado técnico.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "Levantar",
+          "sub": "4 hojas de cálculo",
+          "itens": [
+            {
+              "icone": "chip",
+              "t": "Herramientas"
+            },
+            {
+              "icone": "memoria",
+              "t": "Fuentes de conocimiento"
+            },
+            {
+              "icone": "fila",
+              "t": "Procesos"
+            },
+            {
+              "icone": "usuario",
+              "t": "Responsables"
+            }
+          ],
+          "detalhe": "Cuatro tablas simples completadas junto con el cliente, con la pantalla compartida. Completarlas frente a él ya es la mitad del valor entregado."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Medir",
+          "sub": "línea base",
+          "forte": true,
+          "detalhe": "Antes de cambiar cualquier cosa, congela los números: tiempo por ejecución, tasa de error, costo por transacción, satisfacción del equipo y del cliente final. Sin eso, después no puedes probar nada."
+        },
+        {
+          "icone": "play",
+          "titulo": "Pilotear",
+          "sub": "30 a 60 días",
+          "detalhe": "Un grupo pequeño, una métrica acordada. En el piloto es donde mueren las suposiciones: es mejor descubrirlo con doce personas que con trescientas."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Escalar",
+          "sub": "departamento, luego el resto",
+          "detalhe": "Capacita al grupo más grande con el material que el piloto corrigió y haz seguimiento de la adopción semana a semana. Ten el valor de decir no a tu propia expansión donde la IA no se paga."
+        }
+      ],
+      "volta": "¿La adopción cayó en la tercera semana? El proceso no cupo en la rutina: vuelve al levantamiento.",
+      "legenda": "Los modelos se descontinúan. Monitorea lo que entregaste en un acompañamiento mensual o entrega al cliente la lista de lo que está en uso y qué hacer cuando cambie."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La escalera de precios",
+      "sub": "Rangos en dólares como orden de magnitud del mercado internacional. Adapta a tu mercado.",
+      "passos": [
+        {
+          "titulo": "Acceso",
+          "sub": "rango de US$ 10 a 20/mes",
+          "texto": [
+            "Un espacio colectivo donde respondes dudas una vez por semana.",
+            "Retiene al cliente que tuvo una o dos conversaciones y desaparecería sin ello."
+          ]
+        },
+        {
+          "titulo": "Llamada puntual",
+          "sub": "rango de US$ 250 a 500",
+          "texto": [
+            "Siempre con preparación previa: llegas sabiendo el sector y el probable stack.",
+            "Empaquétalo cuando tenga sentido: una sesión más cinco correos de dudas al mes."
+          ]
+        },
+        {
+          "titulo": "Acompañamiento mensual",
+          "sub": "rango de US$ 2 mil a 10 mil/mes",
+          "texto": [
+            "Reunión semanal, soporte por correo en un formato acordado, capacitación del equipo y prioridad en la agenda.",
+            "Es el nivel que convierte la consultoría en trabajo predecible."
+          ]
+        },
+        {
+          "titulo": "Proyecto",
+          "sub": "desde US$ 15 mil",
+          "texto": [
+            "Varios departamentos, plazo largo y especialistas subcontratados para lo que no es tuyo.",
+            "Aquí respondes por el resultado. La construcción, cuando existe, es solo una parte de él."
+          ],
+          "exemplo": {
+            "rot": "Regla",
+            "texto": "Escribe los niveles en una sola página, para ti. Improvisar el precio en medio de la conversación es como nace el descuento."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El menú de servicios y la llamada de 60 minutos",
+      "sub": "Deja que el cliente arme su plato en lugar de elegir entre paquetes que no entiende.",
+      "passos": [
+        {
+          "titulo": "Menú de servicios",
+          "sub": "30+ ítems en categorías",
+          "texto": [
+            "Entradas (principiante), platos rápidos (ganancia práctica), intermedio, avanzado, postres (dirección) y banquetes (paquetes cerrados).",
+            "Cada ítem tiene solo cuatro campos: nombre, duración (90 a 150 min), nivel y una descripción corta del resultado, nunca de la herramienta."
+          ],
+          "exemplo": {
+            "rot": "Efecto",
+            "texto": "El cliente deja de preguntar \"cuánto cuesta\" y empieza a decir \"quiero el 3, el 4 y la versión ligera del 8\"."
+          }
+        },
+        {
+          "titulo": "0 a 15 min",
+          "sub": "dolor, meta y levantamiento",
+          "texto": [
+            "Empieza por el dolor, con las palabras de él, y cierra con la meta repetida en voz alta.",
+            "Después: escala, stack y dónde viven los datos."
+          ]
+        },
+        {
+          "titulo": "15 a 35 min",
+          "sub": "hipótesis y recomendación",
+          "texto": [
+            "Devuelve lo que entendiste y presenta 2 o 3 hipótesis, declaradas como hipótesis.",
+            "En la recomendación, di por qué puede no ser realista para su negocio y muestra alternativas más baratas o más rápidas."
+          ]
+        },
+        {
+          "titulo": "35 a 40 min",
+          "sub": "próximos pasos",
+          "texto": [
+            "Ofrece los niveles y sal con una tarea: listar las herramientas con número de usuarios, elegir el departamento del piloto o indicar un responsable interno.",
+            "Los veinte minutos que sobran son para la pregunta que guardó para el final."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "La propuesta cabe en una página. La línea base va antes de cualquier número de meta.",
+      "blocos": [
+        {
+          "rot": "Propuesta de una página",
+          "icone": "arquivo",
+          "conteudo": "PROPUESTA · <empresa> · <fecha>\n\n1. LO QUE ESCUCHAMOS\n<el dolor en las palabras del cliente, en 2 líneas>\n\n2. LÍNEA BASE (medida el <fecha>, por <cómo se midió>)\n- <indicador>: <valor actual> → meta <valor> en <plazo>\n\n3. TRES FORMAS DE TRABAJAR JUNTOS\nA) Acceso · <valor/mes>\n   Grupo de dudas semanal. Para quien quiere empezar solo con apoyo.\nB) Piloto · <valor> · <30 a 60 días>\n   Un grupo de <n> personas en <área>, una métrica, informe al final.\nC) Proyecto · <valor> · <plazo>\n   Piloto + escala a <departamento> + acompañamiento de <n> meses.\n\n4. LO QUE NO ESTÁ INCLUIDO\n<ej.: integración con el sistema X; operación de campañas>\n\n5. RIESGO Y SACRIFICIO\n<lo que puede no funcionar y lo que la empresa pierde con la elección>\n\n6. PRÓXIMO PASO\n<tarea del cliente> hasta el <fecha>. Próxima conversación: <fecha>."
+        },
+        {
+          "rot": "Línea base · un indicador",
+          "icone": "grafico",
+          "conteudo": "Indicador: <ej.: tiempo para responder una solicitud de presupuesto>\nValor actual: <número y unidad>\nMeta: <número> en <plazo>\nForma de medición: <quién mide, de dónde sale el número, cómo se cuenta>\nFrecuencia de revisión: <semanal o mensual; nunca diaria>"
+        },
+        {
+          "rot": "Prompt · genera tu menú de servicios",
+          "icone": "chat",
+          "conteudo": "Eres un consultor senior de IA armando el menú de servicios de tu propio\nnegocio. Escribe en español latinoamericano neutro, tono directo, sin adjetivos de venta.\n\nMi perfil: <lo que sabes hacer de verdad hoy>\nMis clientes: <sector, tamaño y cargo de quien te contrata>\nLo que NO hago: <lista, para que no entre en el menú>\n\nArma un menú con 6 categorías: entradas (principiante), platos rápidos\n(ganancia práctica), intermedio, avanzado, postres (dirección) y\nbanquetes (paquetes cerrados). Mínimo 30 ítems en total.\nPara CADA ítem, exactamente 4 campos:\n- nombre (corto, sin jerga)\n- duración de entrega, entre 90 y 150 minutos\n- nivel (principiante / intermedio / avanzado / dirección)\n- descripción de máximo 2 líneas, que diga el resultado, no la herramienta\nPrioriza diagnóstico, enseñanza, revisión y acompañamiento; construcción solo\ncomo parte de uno de ellos.\nTermina con: \"Menú actualizado en <mes y año>\"."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Usa un cliente real o el caso de la clínica de la clase 2.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Línea base de un proceso",
+          "min": "20 min",
+          "texto": "Elige un proceso del cliente (o de la clínica simulada) y completa el modelo de línea base para 2 indicadores.",
+          "pronto": "los 2 indicadores tienen valor actual en número, meta con plazo y la forma de medición escrita."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Propuesta de una página",
+          "min": "40 min",
+          "texto": "Completa el modelo de propuesta con tu línea base y las 3 opciones en niveles. Escribe lo que no está incluido y el sacrificio de la opción recomendada.",
+          "pronto": "la propuesta cabe en una página, tiene la línea base en número y 3 opciones (acceso, piloto, proyecto) con valor y plazo."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Vas a proponer un proyecto y todavía no sabes el presupuesto del cliente. ¿Qué haces?",
+          "opcoes": [
+            "Presentar el valor más alto: quien no pueda pagar avisa",
+            "Ofrecer tres formas de trabajar juntos, en niveles, y dejar que el cliente elija",
+            "Cobrar el mínimo para asegurar el cierre"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Los niveles multiplican la probabilidad de cerrar algo en lugar de nada, y el nivel de abajo retiene a quien desaparecería. Un precio único supone un presupuesto que nunca preguntaste."
+        },
+        {
+          "p": "¿Por qué medir la línea base antes del piloto?",
+          "opcoes": [
+            "Para adornar la propuesta",
+            "Porque sin el punto de partida no puedes probar el resultado después",
+            "Porque la dirección exige un informe diario"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Muchos proyectos \"no llevaron a nada\" porque nadie registró el punto de partida. La forma de medición es el campo que más queda en blanco y el que más invalida el número semanas después."
+        },
+        {
+          "p": "¿Qué frecuencia de medición evita la distorsión?",
+          "opcoes": [
+            "Diaria, para verlo todo",
+            "Semanal o mensual",
+            "Solo al final del proyecto"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Los extremos de la semana distorsionan cualquier indicador: el lunes tiene una cola acumulada, el viernes hay gente que se va temprano. La serie diaria inventa altibajos que no existen."
+        },
+        {
+          "p": "¿Por dónde empezar el piloto?",
+          "opcoes": [
+            "Por el proceso más complejo, que es el más interesante",
+            "Por un área ligada a ingresos, con un resultado que alguien ya mide",
+            "Por un proceso que pasa por cuatro departamentos"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Una mejora del 1% en un área de ingresos aparece en el informe de alguien; en un área de apoyo se pierde en el redondeo. Un proceso complejo o sin medición no te deja probar nada."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Método antes que tecnología",
+          "texto": "El cliente evalúa tu organización. Un plan por etapas destraba la decisión."
+        },
+        {
+          "t": "Cuatro hojas de cálculo y una línea base",
+          "texto": "Herramientas, conocimiento, procesos y responsables, medidos antes de cualquier cambio."
+        },
+        {
+          "t": "Piloto, escala, optimización",
+          "texto": "Primero un grupo pequeño, y alguien monitoreando lo que se entregó."
+        },
+        {
+          "t": "Niveles y menú de servicios",
+          "texto": "Tres opciones en una página hacen que el cliente elija en lugar de rechazar."
+        }
+      ]
+    }
+  ]
+}
