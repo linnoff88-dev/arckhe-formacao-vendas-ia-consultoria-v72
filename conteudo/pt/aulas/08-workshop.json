@@ -5,7 +5,7 @@
   "titulo": "Workshop e comunidade B2B: do gratuito ao acompanhamento",
   "titulo_curto": "Workshop e comunidade",
   "minutos": 20,
-  "lead": "O workshop é a porta de entrada mais barata e a que mais gera trabalho depois: a equipe aprende, o gestor vê você em ação e a próxima conversa é o diagnóstico. Esta aula mostra o workshop de 1 hora em 5 partes, a comunidade pequena de empresas e o seu plano com datas.",
+  "lead": "O workshop é a porta de entrada mais barata e a que mais gera trabalho depois: a equipe aprende, o gestor vê você em açêo e a próxima conversa é o diagnóstico. Esta aula mostra o workshop de 1 hora em 5 partes, a comunidade pequena de empresas e o seu plano com datas.",
   "objetivo": "desenhar um workshop de 1 hora em 5 partes e a escada do gratuito ao acompanhamento mensal, com plano datado.",
   "competencias": ["desenhar-workshop", "ler-a-plateia", "montar-escada-de-acesso"],
   "aprende": [
@@ -14,25 +14,25 @@
     {"t": "Montar a comunidade pequena de empresas"},
     {"t": "Gerar o seu plano com datas"}
   ],
-  "hero_alt": "Facilitadora conduz um workshop numa sala de reunião, com cerca de dez pessoas e notebooks.",
+  "hero_alt": "Facilitadora conduz um workshop numa sala de reuniêo, com cerca de dez pessoas e notebooks.",
   "secoes": [
     {
       "tipo": "diagrama",
       "titulo": "O workshop é um voo",
       "sub": "As partes 1, 2 e 3 cabem nos primeiros cinco minutos.",
       "nos": [
-        {"icone": "alvo", "titulo": "Destino", "sub": "o que vão saber fazer",
-         "detalhe": "Não o que você vai falar: o que a pessoa vai conseguir fazer depois. Se não cabe numa frase, o workshop não está pronto."},
+        {"icone": "alvo", "titulo": "Destino", "sub": "o que vêo saber fazer",
+         "detalhe": "Nêo o que você vai falar: o que a pessoa vai conseguir fazer depois. Se nêo cabe numa frase, o workshop nêo está pronto."},
         {"icone": "seta", "titulo": "Caminho", "sub": "de leigo a intermediário",
          "detalhe": "O mapa do percurso, reconhecendo o que a sala provavelmente pensa hoje: \"muita gente aqui já tentou e achou que era só um chat mais bonito\"."},
         {"icone": "relogio", "titulo": "Plano de voo", "sub": "avise a turbulência",
-         "detalhe": "Anuncie o trecho técnico antes: \"por volta da metade vem uma parte chata, mas rápida, e sem ela o resto não faz sentido\". Avisada, a sala aguenta."},
+         "detalhe": "Anuncie o trecho técnico antes: \"por volta da metade vem uma parte chata, mas rápida, e sem ela o resto nêo faz sentido\". Avisada, a sala aguenta."},
         {"icone": "lista", "titulo": "Serviço de bordo", "sub": "valor a cada poucos minutos", "forte": true,
-         "detalhe": "Um atalho, um exemplo, um número a cada poucos minutos. Atenção não se sustenta por promessa de final feliz, e sim por entrega frequente."},
+         "detalhe": "Um atalho, um exemplo, um número a cada poucos minutos. Atençêo nêo se sustenta por promessa de final feliz, e sim por entrega frequente."},
         {"icone": "check", "titulo": "Pouso", "sub": "recapitular e aplicar",
-         "detalhe": "Recapitule, diga como aplicar na segunda-feira, o que vem depois, e só então abra para perguntas. Terminar sem pouso deixa a sensação de que nada aconteceu."}
+         "detalhe": "Recapitule, diga como aplicar na segunda-feira, o que vem depois, e só entêo abra para perguntas. Terminar sem pouso deixa a sensaçêo de que nada aconteceu."}
       ],
-      "legenda": "Ensinar é habilidade de repetição e retorno, não talento. A estrutura substitui o talento enquanto ele não vem."
+      "legenda": "Ensinar é habilidade de repetiçêo e retorno, nêo talento. A estrutura substitui o talento enquanto ele nêo vem."
     },
     {
       "tipo": "passos",
@@ -42,25 +42,25 @@
         {"titulo": "A plateia", "sub": "obrigada ou voluntária?",
          "texto": ["Analista quer o detalhe; diretoria quer o desenho e o retorno. Pergunte antes ao contratante quem estará na sala.", "Sala obrigada: abra com demonstrações. Sala voluntária: ela quer fundamento. Nomeie o medo do emprego nos primeiros minutos."]},
         {"titulo": "Conteúdo de sobra", "sub": "seguro contra sala muda",
-         "texto": ["Se uma hora comporta 30 telas, prepare 50: a maior parte são exemplos extras da mesma ideia.", "Decida antes o que pular se a sala falar muito e guarde dois blocos de reserva."]},
+         "texto": ["Se uma hora comporta 30 telas, prepare 50: a maior parte sêo exemplos extras da mesma ideia.", "Decida antes o que pular se a sala falar muito e guarde dois blocos de reserva."]},
         {"titulo": "O silêncio", "sub": "quinze segundos",
-         "texto": ["Faça a pergunta e espere. Quem cede em três segundos ensina a sala a não responder.", "Se ninguém responder, faça uma piada leve e siga. Não insista: sua energia não depende da plateia."],
-         "exemplo": {"rot": "Frase", "texto": "Posso ficar em silêncio os próximos minutos, ou vocês me dão uma pista para eu adaptar os exemplos ao trabalho de vocês."}},
-        {"titulo": "Exemplos do setor", "sub": "o ímã de clientes",
-         "texto": ["Quem usa exemplo de um setor atrai clientes daquele setor. Use o vocabulário real: matrícula, apólice, laudo, escritura.", "Se os clientes que chegam são do setor errado, olhe os seus exemplos."]}
+         "texto": ["Faça a pergunta e espere. Quem cede em três segundos ensina a sala a nêo responder.", "Se ninguém responder, faça uma piada leve e siga. Nêo insista: sua energia nêo depende da plateia."],
+         "exemplo": {"rot": "Frase", "texto": "Posso ficar em silêncio os próximos minutos, ou vocês me dêo uma pista para eu adaptar os exemplos ao trabalho de vocês."}},
+        {"titulo": "Exemplos do setor", "sub": "o ímê de clientes",
+         "texto": ["Quem usa exemplo de um setor atrai clientes daquele setor. Use o vocabulário real: matrícula, apólice, laudo, escritura.", "Se os clientes que chegam sêo do setor errado, olhe os seus exemplos."]}
       ]
     },
     {
       "tipo": "passos",
       "titulo": "A comunidade pequena e a escada de acesso",
-      "sub": "Sete a dez empresas, não setecentas pessoas. Faixas como ordem de grandeza: adapte ao seu mercado.",
+      "sub": "Sete a dez empresas, nêo setecentas pessoas. Faixas como ordem de grandeza: adapte ao seu mercado.",
       "passos": [
         {"titulo": "Camada gratuita", "sub": "boa para recomendar",
-         "texto": ["Modelos básicos, boletim mensal com o que mudou, dúvidas respondidas em público e o plantão aberto.", "Precisa ser boa o bastante para alguém recomendar sem nunca ter pago."]},
+         "texto": ["Modelos básicos, boletim mensal com o que mudou, dúvidas respondidas em público e o plantêo aberto.", "Precisa ser boa o bastante para alguém recomendar sem nunca ter pago."]},
         {"titulo": "Camada fechada", "sub": "boa para pagar todo mês",
-         "texto": ["Guias avançados, casos reais, encontros longos com construção ao vivo, plantão só para membros.", "Grupo de empresas costuma ficar na faixa de US$ 100 a 500 por empresa por mês. Com 7 a 10, você conhece o problema de cada uma."]},
+         "texto": ["Guias avançados, casos reais, encontros longos com construçêo ao vivo, plantêo só para membros.", "Grupo de empresas costuma ficar na faixa de US$ 100 a 500 por empresa por mês. Com 7 a 10, você conhece o problema de cada uma."]},
         {"titulo": "Acompanhamento mensal", "sub": "o topo da escada",
-         "texto": ["Uma janela definida de resposta, com regras, e não acesso ilimitado à sua vida.", "Quem sobe já provou, no degrau anterior, que extrai valor."]},
+         "texto": ["Uma janela definida de resposta, com regras, e nêo acesso ilimitado à sua vida.", "Quem sobe já provou, no degrau anterior, que extrai valor."]},
         {"titulo": "Convites", "sub": "sem linguagem de vendedor",
          "texto": ["Depois da call: \"em vez de encher a sua caixa de entrada, tenho um espaço onde respondo dúvidas como as que discutimos\".", "Depois do workshop: \"quem quiser trazer o caso da própria empresa, o espaço é esse\"."]}
       ]
@@ -71,7 +71,7 @@
       "sub": "O roteiro de 1 hora com os minutos à vista.",
       "blocos": [
         {"rot": "Roteiro de workshop de 1 hora", "icone": "calendario",
-         "conteudo": "WORKSHOP · <tema> · <empresa> · <data>\nPlateia: <cargos> · obrigada ou voluntária: <qual>\nDestino (1 frase): depois desta hora, vocês vão conseguir <fazer o quê>.\n\n00-05 ABERTURA\n- Gancho: <imagem ou demonstração rodando>\n- E daí: <o que muda para quem prestar atenção>\n- Caminho e plano de voo: <avisar o trecho técnico>\n- Nomear o medo: <frase>\n\n05-20 MÓDULO 1 · fundamento (leve, muitos exemplos)\n- Conceito → quando usar → antes e depois → exemplo do setor\n- Pergunta para a sala (esperar 15 s): <pergunta>\n\n20-40 MÓDULO 2 · o mais denso (no pico de atenção)\n- <conteúdo técnico avisado no plano de voo>\n- Pergunta para a sala: <pergunta>\n\n40-55 MÓDULO 3 · aplicado (atenção já caiu)\n- Exemplo do dia a dia: <o que muda amanhã de manhã>\n- Exemplo de visão: <o que muda em 12 meses>\n\n55-60 POUSO\n- Recapitular 3 pontos · como aplicar na segunda-feira · o que vem depois\n- Perguntas · convite: <comunidade ou plantão>\n\nRESERVA (se a sala ficar muda): <bloco A>, <bloco B>\nPULAR (se a sala falar muito): <bloco>"}
+         "conteudo": "WORKSHOP · <tema> · <empresa> · <data>\nPlateia: <cargos> · obrigada ou voluntária: <qual>\nDestino (1 frase): depois desta hora, vocês vêo conseguir <fazer o quê>.\n\n00-05 ABERTURA\n- Gancho: <imagem ou demonstraçêo rodando>\n- E daí: <o que muda para quem prestar atençêo>\n- Caminho e plano de voo: <avisar o trecho técnico>\n- Nomear o medo: <frase>\n\n05-20 MÓDULO 1 · fundamento (leve, muitos exemplos)\n- Conceito → quando usar → antes e depois → exemplo do setor\n- Pergunta para a sala (esperar 15 s): <pergunta>\n\n20-40 MÓDULO 2 · o mais denso (no pico de atençêo)\n- <conteúdo técnico avisado no plano de voo>\n- Pergunta para a sala: <pergunta>\n\n40-55 MÓDULO 3 · aplicado (atençêo já caiu)\n- Exemplo do dia a dia: <o que muda amanhê de manhê>\n- Exemplo de visêo: <o que muda em 12 meses>\n\n55-60 POUSO\n- Recapitular 3 pontos · como aplicar na segunda-feira · o que vem depois\n- Perguntas · convite: <comunidade ou plantêo>\n\nRESERVA (se a sala ficar muda): <bloco A>, <bloco B>\nPULAR (se a sala falar muito): <bloco>"}
       ]
     },
     {
@@ -80,17 +80,17 @@
       "sub": "As quatro entregas que você leva ao cliente. Clique num exercício para ver o \"pronto quando\".",
       "degraus": [
         {"aula": "call-descoberta", "icone": "chat", "quando": "Semana 1", "titulo": "Descobrir", "sub": "Roteiro e call simulada",
-         "saida": "Roteiro de call com as 3 perguntas e o freio.", "passo": "A base de tudo: a call de descoberta com escala, stack e conhecimento, e a frase de pisar no freio. Treine na simulação até o placar máximo."},
+         "saida": "Roteiro de call com as 3 perguntas e o freio.", "passo": "A base de tudo: a call de descoberta com escala, stack e conhecimento, e a frase de pisar no freio. Treine na simulaçêo até o placar máximo."},
         {"aula": "solucao-preco", "icone": "arquivo", "quando": "Semana 2", "titulo": "Propor", "sub": "Linha de base e degraus",
          "saida": "Proposta de uma página com 3 opções.", "passo": "Requer a call. Meça a linha de base antes de prometer e ofereça três formas de trabalhar juntos."},
         {"aula": "comunicacao", "icone": "grafico", "quando": "Semana 3", "titulo": "Relatar", "sub": "Número para o executivo",
-         "saida": "Relatório de uma página para quem decide.", "passo": "Requer a proposta. Transforme o vago em número e entregue a decisão numa página."},
+         "saida": "Relatório de uma página para quem decide.", "passo": "Requer a proposta. Transforme o vago em número e entregue a decisêo numa página."},
         {"aula": "workshop", "icone": "megafone", "quando": "Semana 4", "titulo": "Ensinar", "sub": "Workshop e comunidade",
          "saida": "Workshop de 1 hora e escada de acesso.", "passo": "Requer as três anteriores: o workshop abre a porta e leva ao diagnóstico, que leva à proposta e ao relatório."}
       ],
       "resultado": {"titulo": "Ao final do curso", "texto": "Você conduz a call, propõe com número, relata para o executivo e ensina a equipe do cliente.", "total": "16 exercícios"},
-      "rolagem_fim": {"titulo": "O ciclo inteiro", "texto": "Workshop abre a porta, a call faz o diagnóstico, a proposta tem linha de base e o relatório leva a decisão. As aulas 1, 4, 6 e 7 entram no plano gerado abaixo."},
-      "legenda": "Posicionamento (aula 1), autópsia (aula 4), escolha da tecnologia (aula 6) e plantão (aula 7) entram no plano com datas."
+      "rolagem_fim": {"titulo": "O ciclo inteiro", "texto": "Workshop abre a porta, a call faz o diagnóstico, a proposta tem linha de base e o relatório leva a decisêo. As aulas 1, 4, 6 e 7 entram no plano gerado abaixo."},
+      "legenda": "Posicionamento (aula 1), autópsia (aula 4), escolha da tecnologia (aula 6) e plantêo (aula 7) entram no plano com datas."
     },
     {
       "tipo": "gerador",
@@ -101,9 +101,9 @@
       "degraus": [
         {"titulo": "Aula 1 · Posicionamento", "aula": "posicionamento"},
         {"titulo": "Aula 2 · Call de descoberta", "aula": "call-descoberta"},
-        {"titulo": "Aula 3 · Solução e preço", "aula": "solucao-preco"},
+        {"titulo": "Aula 3 · Soluçêo e preço", "aula": "solucao-preco"},
         {"titulo": "Aula 4 · Autópsia da call", "aula": "autopsia-call"},
-        {"titulo": "Aula 5 · Comunicação", "aula": "comunicacao"},
+        {"titulo": "Aula 5 · Comunicaçêo", "aula": "comunicacao"},
         {"titulo": "Aula 6 · Entender IA", "aula": "entender-ia"},
         {"titulo": "Aula 7 · Clientes que chegam", "aula": "clientes-que-chegam"},
         {"titulo": "Aula 8 · Workshop e comunidade", "aula": "workshop"}
@@ -126,24 +126,24 @@
     {
       "tipo": "quiz",
       "titulo": "Teste rápido",
-      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "sub": "4 perguntas. A explicaçêo aparece depois da sua tentativa.",
       "perguntas": [
         {"p": "A sala foi obrigada a assistir ao seu workshop. Como você abre?",
-         "opcoes": ["Com os fundamentos, para nivelar todo mundo", "Com demonstrações, para comprar a atenção antes de ensinar", "Pedindo que cada pessoa se apresente"],
+         "opcoes": ["Com os fundamentos, para nivelar todo mundo", "Com demonstrações, para comprar a atençêo antes de ensinar", "Pedindo que cada pessoa se apresente"],
          "certa": 1, "ref": "passos",
-         "explica": "Público obrigado chega de braços cruzados: primeiro você compra a atenção. Fundamento primeiro é para a sala voluntária."},
+         "explica": "Público obrigado chega de braços cruzados: primeiro você compra a atençêo. Fundamento primeiro é para a sala voluntária."},
         {"p": "Você fez uma pergunta e a sala ficou em silêncio. O que fazer?",
-         "opcoes": ["Responder você mesmo depois de três segundos", "Esperar uns quinze segundos; se ninguém falar, seguir sem insistir", "Pedir participação de novo, com mais ênfase"],
+         "opcoes": ["Responder você mesmo depois de três segundos", "Esperar uns quinze segundos; se ninguém falar, seguir sem insistir", "Pedir participaçêo de novo, com mais ênfase"],
          "certa": 1, "ref": "passos",
-         "explica": "Quem cede rápido ensina a sala a não responder; quem insiste vira constrangimento. Espere, use a fala que quebra o gelo e siga."},
+         "explica": "Quem cede rápido ensina a sala a nêo responder; quem insiste vira constrangimento. Espere, use a fala que quebra o gelo e siga."},
         {"p": "Onde colocar o trecho mais técnico do workshop?",
-         "opcoes": ["No fim, para quem ficou", "No meio, no pico de atenção, avisado no plano de voo", "No começo, para acabar logo"],
+         "opcoes": ["No fim, para quem ficou", "No meio, no pico de atençêo, avisado no plano de voo", "No começo, para acabar logo"],
          "certa": 1, "ref": "codigo",
-         "explica": "A atenção sobe depois da abertura e cai no fim. O bloco denso vai no meio e é anunciado antes, para a sala aguentar."},
-        {"p": "Por que uma comunidade de 7 a 10 empresas, e não de centenas de pessoas?",
+         "explica": "A atençêo sobe depois da abertura e cai no fim. O bloco denso vai no meio e é anunciado antes, para a sala aguentar."},
+        {"p": "Por que uma comunidade de 7 a 10 empresas, e nêo de centenas de pessoas?",
          "opcoes": ["Porque é mais fácil de divulgar", "Porque você conhece o problema de cada uma e percebe o desinteresse antes do cancelamento", "Porque empresa paga qualquer valor"],
          "certa": 1, "ref": "passos",
-         "explica": "Com poucas empresas você conversa de verdade e vê o silêncio que antecede o cancelamento. Empresa aprova mensalidade como despesa e não cancela porque o mês apertou."}
+         "explica": "Com poucas empresas você conversa de verdade e vê o silêncio que antecede o cancelamento. Empresa aprova mensalidade como despesa e nêo cancela porque o mês apertou."}
       ]
     },
     {
